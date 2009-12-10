@@ -1,0 +1,45 @@
+<h4 style="text-decoration:underline"><%=h @subject -%></h4>
+
+<p><b>Nombre:</b><%= @form.name -%></p>
+<p><b>Telefono:</b><%= @form.telephone -%></p>
+<p><b>Email:</b><%= @form.email -%></p>
+<p><b>Cumpleaños:</b><%= @form.email -%></p>
+<% hours = [] -%>
+<% (8..21).each do |hour| -%>
+  <% hours << hour if (@form.send('hour_'+hour.to_s) == '1' ) -%>
+<% end -%>
+
+<p><b>Horarios:</b><%= hours.collect {|hour| "#{'%02d' % hour}:00"}.join(', ') -%></p>
+<p><b>Interesado en:</b></p>
+<ul>
+  <% if @form.proffessional == '1' -%>
+  <li>Formacion Profesional</li>
+  <% end -%>
+  <% if @form.companies == '1' -%>
+  <li>Programas para empresas</li>
+  <% end -%>
+  <% if @form.group == '1' -%>
+  <li>Clases grupales</li>
+  <% end -%>
+  <% if @form.personal == '1' -%>
+  <li>Clases particulares</li>
+  <% end -%>
+  <% if @form.material == '1' -%>
+  <li>Material Didactico</li>
+  <% end -%>
+  <% if @form.alimentation == '1' -%>
+  <li>Alimentacion Biologica</li>
+  <% end -%>
+  <% if @form.strength_flex == '1' -%>
+  <li>Desarrollo de fuerza y flexibilidad</li>
+  <% end -%>
+  <% if @form.stress == '1' -%>
+  <li>Administracion del estres</li>
+  <% end -%>
+  <% if @form.breathing == '1' -%>
+  <li>Respiracion</li>
+  <% end -%>
+  <% if @form.meditation == '1' -%>
+  <li>Meditacion</li>
+  <% end -%>
+</ul>

@@ -1,0 +1,108 @@
+/* -------------------------------------------------------------------------------------------------
+
+Load this stylesheet after formtastic.css in your layouts to override the CSS to suit your needs.
+This will allow you to update formtastic.css with new releases without clobbering your own changes.
+
+For example, to make the inline hint paragraphs a little darker in color than the standard #666:
+
+form.formtastic fieldset ol li p.inline-hints { color:#333; }
+
+--------------------------------------------------------------------------------------------------*/
+
+form.formtastic {
+  font-size: 0.8em;
+  padding: 1em;
+  color: black;
+}
+
+form.formtastic fieldset ol li {
+    margin-bottom: 0.3em;
+}
+
+form.formtastic fieldset ol li fieldset ol {
+	margin-top: 0.7em;
+	padding-left: 0;
+	width: auto;
+}
+
+form.formtastic fieldset ol fieldset {
+    margin-bottom: 0.3em;
+}
+
+form.formtastic fieldset ol li label {
+    width: 100%;
+    font-weight: bold;
+}
+
+form.formtastic fieldset ol li.string input {
+    width: 42em;
+}
+
+form.formtastic fieldset ol fieldset.field-group ol li.string input {
+    width: 21em;
+}
+
+form.formtastic fieldset ol {
+	padding-left: 0;
+}
+
+form.formtastic fieldset ol li.boolean input {
+    width: 2em;
+}
+
+form.formtastic fieldset ol fieldset.field-group ol {
+	padding-left: 0;
+}
+
+form.formtastic fieldset ol fieldset.field-group ol li {
+    width: 21em;
+    display: inline;
+    float: left;
+}
+
+form.formtastic fieldset ol li.boolean label {
+    padding-left: 0;
+    font-weight: normal;
+}
+
+form.formtastic fieldset.hours ol {
+  display: inline;
+}
+
+form.formtastic fieldset.hours ol li {
+  display: inline;
+  float: left;
+}
+
+form.formtastic fieldset.hours ol li.boolean label {
+    width: 5.8em;
+}
+
+form.formtastic fieldset legend {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+form.formtastic fieldset.interests ol {
+  display: inline;
+}
+
+form.formtastic fieldset.interests ol li {
+  display: inline;
+  float: left;
+}
+
+form.formtastic fieldset.interests ol li.boolean label {
+    width: 21em;
+}
+
+form.formtastic fieldset ol li.text textarea {
+    width: 42em;
+    height: 8em;
+}
+
+form.formtastic fieldset.buttons {
+    padding: 0.5em 0.5em 0 0;
+    float: right;
+	display: inline;
+}

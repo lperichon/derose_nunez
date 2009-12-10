@@ -1,0 +1,35 @@
+<% semantic_form_for @contact_form, :url => contact_form_path do |f| %>
+  <% f.inputs do %>
+    <%= f.input :name, :label => 'Nombre' %>
+    <%= f.input :email, :label => 'Email' %>
+    <% f.inputs :class => 'field-group' do %>
+      <%= f.input :telephone, :label => 'Telefono' %>
+      <%= f.input :birth_date, :label => 'Fecha de nacimiento', :required => false %>
+    <% end %>
+
+    <% f.inputs :name => 'En que horarios te gustaria practicar?', :class => 'hours' do %>
+        <% (8..21).each do |hour| %>
+           <%= f.input "hour_#{hour}", :label => hour_label(hour), :as => :boolean, :required => false %>
+        <% end %>
+    <% end %>
+
+    <% f.inputs :name => 'Elegi los temas de mayor interes para vos:', :class => 'interests' do %>
+        <%= f.input :proffessional, :label => 'Formacion Profesional', :as => :boolean, :required => false %>
+        <%= f.input :companies, :label => 'Programas para empresas', :as => :boolean, :required => false %>
+        <%= f.input :group, :label => 'Clases grupales', :as => :boolean, :required => false %>
+        <%= f.input :personal, :label => 'Clases particulares', :as => :boolean, :required => false %>
+        <%= f.input :material, :label => 'Material didactico', :as => :boolean, :required => false %>
+        <%= f.input :alimentation, :label => 'Alimentacion biologica', :as => :boolean, :required => false %>
+        <%= f.input :strength_flex, :label => 'Desarrollo de fuerza y flexibilidad', :as => :boolean, :required => false %>
+        <%= f.input :stress, :label => 'Administracion del estres', :as => :boolean, :required => false %>
+        <%= f.input :breathing, :label => 'Respiracion', :as => :boolean, :required => false %>
+        <%= f.input :meditation, :label => 'Meditacion', :as => :boolean, :required => false %>
+    <% end %>
+
+    <%= f.input :message, :as => :text, :label => 'Mensaje'%>
+
+  <% end %>
+  <% f.buttons do %>
+     <%= f.commit_button 'Enviar' %>
+  <% end %>
+<% end %>

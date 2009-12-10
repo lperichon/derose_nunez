@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0.9em;
+    background: transparent url(/images/body_background.png) repeat-x -100px;
+	color: #55A09E;
+}
+div#header {
+    position: absolute;
+    top: 0;
+    right: 1em;
+}
+div#wrapper {
+	border: 1px solid #FFF;
+    margin: 1em auto;
+	padding: 1em;
+	width: 64em;
+    height: 37em;
+    text-align: left;
+}
+div#container {
+	background: transparent url(/images/wrapper_background.png) repeat;
+	height: 37em;
+	position: relative;
+}
+div#menu {
+    width: 15em;
+	height: 36em;
+    float: left;
+    /* position:absolute; THIS IS NEEDED IN IE*/
+}
+div#menu ul li {
+    font-size: 1.5em;
+}
+
+div#main {
+    width: 35em;
+	height: 33em;
+    float: left;
+    background: white;
+    margin: 1em;
+    padding: 1em;
+}
+div.no-menu {
+	position: absolute;
+	width: 64em;
+	float: none;
+	top: 31px;
+}
+
+#main p{
+}
+
+.no-menu p{
+	font-size: 3em;
+	padding: 0;
+	text-align: center;
+	margin: 2.5em 0.5em;
+}
+div#sidebar {
+	width: 10em;
+	height: 36em;
+	float: right;
+}
+span#badge.sede {
+	background: transparent url(/images/badge_nueva_sede.png) no-repeat;
+	width: 10em;
+	height: 10em;
+	position: absolute;
+	top: 1em;
+	color: transparent;
+	text-indent: -9999px;
+}
+span#logo {
+	background: transparent url(/images/logo_metodo.png) no-repeat;
+	position: absolute;
+	top: 25em;
+	width: 15em;
+	height: 12em;
+	color: transparent;
+	text-indent: -9999px;
+}
+
+.inline-errors {
+  display: none;
+}
+
+.error label {
+  color: red;
+}
