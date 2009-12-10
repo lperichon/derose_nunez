@@ -323,4 +323,30 @@ Password:
     servers: ["74.63.8.222"]
     [74.63.8.222] executing command
     command finished
-    triggering after callba
+    triggering after callbacks for `deploy:symlink'
+  * executing `deploy:copy_files'
+  * executing "cp -pf /home/variete/apps/nunez/to_copy/environment.rb /home/variete/apps/nunez/current/config/environment.rb"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "cp -pf /home/variete/apps/nunez/to_copy/database.yml /home/variete/apps/nunez/current/config/database.yml"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+ ** transaction: commit
+  * executing `deploy:restart'
+  * executing "touch /home/variete/apps/nunez/current/tmp/restart.txt"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing `deploy:after_deploy'
+  * executing "chmod 755 /home/variete/apps/nunez/current/app && chmod 755 /home/variete/apps/nunez/current/config && chmod 755 /home/variete/apps/nunez/current/db && chmod 755 /home/variete/apps/nunez/current/public && chmod 755 /home/variete/apps/nunez/current/vendor && chmod 755 /home/variete/apps/nunez/current/script && chmod 755 /home/variete/apps/nunez/current/tmp && chmod 755 /home/variete/apps/nunez/current/public/dispatch.cgi && chmod 755 /home/variete/apps/nunez/current/public/dispatch.fcgi && chmod 755 /home/variete/apps/nunez/current/public/dispatch.rb"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ 
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ cap deploy:coldsetupscript/plugin install git://github.com/lperichon/simple_blog.git [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript/plugin install git://github.com/lperichon/simple_blog.git 
+Initialized empty Git repository in /home/luigi/Workspaces/derose_nunez/vendor/plugins/simple_blog/.git/
+remote: Counting objects: 58, done.[K
+remote: Compressing objects:   2% (1/41)   [Kremote: Compressing objects:   4% (2/41)   [Kremote: Compressing objects:   7% (3/41)   [Kremote: Compressing objects:   9% (4/41)   [Kremote: Compressing objects:  12% (5/41)   [Kremote: Compressing objects:  14% (6/41)   [Kremote: Compressing objects:  17% (7/41)   [Kremote: Compressing objects:  19% (8/41)   [Kremote: Compressing objects:  21% (9/41)   [Kremote: Compressing objects:  24% (10/41)   [Kremote: Compressing objects:  26% (11/41)   [Kremote: Compressing objects:  29% (12/41)   [Kremote: Compressing objects:  31% (13/41)   [Kremote: Compressing objects:  34% (14/41)   [Kremote: Compressing objects:  36% (15/41)   [Kremote: Compressing objects:  39% (16/41)   [Kremote: Compressing objects:  41% (17/41)   [Kremote: Compressing objects:  43% (18/41)   [Kremote: Compressing objects:  46% (19/41)   [Kremote: Compressing objects:  48% (20/41)   [Kremote: Compressing objects:  51% (21/41)   [Kremote: Compressing objects:  53% (22/41)   [Kremote: Compressing objects:  56% (23/41)   [Kremote: Compressing objects:  58% (24/41)   [Kremote: Compressing objects:  60% (25/41)   [Kremote: Compressing objects:  63% (26/41)   [Kremote: Compressing objects:  65% (27/41)   [Kremote: Compressing objects:  68% (28/41)   [Kremote: Compressing objects:  70% (29/41)   [Kremote: Compressing objects:  73% (30/41)   [Kremote: Compressing objects:  75% (31/41)   [Kremote: Compressing objects:  78% (32/41)   [Kremote: Compressing objects:  80% (33/41)   [Kremote: Compressing objects:  82% (34/41)   [Kremote: Compressing objects:  85% (35/41)   [Kremote: Compressing objects:  87% (36/41)   [Kremote: Compressing objects:  90% (37/41)   [Kremote: Compressing objects:  92% (38/41)   [Kremote: Compressing objects:  95% (39/41)   [Kremote: Compressing objects:  97% (40/41)   [Kremote: Compressing objects: 100% (41/41)   [Kremote: Compressing objects: 100% (41/41), done.[K
+remote: Total 58 (delta 
