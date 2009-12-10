@@ -3,7 +3,7 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d645e6fa-082f-4e84-b66d-ccd0b50befd7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/simple_blog" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin" afterPath="$PROJECT_DIR$/plugin" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="derose_nunez.iws" />
@@ -63,10 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_rails_defaults.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new_rails_defaults.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/new_rails_defaults.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="54" selection-start="783" selection-end="783" vertical-scroll-proportion="0.6363636">
+            <state line="19" column="54" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.71428573">
               <folding />
             </state>
           </provider>
@@ -440,7 +449,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapt to rails 2.3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple blog plugin" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -455,6 +464,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="deploy files" />
     <MESSAGE value="adapt to rails 2.3.2" />
+    <MESSAGE value="simple blog plugin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -529,7 +539,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/new_rails_defaults.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="54" selection-start="783" selection-end="783" vertical-scroll-proportion="0.6363636">
+        <state line="19" column="54" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.71428573">
           <folding />
         </state>
       </provider>

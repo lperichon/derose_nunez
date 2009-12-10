@@ -4,4 +4,323 @@ Initialized empty Git repository in /home/luigi/Workspaces/derose_nunez/vendor/p
 remote: Counting objects: 58, done.[K
 remote: Compressing objects:   2% (1/41)   [Kremote: Compressing objects:   4% (2/41)   [Kremote: Compressing objects:   7% (3/41)   [Kremote: Compressing objects:   9% (4/41)   [Kremote: Compressing objects:  12% (5/41)   [Kremote: Compressing objects:  14% (6/41)   [Kremote: Compressing objects:  17% (7/41)   [Kremote: Compressing objects:  19% (8/41)   [Kremote: Compressing objects:  21% (9/41)   [Kremote: Compressing objects:  24% (10/41)   [Kremote: Compressing objects:  26% (11/41)   [Kremote: Compressing objects:  29% (12/41)   [Kremote: Compressing objects:  31% (13/41)   [Kremote: Compressing objects:  34% (14/41)   [Kremote: Compressing objects:  36% (15/41)   [Kremote: Compressing objects:  39% (16/41)   [Kremote: Compressing objects:  41% (17/41)   [Kremote: Compressing objects:  43% (18/41)   [Kremote: Compressing objects:  46% (19/41)   [Kremote: Compressing objects:  48% (20/41)   [Kremote: Compressing objects:  51% (21/41)   [Kremote: Compressing objects:  53% (22/41)   [Kremote: Compressing objects:  56% (23/41)   [Kremote: Compressing objects:  58% (24/41)   [Kremote: Compressing objects:  60% (25/41)   [Kremote: Compressing objects:  63% (26/41)   [Kremote: Compressing objects:  65% (27/41)   [Kremote: Compressing objects:  68% (28/41)   [Kremote: Compressing objects:  70% (29/41)   [Kremote: Compressing objects:  73% (30/41)   [Kremote: Compressing objects:  75% (31/41)   [Kremote: Compressing objects:  78% (32/41)   [Kremote: Compressing objects:  80% (33/41)   [Kremote: Compressing objects:  82% (34/41)   [Kremote: Compressing objects:  85% (35/41)   [Kremote: Compressing objects:  87% (36/41)   [Kremote: Compressing objects:  90% (37/41)   [Kremote: Compressing objects:  92% (38/41)   [Kremote: Compressing objects:  95% (39/41)   [Kremote: Compressing objects:  97% (40/41)   [Kremote: Compressing objects: 100% (41/41)   [Kremote: Compressing objects: 100% (41/41), done.[K
 remote: Total 58 (delta 6), reused 0 (delta 0)[K
-Unpacking objects:   1% (1/58)   Unpacking objects:   3% (2/58)   Unpacking objects:   5% (3/58)   Unpacking objects:   6% (4/58)   Unpacking objects:   8% (5/58)   Unpacking objects:  10% (6/58)   Unpacking objects:  12% (7/58)   Unpacking objects:  13% (8/58)   Unpacking objects:  15% (9/58)   Unpacking objects:  17% (10/58)   Unpacking objects:  18% (11/58)   Unpacking objects:  20% (12/58)   Unpacking objects:  22% (13/58)   Unpacking objects:  24% (14/58)   Unpacking objects:  25% (15/58)   Unpacking objects:  27% (16/58)   Unpacking objects:  29% (17/58)   Unpacking objects:  31% (18/58)   Unpacking objects:  32% (19/58)   Unpacking objects:  34% (20/58)   Unpacking objects:  36% (21/58)   Unpacking objects:  37% (22/58)   Unpacking objects:  39% (23/58)   Unpacking objects:  41% (24/58)   Unpacking objects:  43% (25/58)   Unpacking objects:  44% (26/58)   Unpacking objects:  46% (27/58)   Unpacking objects:  48% (28/58)   Unpacking objects:  50% (29/58)   Unpacking objects:  51% (30/58)   Unpacking objects:  53% (31/58)   Unpacking objects:  55% (32/58)   Unpacking objects:  56% (33/58)   Unpacking objects:  58% (34/58)   Unpacking objects:  60% (35/58)   Unpacking objects:  62% (36/58)   Unpacking objects:  63% (37/58)   Unpacking objects:  65% (38/58)   Unpacking objects:  67% (39/58)   Unpacking objects:  68% (40/58)   Unpacking objects:  70% (41/58)   Unpacking objects
+Unpacking objects:   1% (1/58)   Unpacking objects:   3% (2/58)   Unpacking objects:   5% (3/58)   Unpacking objects:   6% (4/58)   Unpacking objects:   8% (5/58)   Unpacking objects:  10% (6/58)   Unpacking objects:  12% (7/58)   Unpacking objects:  13% (8/58)   Unpacking objects:  15% (9/58)   Unpacking objects:  17% (10/58)   Unpacking objects:  18% (11/58)   Unpacking objects:  20% (12/58)   Unpacking objects:  22% (13/58)   Unpacking objects:  24% (14/58)   Unpacking objects:  25% (15/58)   Unpacking objects:  27% (16/58)   Unpacking objects:  29% (17/58)   Unpacking objects:  31% (18/58)   Unpacking objects:  32% (19/58)   Unpacking objects:  34% (20/58)   Unpacking objects:  36% (21/58)   Unpacking objects:  37% (22/58)   Unpacking objects:  39% (23/58)   Unpacking objects:  41% (24/58)   Unpacking objects:  43% (25/58)   Unpacking objects:  44% (26/58)   Unpacking objects:  46% (27/58)   Unpacking objects:  48% (28/58)   Unpacking objects:  50% (29/58)   Unpacking objects:  51% (30/58)   Unpacking objects:  53% (31/58)   Unpacking objects:  55% (32/58)   Unpacking objects:  56% (33/58)   Unpacking objects:  58% (34/58)   Unpacking objects:  60% (35/58)   Unpacking objects:  62% (36/58)   Unpacking objects:  63% (37/58)   Unpacking objects:  65% (38/58)   Unpacking objects:  67% (39/58)   Unpacking objects:  68% (40/58)   Unpacking objects:  70% (41/58)   Unpacking objects:  72% (42/58)   Unpacking objects:  74% (43/58)   Unpacking objects:  75% (44/58)   Unpacking objects:  77% (45/58)   Unpacking objects:  79% (46/58)   Unpacking objects:  81% (47/58)   Unpacking objects:  82% (48/58)   Unpacking objects:  84% (49/58)   Unpacking objects:  86% (50/58)   Unpacking objects:  87% (51/58)   Unpacking objects:  89% (52/58)   Unpacking objects:  91% (53/58)   Unpacking objects:  93% (54/58)   Unpacking objects:  94% (55/58)   Unpacking objects:  96% (56/58)   Unpacking objects:  98% (57/58)   Unpacking objects: 100% (58/58)   Unpacking objects: 100% (58/58), done.
+From git://github.com/lperichon/simple_blog
+ * branch            HEAD       -> FETCH_HEAD
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ cap[K[K[Kcap deployu[K:setup
+[Deprecation Warning] Naming tasks with before_ and after_ is deprecated, please see the new before() and after() methods. (Offending task name was after_deploy)
+  * executing `deploy:setup'
+  * executing "mkdir -p /home/variete/apps/nunez /home/variete/apps/nunez/releases /home/variete/apps/nunez/shared /home/variete/apps/nunez/shared/system /home/variete/apps/nunez/shared/log /home/variete/apps/nunez/shared/pids &&  chmod g+w /home/variete/apps/nunez /home/variete/apps/nunez/releases /home/variete/apps/nunez/shared /home/variete/apps/nunez/shared/system /home/variete/apps/nunez/shared/log /home/variete/apps/nunez/shared/pids"
+    servers: ["74.63.8.222"]
+Password: 
+    [74.63.8.222] executing command
+    command finished
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ caop[K[Kp deploy:cold
+[Deprecation Warning] Naming tasks with before_ and after_ is deprecated, please see the new before() and after() methods. (Offending task name was after_deploy)
+  * executing `deploy:cold'
+  * executing `deploy:update'
+ ** transaction: start
+  * executing `deploy:update_code'
+    executing locally: "git ls-remote git://github.com/lperichon/derose_nunez.git master"
+checking for git... yes
+  * executing "git clone -q --depth 1 git://github.com/lperichon/derose_nunez.git /home/variete/apps/nunez/releases/20091210214537 && cd /home/variete/apps/nunez/releases/20091210214537 && git checkout -q -b deploy debb436250da1b293f19c3b1ff3e05de28a154ee && (echo debb436250da1b293f19c3b1ff3e05de28a154ee > /home/variete/apps/nunez/releases/20091210214537/REVISION)"
+    servers: ["74.63.8.222"]
+Password: 
+    [74.63.8.222] executing command
+ ** [74.63.8.222 :: out] remote: Counting objects: 556, done.[K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   0% (1/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   1% (5/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   2% (10/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   3% (14/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   4% (19/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   5% (23/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   6% (28/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   7% (33/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   8% (37/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   9% (42/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  10% (46/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  11% (51/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  12% (55/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  13% (60/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  14% (65/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  15% (69/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  16% (74/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  17% (78/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  18% (83/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  19% (88/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  20% (92/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  21% (97/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  22% (101/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  23% (106/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  24% (110/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  25% (115/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  26% (120/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  27% (124/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  28% (129/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  29% (133/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  30% (138/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  31% (142/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  32% (147/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  33% (152/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  34% (156/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  35% (161/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  36% (165/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  37% (170/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  38% (175/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  39% (179/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  40% (184/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  41% (188/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  42% (193/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  43% (197/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  44% (202/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  45% (207/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  46% (211/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  47% (216/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  48% (220/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  49% (225/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  50% (229/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  51% (234/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  52% (239/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  53% (243/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  54% (248/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  55% (252/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  56% (257/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  57% (262/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  58% (266/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  59% (271/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  60% (275/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  61% (280/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  62% (284/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  63% (289/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  64% (294/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  65% (298/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  66% (303/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  67% (307/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  68% (312/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  69% (317/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  70% (321/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  71% (326/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  72% (330/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  73% (335/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  74% (339/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  75% (344/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  76% (349/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  77% (353/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  78% (358/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  79% (362/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  80% (367/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  81% (371/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  82% (376/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  83% (381/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  84% (385/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  85% (390/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  86% (394/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  87% (399/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  88% (404/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  89% (408/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  90% (413/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  91% (417/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  92% (422/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  93% (426/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  94% (431/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  95% (436/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  96% (440/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  97% (445/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  98% (449/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  99% (454/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects: 100% (458/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects: 100% (458/458), done.[K
+ ** [74.63.8.222 :: out] remote: Total 556 (delta 51), reused 538 (delta 48)[K
+    command finished
+  * executing `deploy:finalize_update'
+  * executing "chmod -R g+w /home/variete/apps/nunez/releases/20091210214537"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "rm -rf /home/variete/apps/nunez/releases/20091210214537/log /home/variete/apps/nunez/releases/20091210214537/public/system /home/variete/apps/nunez/releases/20091210214537/tmp/pids &&\\\n      mkdir -p /home/variete/apps/nunez/releases/20091210214537/public &&\\\n      mkdir -p /home/variete/apps/nunez/releases/20091210214537/tmp &&\\\n      ln -s /home/variete/apps/nunez/shared/log /home/variete/apps/nunez/releases/20091210214537/log &&\\\n      ln -s /home/variete/apps/nunez/shared/system /home/variete/apps/nunez/releases/20091210214537/public/system &&\\\n      ln -s /home/variete/apps/nunez/shared/pids /home/variete/apps/nunez/releases/20091210214537/tmp/pids"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "find /home/variete/apps/nunez/releases/20091210214537/public/images /home/variete/apps/nunez/releases/20091210214537/public/stylesheets /home/variete/apps/nunez/releases/20091210214537/public/javascripts -exec touch -t 200912102145.50 {} ';'; true"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing `deploy:symlink'
+  * executing "rm -f /home/variete/apps/nunez/current && ln -s /home/variete/apps/nunez/releases/20091210214537 /home/variete/apps/nunez/current"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+    triggering after callbacks for `deploy:symlink'
+  * executing `deploy:copy_files'
+  * executing "cp -pf /home/variete/apps/nunez/to_copy/environment.rb /home/variete/apps/nunez/current/config/environment.rb"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "cp -pf /home/variete/apps/nunez/to_copy/database.yml /home/variete/apps/nunez/current/config/database.yml"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+ ** transaction: commit
+  * executing `deploy:migrate'
+  * executing "ls -xt /home/variete/apps/nunez/releases"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "cd /home/variete/apps/nunez/releases/20091210214537; rake RAILS_ENV=production  db:migrate"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+ ** [out :: 74.63.8.222] (in /home/variete/apps/nunez/releases/20091210214537)
+ ** [out :: 74.63.8.222] ==  ClearanceCreateUsers: migrating ===========================================
+ ** [out :: 74.63.8.222] -- create_table(:users)
+ ** [out :: 74.63.8.222] -> 0.0834s
+ ** [out :: 74.63.8.222] -- add_index(:users, [:id, :confirmation_token])
+ ** [out :: 74.63.8.222] -> 0.0247s
+ ** [out :: 74.63.8.222] -- add_index(:users, :email)
+ ** [out :: 74.63.8.222] -> 0.0079s
+ ** [out :: 74.63.8.222] -- add_index(:users, :remember_token)
+ ** [out :: 74.63.8.222] -> 0.0033s
+ ** [out :: 74.63.8.222] ==  ClearanceCreateUsers: migrated (0.1196s) ==================================
+ ** [out :: 74.63.8.222] 
+ ** [out :: 74.63.8.222] ==  CreateSimpleBlog: migrating ===============================================
+ ** [out :: 74.63.8.222] -- create_table(:posts)
+ ** [out :: 74.63.8.222] -> 0.0073s
+ ** [out :: 74.63.8.222] -- create_table(:comments)
+ ** [out :: 74.63.8.222] -> 0.0189s
+ ** [out :: 74.63.8.222] ==  CreateSimpleBlog: migrated (0.0264s) ======================================
+ ** [out :: 74.63.8.222] 
+    command finished
+  * executing `deploy:start'
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ cap deploy
+[Deprecation Warning] Naming tasks with before_ and after_ is deprecated, please see the new before() and after() methods. (Offending task name was after_deploy)
+  * executing `deploy'
+  * executing `deploy:update'
+ ** transaction: start
+  * executing `deploy:update_code'
+    executing locally: "git ls-remote git://github.com/lperichon/derose_nunez.git master"
+checking for git... yes
+  * executing "git clone -q --depth 1 git://github.com/lperichon/derose_nunez.git /home/variete/apps/nunez/releases/20091210214611 && cd /home/variete/apps/nunez/releases/20091210214611 && git checkout -q -b deploy debb436250da1b293f19c3b1ff3e05de28a154ee && (echo debb436250da1b293f19c3b1ff3e05de28a154ee > /home/variete/apps/nunez/releases/20091210214611/REVISION)"
+    servers: ["74.63.8.222"]
+Password: 
+    [74.63.8.222] executing command
+ ** [74.63.8.222 :: out] remote: Counting objects: 556, done.[K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   0% (1/458)   [Kremote: Compressing objects:   1% (5/458)   [Kremote: Compressing objects:   2% (10/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   3% (14/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   4% (19/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   5% (23/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   6% (28/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   7% (33/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   8% (37/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   9% (42/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  10% (46/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  11% (51/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  12% (55/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  13% (60/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  14% (65/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  15% (69/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  16% (74/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  17% (78/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  18% (83/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  19% (88/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  20% (92/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  21% (97/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  22% (101/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  23% (106/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  24% (110/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  25% (115/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  26% (120/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  27% (124/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  28% (129/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  29% (133/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  30% (138/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  31% (142/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  32% (147/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  33% (152/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  34% (156/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  35% (161/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  36% (165/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  37% (170/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  38% (175/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  39% (179/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  40% (184/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  41% (188/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  42% (193/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  43% (197/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  44% (202/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  45% (207/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  46% (211/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  47% (216/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  48% (220/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  49% (225/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  50% (229/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  51% (234/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  52% (239/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  53% (243/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  54% (248/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  55% (252/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  56% (257/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  57% (262/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  58% (266/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  59% (271/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  60% (275/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  61% (280/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  62% (284/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  63% (289/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  64% (294/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  65% (298/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  66% (303/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  67% (307/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  68% (312/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  69% (317/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  70% (321/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  71% (326/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  72% (330/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  73% (335/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  74% (339/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  75% (344/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  76% (349/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  77% (353/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  78% (358/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  79% (362/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  80% (367/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  81% (371/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  82% (376/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  83% (381/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  84% (385/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  85% (390/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  86% (394/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  87% (399/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  88% (404/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  89% (408/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  90% (413/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  91% (417/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  92% (422/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  93% (426/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  94% (431/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  95% (436/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  96% (440/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  97% (445/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  98% (449/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects:  99% (454/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects: 100% (458/458)   [K
+ ** [74.63.8.222 :: out] remote: Compressing objects: 100% (458/458), done.[K
+ ** [74.63.8.222 :: out] remote: Total 556 (delta 51), reused 538 (delta 48)[K
+    command finished
+  * executing `deploy:finalize_update'
+  * executing "chmod -R g+w /home/variete/apps/nunez/releases/20091210214611"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "rm -rf /home/variete/apps/nunez/releases/20091210214611/log /home/variete/apps/nunez/releases/20091210214611/public/system /home/variete/apps/nunez/releases/20091210214611/tmp/pids &&\\\n      mkdir -p /home/variete/apps/nunez/releases/20091210214611/public &&\\\n      mkdir -p /home/variete/apps/nunez/releases/20091210214611/tmp &&\\\n      ln -s /home/variete/apps/nunez/shared/log /home/variete/apps/nunez/releases/20091210214611/log &&\\\n      ln -s /home/variete/apps/nunez/shared/system /home/variete/apps/nunez/releases/20091210214611/public/system &&\\\n      ln -s /home/variete/apps/nunez/shared/pids /home/variete/apps/nunez/releases/20091210214611/tmp/pids"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "find /home/variete/apps/nunez/releases/20091210214611/public/images /home/variete/apps/nunez/releases/20091210214611/public/stylesheets /home/variete/apps/nunez/releases/20091210214611/public/javascripts -exec touch -t 200912102146.41 {} ';'; true"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing `deploy:symlink'
+  * executing "rm -f /home/variete/apps/nunez/current && ln -s /home/variete/apps/nunez/releases/20091210214611 /home/variete/apps/nunez/current"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+    triggering after callba
