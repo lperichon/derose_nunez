@@ -19,6 +19,8 @@ role :web, domain
 role :app, domain
 role :db,  domain, :primary => true
 
+after "deploy:simlink", "deploy:copy_files"
+
 namespace :deploy do
   task :start do
 
@@ -37,5 +39,10 @@ namespace :deploy do
     run(chmod755.collect do |item|
       "chmod 755 #{current_path}/#{item}"
     end.join(" && "))
+  end
+
+  task :copy_files do
+    run "cp -pf #{deploy_to}/to_copy/environment.rb #{current_path}/config/environment.rb"
+    run "cp -pf #{deploy_to}/to_copy/database.yml #{current_path}/config/database.yml"
   end
 end
