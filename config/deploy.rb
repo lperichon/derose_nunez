@@ -19,7 +19,7 @@ role :web, domain
 role :app, domain
 role :db,  domain, :primary => true
 
-after "deploy:simlink", "deploy:copy_files"
+after "deploy:symlink", "deploy:copy_files"
 
 namespace :deploy do
   task :start do
