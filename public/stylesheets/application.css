@@ -1,85 +1,126 @@
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 0.9em;
-    background: transparent url(/images/body_background.png) repeat-x -100px;
-	color: #55A09E;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.9em;
+  background: transparent url(../images/body_background.png) repeat-x -100px;
+  color: #55A09E;
+  font-family: helvetica;
 }
-div#header {
-    position: absolute;
-    top: 0;
-    right: 1em;
+
+a {
+  color: #55A09E;
 }
+
+div#footer {
+  margin-top: 0.5em;
+  color: #666;
+  font-size: 12px;
+
+}
+
+div#footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+div#footer a:hover {
+  text-decoration: underline;
+}
+
 div#wrapper {
-	border: 1px solid #FFF;
-    margin: 1em auto;
-	padding: 1em;
-	width: 64em;
-    height: 37em;
-    text-align: left;
+  border: 1px solid #FFF;
+  margin: 1em auto auto auto;
+  padding: 1em;
+  width: 64em;
+  height: 37em;
+  text-align: left;
 }
+
 div#container {
-	background: transparent url(/images/wrapper_background.png) repeat;
-	height: 37em;
-	position: relative;
+  background: transparent url(../images/wrapper_background.png) repeat;
+  height: 37em;
+  position: relative;
 }
+
 div#menu {
-    width: 15em;
-	height: 36em;
-    float: left;
-    /* position:absolute; THIS IS NEEDED IN IE*/
+  width: 15em;
+  height: 36em;
+  float: left;
+  display: inline;
 }
+
 div#menu ul li {
-    font-size: 1.5em;
+  font-size: 1.5em;
+}
+
+div#menu ul li.selected {
+  background: transparent url(../images/menu_selected_background.png) no-repeat right;
 }
 
 div#main {
-    width: 35em;
-	height: 33em;
-    float: left;
-    background: white;
-    margin: 1em;
-    padding: 1em;
+  width: 35em;
+  height: 33em;
+  background: white;
+  margin-top: 1em;
+  padding: 1em;
+  float: left;
+  position: absolute;
+  display: inline;
 }
+
 div.no-menu {
-	position: absolute;
-	width: 64em;
-	float: none;
-	top: 31px;
+  position: absolute;
+  width: 64em;
+  float: none;
+  top: 2em;
 }
 
-#main p{
+#main p {
 }
 
-.no-menu p{
-	font-size: 3em;
-	padding: 0;
-	text-align: center;
-	margin: 2.5em 0.5em;
+.no-menu p {
+  font-size: 3em;
+  padding: 0;
+  text-align: center;
+  margin: 2.5em 0.5em;
 }
+
 div#sidebar {
-	width: 10em;
-	height: 36em;
-	float: right;
+  width: 9.5em;
+  height: 36em;
+  float: right;
+  display: inline;
 }
+
 span#badge.sede {
-	background: transparent url(/images/badge_nueva_sede.png) no-repeat;
-	width: 10em;
-	height: 10em;
-	position: absolute;
-	top: 1em;
-	color: transparent;
-	text-indent: -9999px;
+  background: transparent url(../images/badge_nueva_sede.png) no-repeat;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  top: 1em;
+  color: transparent;
+  text-indent: -9999px;
 }
+
 span#logo {
-	background: transparent url(/images/logo_metodo.png) no-repeat;
-	position: absolute;
-	top: 25em;
-	width: 15em;
-	height: 12em;
-	color: transparent;
-	text-indent: -9999px;
+  background: transparent url(../images/logo_metodo.png) no-repeat;
+  position: absolute;
+  top: 25em;
+  width: 15em;
+  height: 12em;
+  color: transparent;
+  text-indent: -9999px;
+}
+
+div#credits {
+  height: 10em;
+  margin-left: -2em;
+  margin-top: -9em;
+  position: absolute;
+  width: 1em;
+  text-indent: -10000px;
+  background: transparent url(../images/credits.png) no-repeat;
 }
 
 .inline-errors {
