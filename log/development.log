@@ -11761,3 +11761,51 @@ Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:01:50) [GE
 Rendering template within layouts/application
 Rendering contact_forms/new
 Completed in 55ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:06:19) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:08:18) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:08:36) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 91ms (View: 59, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:08:48) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:09:05) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:09:18) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:22:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 84ms (View: 80, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:23:11) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
