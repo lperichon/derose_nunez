@@ -11366,3 +11366,398 @@ Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-10 09:21:12) [GE
 Rendering template within layouts/application
 Rendering contact_forms/new
 Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:22:14) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 378ms (View: 374, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:34:14) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:34:15) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 52ms (View: 48, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:34:16) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:34:16) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:34:36) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:36:53) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:37:26) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:37:57) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:38:33) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:41:02) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:41:21) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 110ms (View: 107, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:41:31) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:41:38) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 64ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:41:50) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 108ms (View: 104, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 16:42:29) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:42:36) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 65ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:50:16) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 144ms (View: 136, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:51:04) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 70ms (View: 61, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:51:52) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 69ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:55:30) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
+/home/luigi/Workspaces/derose_nunez/app/views/layouts/application.html.erb:18: syntax error, unexpected ')', expecting tASSOC
+..., 'Comunicate con nosotros!' ).to_s); @output_buffer.concat ...
+                              ^
+Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=iso-8859-1\">\n  <title>M\303\251todo DeRose | Sede Nu\303\261ez</title>\n  "
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag "formtastic" ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( stylesheet_link_tag "formtastic_changes" ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( stylesheet_link_tag 'application' ).to_s); @output_buffer.concat "\n<!--[if IE]>\n  "
+
+; @output_buffer.concat(( stylesheet_link_tag 'application-ie' ).to_s); @output_buffer.concat "\n<![endif]-->\n</head>\n<body>\n  <div id=\"wrapper\">\n    <div id=\"container\">\n      <div id=\"menu\">\n        <ul>\n          "
+
+
+
+
+
+
+
+; @output_buffer.concat(( content_tag :li, :class => 'selected', 'Comunicate con nosotros!' ).to_s); @output_buffer.concat "\n        </ul>\n        <span id=\"logo\">Metodo DeRose</span>\n      </div>\n      <div id=\"main\">\n        "
+
+
+
+
+; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n      </div>\n      <div id=\"sidebar\">\n        <span id=\"badge\" class=\"sede\">Nueva sede Nu\303\261ez</span>\n      </div>\n    </div>\n    <div id='credits'>\n      <p>Camila Carbone | Luis Perichon</p>\n    </div>\n  </div>\n  <div id='footer'>\n    <b>D.</b> <a href=\"http://maps.google.com.ar/maps?f=q&source=s_q&hl=es&geocode=&q=Av.+Cris%C3%B3logo+Larralde+1721&sll=-34.536258,-58.452072&sspn=0.034857,0.053816&gl=ar&ie=UTF8&hq=&hnear=Av+Cris%C3%B3logo+Larralde+1721,+N%C3%BA%C3%B1ez,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&z=16\">Av. Cris\303\263logo Larralde 1721 \302\267 C1429BSH \302\267 BUE</a> \302\267 <b>T.</b> (0054 11) 4623 3426 \302\267 <b>M.</b> DeRoseNu\303\261ez@MetodoDeRose.com.ar \302\267\n  </div>\n</body>\n</html>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/luigi/Workspaces/derose_nunez/app/views/layouts/application.html.erb:40:in `compile!'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:347:in `_render_with_layout'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `__send__'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `render'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:118:in `to_html'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `send'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `call'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/respond_to.rb:65:in `respond_with'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/base_helpers.rb:343:in `respond_with_dual_blocks'
+/var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/actions.rb:39:in `create!'
+/home/luigi/Workspaces/derose_nunez/app/controllers/contact_forms_controller.rb:5:in `create'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1331:in `send'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/var/lib/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/var/lib/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/var/lib/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/luigi/Workspaces/derose_nunez/app/views/layouts/application.html.erb:18: syntax error, unexpected ')', expecting tASSOC
+..., 'Comunicate con nosotros!' ).to_s); @output_buffer.concat ...
+                              ^) on line #18 of app/views/layouts/application.html.erb:
+15:     <div id="container">
+16:       <div id="menu">
+17:         <ul>
+18:           <%= content_tag :li, :class => 'selected', 'Comunicate con nosotros!' %>
+19:         </ul>
+20:         <span id="logo">Metodo DeRose</span>
+21:       </div>
+
+    app/views/layouts/application.html.erb:40:in `compile!'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `__send__'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `render'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:118:in `to_html'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `send'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `call'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/respond_to.rb:65:in `respond_with'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/base_helpers.rb:343:in `respond_with_dual_blocks'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/actions.rb:39:in `create!'
+    app/controllers/contact_forms_controller.rb:5:in `create'
+
+Rendered rescues/_trace (50.1ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:55:53) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 188ms (View: 180, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:56:52) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+
+ActionView::TemplateError (undefined method `name=' for #<ContactFormsController:0xb70393fc>) on line #18 of app/views/layouts/application.html.erb:
+15:     <div id="container">
+16:       <div id="menu">
+17:         <ul>
+18:           <%= content_tag :li, 'Comunicate con nosotros!', :class => 'selected' if controller.name = 'contact_forms' %>
+19:         </ul>
+20:         <span id="logo">Metodo DeRose</span>
+21:       </div>
+
+    app/views/layouts/application.html.erb:18
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `__send__'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `render'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:118:in `to_html'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `send'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `call'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/respond_to.rb:65:in `respond_with'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/base_helpers.rb:343:in `respond_with_dual_blocks'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/actions.rb:39:in `create!'
+    app/controllers/contact_forms_controller.rb:5:in `create'
+
+Rendered rescues/_trace (120.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:57:00) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+
+ActionView::TemplateError (undefined method `name' for #<ContactFormsController:0xb7009814>) on line #18 of app/views/layouts/application.html.erb:
+15:     <div id="container">
+16:       <div id="menu">
+17:         <ul>
+18:           <%= content_tag :li, 'Comunicate con nosotros!', :class => 'selected' if controller.name == 'contact_forms' %>
+19:         </ul>
+20:         <span id="logo">Metodo DeRose</span>
+21:       </div>
+
+    app/views/layouts/application.html.erb:18
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `__send__'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `render'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:118:in `to_html'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `send'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `call'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/respond_to.rb:65:in `respond_with'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/base_helpers.rb:343:in `respond_with_dual_blocks'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/actions.rb:39:in `create!'
+    app/controllers/contact_forms_controller.rb:5:in `create'
+
+Rendered rescues/_trace (116.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:58:03) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+
+ActionView::TemplateError (undefined method `name' for #<ContactFormsController:0xb700fb9c>) on line #18 of app/views/layouts/application.html.erb:
+15:     <div id="container">
+16:       <div id="menu">
+17:         <ul>
+18:           <%= content_tag :li, 'Comunicate con nosotros!', :class => 'selected' if @controller.name == 'contact_forms' %>
+19:         </ul>
+20:         <span id="logo">Metodo DeRose</span>
+21:       </div>
+
+    app/views/layouts/application.html.erb:18
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `__send__'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:95:in `render'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:118:in `to_html'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `send'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/responder.rb:106:in `call'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/legacy/respond_to.rb:65:in `respond_with'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/base_helpers.rb:343:in `respond_with_dual_blocks'
+    /var/lib/gems/1.8/gems/inherited_resources-0.9.2/lib/inherited_resources/actions.rb:39:in `create!'
+    app/controllers/contact_forms_controller.rb:5:in `create'
+
+Rendered rescues/_trace (118.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2009-12-17 16:58:44) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"c4kt14Rt26RfOMF2nsHFWFzJdMVBiiJpd/3IfkGXuHE="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 80ms (View: 72, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:01:50) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]

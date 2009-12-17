@@ -349,4 +349,156 @@ Password:
 Initialized empty Git repository in /home/luigi/Workspaces/derose_nunez/vendor/plugins/simple_blog/.git/
 remote: Counting objects: 58, done.[K
 remote: Compressing objects:   2% (1/41)   [Kremote: Compressing objects:   4% (2/41)   [Kremote: Compressing objects:   7% (3/41)   [Kremote: Compressing objects:   9% (4/41)   [Kremote: Compressing objects:  12% (5/41)   [Kremote: Compressing objects:  14% (6/41)   [Kremote: Compressing objects:  17% (7/41)   [Kremote: Compressing objects:  19% (8/41)   [Kremote: Compressing objects:  21% (9/41)   [Kremote: Compressing objects:  24% (10/41)   [Kremote: Compressing objects:  26% (11/41)   [Kremote: Compressing objects:  29% (12/41)   [Kremote: Compressing objects:  31% (13/41)   [Kremote: Compressing objects:  34% (14/41)   [Kremote: Compressing objects:  36% (15/41)   [Kremote: Compressing objects:  39% (16/41)   [Kremote: Compressing objects:  41% (17/41)   [Kremote: Compressing objects:  43% (18/41)   [Kremote: Compressing objects:  46% (19/41)   [Kremote: Compressing objects:  48% (20/41)   [Kremote: Compressing objects:  51% (21/41)   [Kremote: Compressing objects:  53% (22/41)   [Kremote: Compressing objects:  56% (23/41)   [Kremote: Compressing objects:  58% (24/41)   [Kremote: Compressing objects:  60% (25/41)   [Kremote: Compressing objects:  63% (26/41)   [Kremote: Compressing objects:  65% (27/41)   [Kremote: Compressing objects:  68% (28/41)   [Kremote: Compressing objects:  70% (29/41)   [Kremote: Compressing objects:  73% (30/41)   [Kremote: Compressing objects:  75% (31/41)   [Kremote: Compressing objects:  78% (32/41)   [Kremote: Compressing objects:  80% (33/41)   [Kremote: Compressing objects:  82% (34/41)   [Kremote: Compressing objects:  85% (35/41)   [Kremote: Compressing objects:  87% (36/41)   [Kremote: Compressing objects:  90% (37/41)   [Kremote: Compressing objects:  92% (38/41)   [Kremote: Compressing objects:  95% (39/41)   [Kremote: Compressing objects:  97% (40/41)   [Kremote: Compressing objects: 100% (41/41)   [Kremote: Compressing objects: 100% (41/41), done.[K
-remote: Total 58 (delta 
+remote: Total 58 (delta 6), reused 0 (delta 0)[K
+Unpacking objects:   1% (1/58)   Unpacking objects:   3% (2/58)   Unpacking objects:   5% (3/58)   Unpacking objects:   6% (4/58)   Unpacking objects:   8% (5/58)   Unpacking objects:  10% (6/58)   Unpacking objects:  12% (7/58)   Unpacking objects:  13% (8/58)   Unpacking objects:  15% (9/58)   Unpacking objects:  17% (10/58)   Unpacking objects:  18% (11/58)   Unpacking objects:  20% (12/58)   Unpacking objects:  22% (13/58)   Unpacking objects:  24% (14/58)   Unpacking objects:  25% (15/58)   Unpacking objects:  27% (16/58)   Unpacking objects:  29% (17/58)   Unpacking objects:  31% (18/58)   Unpacking objects:  32% (19/58)   Unpacking objects:  34% (20/58)   Unpacking objects:  36% (21/58)   Unpacking objects:  37% (22/58)   Unpacking objects:  39% (23/58)   Unpacking objects:  41% (24/58)   Unpacking objects:  43% (25/58)   Unpacking objects:  44% (26/58)   Unpacking objects:  46% (27/58)   Unpacking objects:  48% (28/58)   Unpacking objects:  50% (29/58)   Unpacking objects:  51% (30/58)   Unpacking objects:  53% (31/58)   Unpacking objects:  55% (32/58)   Unpacking objects:  56% (33/58)   Unpacking objects:  58% (34/58)   Unpacking objects:  60% (35/58)   Unpacking objects:  62% (36/58)   Unpacking objects:  63% (37/58)   Unpacking objects:  65% (38/58)   Unpacking objects:  67% (39/58)   Unpacking objects:  68% (40/58)   Unpacking objects:  70% (41/58)   Unpacking objects:  72% (42/58)   Unpacking objects:  74% (43/58)   Unpacking objects:  75% (44/58)   Unpacking objects:  77% (45/58)   Unpacking objects:  79% (46/58)   Unpacking objects:  81% (47/58)   Unpacking objects:  82% (48/58)   Unpacking objects:  84% (49/58)   Unpacking objects:  86% (50/58)   Unpacking objects:  87% (51/58)   Unpacking objects:  89% (52/58)   Unpacking objects:  91% (53/58)   Unpacking objects:  93% (54/58)   Unpacking objects:  94% (55/58)   Unpacking objects:  96% (56/58)   Unpacking objects:  98% (57/58)   Unpacking objects: 100% (58/58)   Unpacking objects: 100% (58/58), done.
+From git://github.com/lperichon/simple_blog
+ * branch            HEAD       -> FETCH_HEAD
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ git setu[K[K[K[K[K[K[K[Kcap deployu[K
+[Deprecation Warning] Naming tasks with before_ and after_ is deprecated, please see the new before() and after() methods. (Offending task name was after_deploy)
+  * executing `deploy'
+  * executing `deploy:update'
+ ** transaction: start
+  * executing `deploy:update_code'
+    executing locally: "git ls-remote git://github.com/lperichon/derose_nunez.git master"
+checking for git... yes
+  * executing "git clone -q --depth 1 git://github.com/lperichon/derose_nunez.git /home/variete/apps/nunez/releases/20091210215104 && cd /home/variete/apps/nunez/releases/20091210215104 && git checkout -q -b deploy 877c5e1b4050da93070505290ef2487e5f2b5600 && (echo 877c5e1b4050da93070505290ef2487e5f2b5600 > /home/variete/apps/nunez/releases/20091210215104/REVISION)"
+    servers: ["74.63.8.222"]
+Password: 
+    [74.63.8.222] executing command
+ ** [74.63.8.222 :: out] remote: Counting objects: 591, done.[K
+ ** [74.63.8.222 :: out] remote: Compressing objects:   0% (1/483)   [Kremote: Compressing objects:   1% (5/483)   [Kremote: Compressing objects:   2[K%
+ ** [74.63.8.222 :: out] remote:  (10/483)   [Kremote: Compressing objects:   3% (15/483)   [Kremote: Compressing objects:   4% (20/483)   [Kremote: Compressing objects:   5% (25/483)   [Kremote: C
+ ** [74.63.8.222 :: out] remote: ompressing objects:   6% (29/483)   [Kremote: Compressing objects:   7% (34/483)   [Kremote: Compressing objects:   8% (39/483)   [Kremote: Compressing ob[Kj
+ ** [74.63.8.222 :: out] remote: ects:   9% (44/483)   [Kremote: Compressing objects:  10% (49/483)   [Kremote: Compressing objects:  11% (54/483)   [Kremote: Compressing objects:  12% (5[K8
+ ** [74.63.8.222 :: out] remote: /483)   [Kremote: Compressing objects:  13% (63/483)   [Kremote: Compressing objects:  14% (68/483)   [Kremote: Compressing objects:  15% (73/483)   [Kremote: Comp[Kr
+ ** [74.63.8.222 :: out] remote: essing objects:  16% (78/483)   [Kremote: Compressing objects:  17% (83/483)   [Kremote: Compressing objects:  18% (87/483)   [Kremote: Compressing object[Ks
+ ** [74.63.8.222 :: out] remote: :  19% (92/483)   [Kremote: Compressing objects:  20% (97/483)   [Kremote: Compressing objects:  21% (102/483)   [Kremote: Compressing objects:  22% (107/[K4
+ ** [74.63.8.222 :: out] remote: 83)   [Kremote: Compressing objects:  23% (112/483)   [Kremote: Compressing objects:  24% (116/483)   [Kremote: Compressing objects:  25% (121/483)   [Kremote: Com[Kp
+ ** [74.63.8.222 :: out] remote: ressing objects:  26% (126/483)   [Kremote: Compressing objects:  27% (131/483)   [Kremote: Compressing objects:  28% (136/483)   [Kremote: Compressing ob[Kj
+ ** [74.63.8.222 :: out] remote: ects:  29% (141/483)   [Kremote: Compressing objects:  30% (145/483)   [Kremote: Compressing objects:  31% (150/483)   [Kremote: Compressing objects:  32%[K
+ ** [74.63.8.222 :: out] remote: (155/483)   [Kremote: Compressing objects:  33% (160/483)   [Kremote: Compressing objects:  34% (165/483)   [Kremote: Compressing objects:  35% (170/483) [K
+ ** [74.63.8.222 :: out] remote:  [Kremote: Compressing objects:  36% (174/483)   [Kremote: Compressing objects:  37% (179/483)   [Kremote: Compressing objects:  38% (184/483)   [Kremote: Compress[Ki
+ ** [74.63.8.222 :: out] remote: ng objects:  39% (189/483)   [Kremote: Compressing objects:  40% (194/483)   [Kremote: Compressing objects:  41% (199/483)   [Kremote: Compressing objects[K:remote:   42% (203/483)   [Kremote: Compressing objects:  43% (208/483)   [Kremote: Compressing objects:  44% (213/483)   [Kremote: Compressing objects:  45% (218[K/
+ ** [74.63.8.222 :: out] remote: 483)   [Kremote: Compressing objects:  46% (223/483)   [Kremote: Compressing objects:  47% (228/483)   [Kremote: Compressing objects:  48% (232/483)   [Kremote: Co[Km
+ ** [74.63.8.222 :: out] remote: pressing objects:  49% (237/483)   [Kremote: Compressing objects:  50% (242/483)   [Kremote: Compressing objects:  51% (247/483)   [Kremote: Compressing o[Kbremote: jects:  52% (252/483)   [Kremote: Compressing objects:  53% (256/483)   [Kremote: Compressing objects:  54% (261/483)   [Kremote: Compressing objects:  55[K%
+ ** [74.63.8.222 :: out] remote:  (266/483)   [Kremote: Compressing objects:  56% (271/483)   [Kremote: Compressing objects:  57% (276/483)   [Kremote: Compressing objects:  58% (281/483)[K
+ ** [74.63.8.222 :: out] remote:   [Kremote: Compressing objects:  59% (285/483)   [Kremote: Compressing objects:  60% (290/483)   [Kremote: Compressing objects:  61% (295/483)   [Kremote: Compres[Ksremote: ing objects:  62% (300/483)   [Kremote: Compressing objects:  63% (305/483)   [Kremote: Compressing objects:  64% (310/483)   [Kremote: Compressing object[Ksremote: :  65% (314/483)   [Kremote: Compressing objects:  66% (319/483)   [Kremote: Compressing objects:  67% (324/483)   [Kremote: Compressing objects:  68% (32[K9remote: /483)   [Kremote: Compressing objects:  69% (334/483)   [Kremote: Compressing objects:  70% (339/483)   [Kremote: Compressing objects:  71% (343/483)   [Kremote: C[Koremote: mpressing objects:  72% (348/483)   [Kremote: Compressing objects:  73% (353/483)   [Kremote: Compressing objects:  74% (358/483)   [Kremote: Compressing [Ko
+ ** [74.63.8.222 :: out] remote: bjects:  75% (363/483)   [Kremote: Compressing objects:  76% (368/483)   [Kremote: Compressing objects:  77% (372/483)   [Kremote: Compressing objects:  7[K8remote: % (377/483)   [Kremote: Compressing objects:  79% (382/483)   [Kremote: Compressing objects:  80% (387/483)   [Kremote: Compressing objects:  81% (392/483[K)
+ ** [74.63.8.222 :: out] remote:    [Kremote: Compressing objects:  82% (397/483)   [Kremote: Compressing objects:  83% (401/483)   [Kremote: Compressing objects:  84% (406/483)   [Kremote: Compre[Ks
+ ** [74.63.8.222 :: out] remote: sing objects:  85% (411/483)   [Kremote: Compressing objects:  86% (416/483)   [Kremote: Compressing objects:  87% (421/483)   [Kremote: Compressing objec[Kt
+ ** [74.63.8.222 :: out] remote: s:  88% (426/483)   [Kremote: Compressing objects:  89% (430/483)   [Kremote: Compressing objects:  90% (435/483)   [Kremote: Compressing objects:  91% (4[K4
+ ** [74.63.8.222 :: out] remote: 0/483)   [Kremote: Compressing objects:  92% (445/483)   [Kremote: Compressing objects:  93% (450/483)   [Kremote: Compressing objects:  94% (455/483)   [Kremote: C
+ ** [74.63.8.222 :: out] remote: ompressing objects:  95% (459/483)   [Kremote: Compressing objects:  96% (464/483)   [Kremote: Compressing objects:  97% (469/483)   [Kremote: Compressing[K
+ ** [74.63.8.222 :: out] remote: objects:  98% (474/483)   [Kremote: Compressing objects:  99% (479/483)   [Kremote: Compressing objects: 100% (483/483)   [Kremote: Compressing objects: 1[K0
+ ** [74.63.8.222 :: out] remote: 0% (483/483), done.[K
+ ** [74.63.8.222 :: out] remote: Total 591 (delta 55), reused 534 (delta 48)[K
+    command finished
+  * executing `deploy:finalize_update'
+  * executing "chmod -R g+w /home/variete/apps/nunez/releases/20091210215104"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "rm -rf /home/variete/apps/nunez/releases/20091210215104/log /home/variete/apps/nunez/releases/20091210215104/public/system /home/variete/apps/nunez/releases/20091210215104/tmp/pids &&\\\n      mkdir -p /home/variete/apps/nunez/releases/20091210215104/public &&\\\n      mkdir -p /home/variete/apps/nunez/releases/20091210215104/tmp &&\\\n      ln -s /home/variete/apps/nunez/shared/log /home/variete/apps/nunez/releases/20091210215104/log &&\\\n      ln -s /home/variete/apps/nunez/shared/system /home/variete/apps/nunez/releases/20091210215104/public/system &&\\\n      ln -s /home/variete/apps/nunez/shared/pids /home/variete/apps/nunez/releases/20091210215104/tmp/pids"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "find /home/variete/apps/nunez/releases/20091210215104/public/images /home/variete/apps/nunez/releases/20091210215104/public/stylesheets /home/variete/apps/nunez/releases/20091210215104/public/javascripts -exec touch -t 200912102151.26 {} ';'; true"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing `deploy:symlink'
+  * executing "rm -f /home/variete/apps/nunez/current && ln -s /home/variete/apps/nunez/releases/20091210215104 /home/variete/apps/nunez/current"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+    triggering after callbacks for `deploy:symlink'
+  * executing `deploy:copy_files'
+  * executing "cp -pf /home/variete/apps/nunez/to_copy/environment.rb /home/variete/apps/nunez/current/config/environment.rb"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing "cp -pf /home/variete/apps/nunez/to_copy/database.yml /home/variete/apps/nunez/current/config/database.yml"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+ ** transaction: commit
+  * executing `deploy:restart'
+  * executing "touch /home/variete/apps/nunez/current/tmp/restart.txt"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+  * executing `deploy:after_deploy'
+  * executing "chmod 755 /home/variete/apps/nunez/current/app && chmod 755 /home/variete/apps/nunez/current/config && chmod 755 /home/variete/apps/nunez/current/db && chmod 755 /home/variete/apps/nunez/current/public && chmod 755 /home/variete/apps/nunez/current/vendor && chmod 755 /home/variete/apps/nunez/current/script && chmod 755 /home/variete/apps/nunez/current/tmp && chmod 755 /home/variete/apps/nunez/current/public/dispatch.cgi && chmod 755 /home/variete/apps/nunez/current/public/dispatch.fcgi && chmod 755 /home/variete/apps/nunez/current/public/dispatch.rb"
+    servers: ["74.63.8.222"]
+    [74.63.8.222] executing command
+    command finished
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ 
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ cap deploy
+[Deprecation Warning] Naming tasks with before_ and after_ is deprecated, please see the new before() and after() methods. (Offending task name was after_deploy)
+  * executing `deploy'
+  * executing `deploy:update'
+ ** transaction: start
+  * executing `deploy:update_code'
+    executing locally: "git ls-remote git://github.com/lperichon/derose_nunez.git master"
+checking for git... yes
+  * executing "git clone -q --depth 1 git://github.com/lperichon/derose_nunez.git /home/variete/apps/nunez/releases/20091210215148 && cd /home/variete/apps/nunez/releases/20091210215148 && git checkout -q -b deploy 877c5e1b4050da93070505290ef2487e5f2b5600 && (echo 877c5e1b4050da93070505290ef2487e5f2b5600 > /home/variete/apps/nunez/releases/20091210215148/REVISION)"
+    servers: ["74.63.8.222"]
+^C*** [deploy:update_code] rolling back
+  * executing "rm -rf /home/variete/apps/nunez/releases/20091210215148; true"
+    servers: ["74.63.8.222"]
+^C ** [deploy:update_code] exception while rolling back: Interrupt,
+/var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:108:in `join': Interrupt
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:108:in `establish_connections_to'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:108:in `each'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:108:in `establish_connections_to'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:162:in `execute_on_servers'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `each_slice'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:160:in `each'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:160:in `each_slice'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/connections.rb:160:in `execute_on_servers'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/actions/invocation.rb:173:in `run_tree'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/actions/invocation.rb:145:in `run'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy/strategy/base.rb:43:in `send'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy/strategy/base.rb:43:in `method_missing'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy/strategy/remote.rb:29:in `scm_run'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy/strategy/remote.rb:15:in `deploy!'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy.rb:214:in `load'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:139:in `instance_eval'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:139:in `invoke_task_directly_without_callbacks'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/callbacks.rb:27:in `invoke_task_directly'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:89:in `execute_task'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:186:in `send'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:186:in `method_missing'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:104:in `update_code'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy.rb:195:in `load'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:56:in `transaction'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:186:in `send'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:186:in `method_missing'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy.rb:194:in `load'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:139:in `instance_eval'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:139:in `invoke_task_directly_without_callbacks'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/callbacks.rb:27:in `invoke_task_directly'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:89:in `execute_task'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:186:in `send'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:186:in `method_missing'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/namespaces.rb:104:in `update'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/recipes/deploy.rb:163:in `load'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:139:in `instance_eval'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:139:in `invoke_task_directly_without_callbacks'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/callbacks.rb:27:in `invoke_task_directly'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:89:in `execute_task'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/configuration/execution.rb:101:in `find_and_execute_task'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/cli/execute.rb:45:in `execute_requested_actions_without_help'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/cli/execute.rb:44:in `each'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/cli/execute.rb:44:in `execute_requested_actions_without_help'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/cli/help.rb:19:in `execute_requested_actions'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/cli/execute.rb:33:in `execute!'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/lib/capistrano/cli/execute.rb:14:in `execute'
+	from /var/lib/gems/1.8/gems/capistrano-2.5.10/bin/cap:4
+	from /var/lib/gems/1.8/bin/cap:19:in `load'
+	from /var/lib/gems/1.8/bin/cap:19
+
+]0;luigi@luigi-laptop: ~/Workspaces/derose_nunezluigi@luigi-laptop:~/Workspaces/derose_nunez$ exit
+exit
+
+Script done on Fri 11 Dec 2009 03:34:40 PM ART
