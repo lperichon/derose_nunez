@@ -11809,3 +11809,104 @@ Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-17 17:23:11) [GE
 Rendering template within layouts/application
 Rendering contact_forms/new
 Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2009-12-18 11:06:17) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 273ms (View: 265, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-12-18 11:06:22) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mComment Load (1.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
+Rendered posts/_post (44.0ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 4) [0m
+Rendered posts/_post (5.8ms)
+Completed in 102ms (View: 72, DB: 3) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-12-18 11:08:05) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from _run_erb_app47views47posts47_post46html46erb_locals_object_post at /home/luigi/Workspaces/derose_nunez/app/views/posts/_post.html.erb:1)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from extract_options! at /var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/array/extract_options.rb:15)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from build_expiry at /var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:340)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from generated code (/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:160)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from extract_options! at /var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/array/extract_options.rb:15)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from build_expiry at /var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:340)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from generated code (/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:160)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from extract_options! at /var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/array/extract_options.rb:15)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from build_expiry at /var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:340)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from generated code (/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:160)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from _run_erb_app47views47posts47_post46html46erb_locals_object_post at /home/luigi/Workspaces/derose_nunez/app/views/posts/_post.html.erb:2)
+DEPRECATION WARNING: @post will no longer be implicitly assigned to post. (called from _run_erb_app47views47posts47_post46html46erb_locals_object_post at /home/luigi/Workspaces/derose_nunez/app/views/posts/_post.html.erb:4)
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
+Rendered posts/_post (21.5ms)
+Completed in 57ms (View: 52, DB: 1) | 200 OK [http://localhost/posts/3]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-12-18 11:10:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'aef46d52e97b4bfc627c7deb59048325f503611e') LIMIT 1[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+Rendered posts/_form (6.9ms)
+Completed in 77ms (View: 50, DB: 1) | 200 OK [http://localhost/posts/3/edit]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-12-18 11:22:50) [PUT]
+  Parameters: {"commit"=>"Update", "post"=>{"body"=>"asdfdsa", "subject"=>"asd"}, "authenticity_token"=>"jE8cF0SOwCFMcztQ/Zd5bfroHUH6rxfIACcrzES5nA0=", "id"=>"3"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'aef46d52e97b4bfc627c7deb59048325f503611e') LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Update (22.0ms)[0m   [0mUPDATE "posts" SET "updated_at" = '2009-12-18 14:22:50', "body" = 'asdfdsa' WHERE "id" = 3[0m
+Redirected to http://localhost:3000/blog
+Completed in 59ms (DB: 23) | 302 Found [http://localhost/posts/3]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-12-18 11:22:50) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
+Rendered posts/_post (7.7ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 4) [0m
+Rendered posts/_post (6.1ms)
+Completed in 21ms (View: 15, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-18 11:22:58) [GET]
+
+ActionController::RoutingError (No route matches "/logout" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing Clearance::SessionsController#destroy (for 127.0.0.1 at 2009-12-18 11:23:12) [GET]
+  Parameters: {"method"=>:delete, "action"=>"destroy", "controller"=>"clearance/sessions"}
+Redirected to http://localhost:3000/session/new
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/sign_out]
+
+
+Processing Clearance::SessionsController#new (for 127.0.0.1 at 2009-12-18 11:23:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"clearance/sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 29ms (View: 25, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-12-18 11:23:22) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
+Rendered posts/_post (10.8ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 4) [0m
+Rendered posts/_post (6.3ms)
+Completed in 24ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
