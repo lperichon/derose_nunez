@@ -3,7 +3,7 @@
 <p><b>Nombre:</b><%= @form.name -%></p>
 <p><b>Telefono:</b><%= @form.telephone -%></p>
 <p><b>Email:</b><%= @form.email -%></p>
-<p><b>Cumpleaños:</b><%= @form.birthday -%></p>
+<p><b>Cumpleaños:</b><%= @form.birth_date -%></p>
 <% hours = [] -%>
 <% (8..21).each do |hour| -%>
   <% hours << hour if (@form.send('hour_'+hour.to_s) == '1' ) -%>
