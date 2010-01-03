@@ -1,6 +1,6 @@
 class ContactForm < SimpleForm
   subject "Contacto Web"
-  recipients "info@derosenuñez.com.ar"
+  recipients "info@xn--derosenuez-09a.com.ar"
   sender{|c| %{"#{c.name}" <#{c.email}>} }
 
   attribute :name,      :validate => true
