@@ -11910,3 +11910,15 @@ Rendered posts/_post (10.8ms)
   [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 4) [0m
 Rendered posts/_post (6.3ms)
 Completed in 24ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:09:05) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 351ms (View: 347, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:10:18) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 116ms (View: 112, DB: 0) | 200 OK [http://localhost/contact_form/new]
