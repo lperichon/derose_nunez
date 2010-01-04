@@ -11922,3 +11922,27 @@ Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:10:18) [GE
 Rendering template within layouts/application
 Rendering contact_forms/new
 Completed in 116ms (View: 112, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:17:11) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 69ms (View: 65, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:17:12) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:17:12) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:17:35) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://localhost/contact_form/new]
