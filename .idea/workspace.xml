@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d645e6fa-082f-4e84-b66d-ccd0b50befd7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="derose_nunez.iws" />
@@ -74,7 +75,7 @@
       <file leaf-file-name="sitemap.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="631" selection-end="637" vertical-scroll-proportion="0.7076023">
+            <state line="15" column="18" selection-start="576" selection-end="576" vertical-scroll-proportion="0.877193">
               <folding />
             </state>
           </provider>
@@ -132,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/config/initializers/simple_form.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/public/stylesheets/formtastic.css" />
@@ -148,6 +148,7 @@
         <option value="$PROJECT_DIR$/app/views/contact_forms/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/sitemap.xml" />
       </list>
     </option>
   </component>
@@ -769,7 +770,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="sitemap" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -793,6 +794,7 @@
     <MESSAGE value="use special characters on recipient email" />
     <MESSAGE value="fix bug on contact email" />
     <MESSAGE value="correcciones" />
+    <MESSAGE value="sitemap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -887,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="631" selection-end="637" vertical-scroll-proportion="0.7076023">
+        <state line="15" column="18" selection-start="576" selection-end="576" vertical-scroll-proportion="0.877193">
           <folding />
         </state>
       </provider>
