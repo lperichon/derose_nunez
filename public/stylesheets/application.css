@@ -5,11 +5,15 @@ body {
   font-size: 0.9em;
   background: transparent url(../images/body_background.png) repeat-x -100px;
   color: #55A09E;
-  font-family: helvetica;
+  font-family: verdana;
 }
 
 a {
   color: #55A09E;
+}
+
+a:focus {
+  outline: 0;
 }
 
 div#footer {
@@ -44,29 +48,49 @@ div#container {
 }
 
 div#menu {
-  width: 15em;
+  width: 20.5em;
   height: 36em;
   float: left;
   display: inline;
+  font-family: helvetica;
+}
+
+div#menu ul {
+  padding: 0;
+  margin: 1em 0 0 0 ;
 }
 
 div#menu ul li {
-  font-size: 1.5em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  text-indent: -9999px;
 }
 
-div#menu ul li.selected {
-  background: transparent url(../images/menu_selected_background.png) no-repeat right;
+div#menu ul li.contact.selected {
+  background: transparent url(/images/comunicate.png) no-repeat right;
+  height: 3.5em;
 }
 
 div#main {
-  width: 35em;
-  height: 33em;
+  width: 28em;
+  height: 31em;
   background: white;
   margin-top: 1em;
-  padding: 1em;
+  padding: 2em;
   float: left;
   position: absolute;
   display: inline;
+}
+
+#main h2 {
+  margin: 0;
+  text-align: right;
+  font-family: verdana;
+  font-size: 1em;
+  font-weight: normal;
+  color: #58595b;
 }
 
 div.no-menu {
@@ -79,11 +103,10 @@ div.no-menu {
 #main p {
 }
 
-.no-menu p {
-  font-size: 3em;
-  padding: 0;
-  text-align: center;
-  margin: 2.5em 0.5em;
+.no-menu a img{
+  margin-left: 2em;
+  margin-top: 9em;
+  border: 0;
 }
 
 div#sidebar {
@@ -94,19 +117,20 @@ div#sidebar {
 }
 
 span#badge.sede {
-  background: transparent url(../images/badge_nueva_sede.png) no-repeat;
+  background: transparent url(/images/badge_nueva_sede.png) no-repeat;
   width: 10em;
   height: 10em;
   position: absolute;
-  top: 1em;
-  color: transparent;
+  top: 1.5em;
+  right: 0.2em;
   text-indent: -9999px;
 }
 
 span#logo {
   background: transparent url(../images/logo_metodo.png) no-repeat;
   position: absolute;
-  top: 25em;
+  left: 2em;
+  top: 24em;
   width: 15em;
   height: 12em;
   color: transparent;

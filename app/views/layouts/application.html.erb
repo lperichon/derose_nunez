@@ -15,11 +15,12 @@
     <div id="container">
       <div id="menu">
         <ul>
-          <%= content_tag :li, 'Comunicate con nosotros!', :class => 'selected' if controller_name == 'contact_forms' %>
+          <%= content_tag( :li, 'Comunicate con nosotros!', :class => "contact #{'selected' if controller_name == 'contact_forms'}")%>
         </ul>
         <span id="logo">Metodo DeRose</span>
       </div>
       <div id="main">
+        <h2><%= @page_title %></h2>
         <%= yield %>
       </div>
       <div id="sidebar">

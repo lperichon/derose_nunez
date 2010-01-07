@@ -10,13 +10,25 @@ form.formtastic fieldset ol li p.inline-hints { color:#333; }
 --------------------------------------------------------------------------------------------------*/
 
 form.formtastic {
-  font-size: 0.8em;
+  font-size: 0.69em;
   /*padding: 1em;*/
-  color: black;
+  color: #58595b;
+}
+
+form.formtastic legend {
+  color: #58595b;
 }
 
 form.formtastic fieldset ol li {
-    margin-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+form.formtastic fieldset ol fieldset {
+    margin-bottom: 2em;
+}
+
+form.formtastic fieldset ol fieldset ol li {
+    margin-bottom: -0.2em;
 }
 
 form.formtastic fieldset ol li fieldset ol {
@@ -25,21 +37,21 @@ form.formtastic fieldset ol li fieldset ol {
 	width: auto;
 }
 
-form.formtastic fieldset ol fieldset {
-    margin-bottom: 0.3em;
-}
-
 form.formtastic fieldset ol li label {
     width: 100%;
     font-weight: bold;
 }
 
 form.formtastic fieldset ol li.string input {
-    width: 42em;
+    width: 40em;
+}
+
+form.formtastic fieldset ol fieldset.field-group ol li {
+    width: 20em;
 }
 
 form.formtastic fieldset ol fieldset.field-group ol li.string input {
-    width: 21em;
+    width: 20em;
 }
 
 form.formtastic fieldset ol {
@@ -55,7 +67,7 @@ form.formtastic fieldset ol fieldset.field-group ol {
 }
 
 form.formtastic fieldset ol fieldset.field-group ol li {
-    width: 21em;
+    width: 20em;
     display: inline;
     float: left;
 }
@@ -75,7 +87,7 @@ form.formtastic fieldset.hours ol li {
 }
 
 form.formtastic fieldset.hours ol li.boolean label {
-    width: 5.8em;
+    width: 5.5em;
 }
 
 form.formtastic fieldset legend {
@@ -93,11 +105,11 @@ form.formtastic fieldset.interests ol li {
 }
 
 form.formtastic fieldset.interests ol li.boolean label {
-    width: 21em;
+    width: 20em;
 }
 
 form.formtastic fieldset ol li.text textarea {
-    width: 42em;
+    width: 40em;
     height: 7em;
 }
 
@@ -105,4 +117,9 @@ form.formtastic fieldset.buttons {
     padding: 0 2em 0 0;
     float: right;
     display: inline;
+}
+
+form.formtastic fieldset ol li.boolean label input {
+  margin:0 0.2em 0 0.2em;
+  vertical-align: middle;
 }

@@ -11946,3 +11946,1065 @@ Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-04 14:17:35) [GE
 Rendering template within layouts/application
 Rendering contact_forms/new
 Completed in 71ms (View: 67, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-04 15:05:47) [GET]
+
+ActionController::RoutingError (No route matches "/contacts/1" with {:method=>:get}):
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:22:11) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 247ms (View: 243, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#show (for 127.0.0.1 at 2010-01-06 16:22:47) [GET]
+
+ActionController::UnknownAction (No action responded to show. Actions: create and new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:26:03) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:35:47) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:35:51) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:35:53) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:36:33) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:36:52) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 126ms (View: 122, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:10) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:20) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:21) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:21) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:21) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:38) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:40:47) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:41:01) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:41:55) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 16:53:27) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:01:58) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:02:13) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:04:52) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:04:59) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 140ms (View: 136, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:07:06) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 69ms (View: 59, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:09:30) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:10:19) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 116ms (View: 112, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:10:27) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:11:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:12:27) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:13:51) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:14:34) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:25:34) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:28:27) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:31:51) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:33:05) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:34:00) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:34:32) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:38:42) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:39:30) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:40:50) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 111ms (View: 108, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:41:22) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:42:45) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:42:47) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:43:03) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:43:21) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 49, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:43:22) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:43:53) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 57, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:45:11) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 53ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:46:45) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:47:24) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:51:05) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:51:43) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:52:57) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:54:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 17:55:30) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:02:13) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:02:42) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 113ms (View: 110, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:04:22) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:04:34) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:04:53) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:05:01) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:06:36) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:07:03) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:07:28) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 57, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:07:33) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 80ms (View: 76, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:07:39) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 58, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:08:07) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:08:17) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 64ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:08:28) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 65ms (View: 61, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:12:02) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:12:52) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 122ms (View: 117, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:13:28) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 57, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:13:48) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 81ms (View: 77, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:14:16) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:14:34) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:14:47) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 64ms (View: 59, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:15:05) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:19:32) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:20:27) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:21:16) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:22:03) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:24:44) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 65ms (View: 61, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:26:43) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 65ms (View: 61, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:27:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 57, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:29:35) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 113ms (View: 109, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:30:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 61ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-06 18:40:47) [GET]
+
+ActionController::RoutingError (No route matches "/login" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-06 18:40:52) [GET]
+  [4;36;1mPost Load (2.2ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
+Rendered posts/_post (39.1ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 4) [0m
+Rendered posts/_post (10.9ms)
+Completed in 110ms (View: 80, DB: 3) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-06 18:40:59) [GET]
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/
+Filter chain halted as [:redirect_to_root] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/posts/3/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-06 18:41:07) [GET]
+
+ActionController::RoutingError (No route matches "/sessions/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-06 18:41:12) [GET]
+
+ActionController::RoutingError (No route matches "/user_sessions/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-06 18:41:30) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
+Rendered posts/_post (8.5ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 4) [0m
+Rendered posts/_post (6.5ms)
+Completed in 23ms (View: 16, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-06 18:42:17) [GET]
+
+ActionController::RoutingError (No route matches "/sessions/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:42:48) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 18:43:43) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"1", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 65ms (View: 59, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#show (for 127.0.0.1 at 2010-01-06 18:43:57) [GET]
+
+ActionController::UnknownAction (No action responded to show. Actions: create, new, and page_title):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 18:44:00) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 18:44:03) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 64ms (View: 58, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 18:44:22) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"dsa", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"123", "message"=>"adsads", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>"dsa@dsa.com"}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Sent mail to info@xn--derosenuez-09a.com.ar
+
+Date: Wed, 6 Jan 2010 21:44:22 -0300
+From: dsa <dsa@dsa.com>
+To: info@xn--derosenuez-09a.com.ar
+Subject: Contacto Web
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<h4 style="text-decoration:underline">Contacto Web</h4>
+
+<p><b>Nombre:</b>dsa</p>
+<p><b>Telefono:</b>123</p>
+<p><b>Email:</b>dsa@dsa.com</p>
+<p><b>Cumpleaños:</b></p>
+                            
+<p><b>Horarios:</b></p>
+<p><b>Interesado en:</b></p>
+<ul>
+                    </ul>
+Redirected to http://localhost:3000/
+Completed in 53ms (DB: 0) | 302 Found [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 18:49:59) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 95ms (View: 86, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 19:24:06) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 53ms (View: 49, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 19:27:21) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 120ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 19:37:46) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 19:38:26) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 19:38:47) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 61ms (View: 57, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 22:07:53) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 59ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:09:10) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:10:12) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 72ms (View: 65, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:12:10) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 72ms (View: 66, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:15:19) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 134ms (View: 128, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:15:42) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 79ms (View: 71, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:15:54) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 76ms (View: 66, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:16:23) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 67ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:16:36) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 69ms (View: 63, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:17:24) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 154ms (View: 149, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:18:02) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 71ms (View: 64, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-01-06 22:19:15) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>""}, "authenticity_token"=>"Nm1TSAPk9D3WE1aFv+aulmCwPsPwSYqs6jVw0CRaxd4="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 97ms (View: 91, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 22:20:03) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 64ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-06 23:11:39) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 97ms (View: 90, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:45:34) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 281ms (View: 274, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:46:15) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 115ms (View: 111, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:46:24) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 76ms (View: 71, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:46:58) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:47:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 74ms (View: 69, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:47:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 118ms (View: 113, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:47:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 76ms (View: 71, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:49:22) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 69ms (View: 64, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:50:24) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:50:30) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 116ms (View: 96, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:51:29) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 83ms (View: 79, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:51:51) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 53ms (View: 49, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:51:58) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:54:13) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 56, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:54:32) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 116ms (View: 110, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:55:35) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:55:56) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:56:06) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:56:29) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 80ms (View: 72, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:56:37) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:57:29) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 63ms (View: 58, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:58:01) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 10:58:06) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 53ms (View: 49, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:00:14) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:00:29) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 64ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:02:02) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 68ms (View: 64, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:03:14) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:03:44) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:04:11) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 57, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:05:54) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:06:35) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:06:49) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 112ms (View: 108, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:07:00) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 95ms (View: 91, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:07:16) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:07:24) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 68ms (View: 64, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:08:15) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:09:46) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 56ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:10:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 63ms (View: 58, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:11:19) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 62ms (View: 58, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:13:11) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:13:40) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 58ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:16:15) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 72ms (View: 59, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:16:59) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:20:03) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:24:19) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 57ms (View: 52, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:28:15) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-07 11:30:20) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 65ms (View: 59, DB: 0) | 200 OK [http://localhost/contact_form/new]
