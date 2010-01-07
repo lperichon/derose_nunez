@@ -6,3 +6,29 @@ div.no-menu {
 	margin-top: 1em;
 }
 
+form.formtastic fieldset ol fieldset.field-group ol li {
+    width: 19.9em;
+}
+
+form.formtastic fieldset ol fieldset.field-group ol li.string input {
+    width: 19.9em;
+}
+
+form.formtastic fieldset ol li.boolean input {
+    width: 1.9em;
+}
+
+form.formtastic fieldset.interests ol li.boolean label {
+	width: 19.9em;
+}
+
+form.formtastic fieldset.interests {
+	margin-bottom: 0;
+}
+
+div#main {
+	height: 35em;
+	width: 31em;
+	padding:1.5em;
+	overflow: hidden;
+}

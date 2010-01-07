@@ -69,7 +69,7 @@ div#menu ul li {
 }
 
 div#menu ul li.contact.selected {
-  background: transparent url(/images/comunicate.png) no-repeat right;
+  background: transparent url(../images/comunicate.png) no-repeat right;
   height: 3.5em;
 }
 
@@ -117,7 +117,7 @@ div#sidebar {
 }
 
 span#badge.sede {
-  background: transparent url(/images/badge_nueva_sede.png) no-repeat;
+  background: transparent url(../images/badge_nueva_sede.png) no-repeat;
   width: 10em;
   height: 10em;
   position: absolute;
@@ -133,7 +133,6 @@ span#logo {
   top: 24em;
   width: 15em;
   height: 12em;
-  color: transparent;
   text-indent: -9999px;
 }
 
@@ -154,3 +153,4 @@ div#credits {
 .error label {
   color: red;
 }
+
