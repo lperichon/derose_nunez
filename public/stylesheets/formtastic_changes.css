@@ -20,7 +20,7 @@ form.formtastic legend {
 }
 
 form.formtastic fieldset ol li {
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
 }
 
 form.formtastic fieldset ol fieldset {
@@ -44,6 +44,7 @@ form.formtastic fieldset ol li label {
 
 form.formtastic fieldset ol li.string input {
     width: 40em;
+    margin-top: 0.4em;
 }
 
 form.formtastic fieldset ol fieldset.field-group ol li {
@@ -77,6 +78,10 @@ form.formtastic fieldset ol li.boolean label {
     font-weight: normal;
 }
 
+form.formtastic fieldset ol fieldset ol {
+  
+}
+
 form.formtastic fieldset.hours ol {
   display: inline;
 }
@@ -90,8 +95,8 @@ form.formtastic fieldset.hours ol li.boolean label {
     width: 5.5em;
 }
 
-form.formtastic fieldset legend {
-  margin-bottom: 0.5em;
+form.formtastic fieldset ol fieldset legend {
+  padding-bottom: 0.5em;
   font-weight: bold;
 }
 
@@ -110,13 +115,18 @@ form.formtastic fieldset.interests ol li.boolean label {
 
 form.formtastic fieldset ol li.text textarea {
     width: 40em;
-    height: 7em;
+    height: 8em;
 }
 
 form.formtastic fieldset.buttons {
-    padding: 0 2em 0 0;
+    padding: 5px 2em 0 0;
     float: right;
     display: inline;
+}
+
+form.formtastic fieldset.buttons li a {
+  color: #58595b;
+  vertical-align: middle;
 }
 
 form.formtastic fieldset ol li.boolean label input {

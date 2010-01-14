@@ -88,7 +88,7 @@ div#main {
   margin: 0;
   text-align: right;
   font-family: verdana;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: normal;
   color: #58595b;
 }
@@ -130,7 +130,7 @@ span#logo {
   background: transparent url(../images/logo_metodo.png) no-repeat;
   position: absolute;
   left: 2em;
-  top: 24em;
+  top: 23.5em;
   width: 15em;
   height: 12em;
   text-indent: -9999px;
@@ -152,5 +152,11 @@ div#credits {
 
 .error label {
   color: red;
+}
+
+.required_field_note {
+  font-size: 1em;
+  float: left;
+  margin-top: 10px;
 }
 

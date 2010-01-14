@@ -29,7 +29,9 @@
     <%= f.input :message, :as => :text, :label => 'Mensaje'%>
 
   <% end %>
+  <p class='required_field_note'>* Campo Requerido</p>
   <% f.buttons do %>
      <%= f.commit_button 'Enviar' %>
+    <li><%= link_to 'cancelar', root_url %></li>
   <% end %>
 <% end %>
