@@ -15,11 +15,12 @@
     <div id="container">
       <div id="menu">
         <ul>
-          <%= content_tag :li, 'Comunicate con nosotros!', :class => 'selected' if controller_name == 'contact_forms' %>
+          <%= content_tag( :li, 'Comunicate con nosotros!', :class => "contact #{'selected' if controller_name == 'contact_forms'}")%>
         </ul>
         <span id="logo">Metodo DeRose</span>
       </div>
       <div id="main">
+        <h2><%= @page_title %></h2>
         <%= yield %>
       </div>
       <div id="sidebar">
@@ -29,9 +30,6 @@
     <div id='credits'>
       <p>Camila Carbone | Luis Perichon</p>
     </div>
-  </div>
-  <div id='footer'>
-    <b>D.</b> <a href="http://maps.google.com.ar/maps?f=q&source=s_q&hl=es&geocode=&q=Av.+Cris%C3%B3logo+Larralde+1721&sll=-34.536258,-58.452072&sspn=0.034857,0.053816&gl=ar&ie=UTF8&hq=&hnear=Av+Cris%C3%B3logo+Larralde+1721,+N%C3%BA%C3%B1ez,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&z=16">Crisólogo Larralde 1721 (C1429BSH) Argentina</a> · <b>T.</b> (54 11) 4703 3215 · <b>M.</b> <%= mail_to 'nunez@metododerose.com.ar', :encode => "javascript" %> ·
   </div>
 </body>
 </html>

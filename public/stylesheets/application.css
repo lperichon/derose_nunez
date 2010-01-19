@@ -73,6 +73,15 @@ div#menu ul li.contact.selected {
   height: 3.5em;
 }
 
+div#menu ul li.index {
+  background: transparent url(../images/index.png) no-repeat right;
+  height: 2em;
+}
+div#menu ul li.index.selected {
+  background: transparent url(../images/index_selected.png) no-repeat right;
+  height: 2em;
+}
+
 div#main {
   width: 28em;
   height: 31em;
@@ -86,11 +95,15 @@ div#main {
 
 #main h2 {
   margin: 0;
-  text-align: right;
+  text-align: left;
   font-family: verdana;
   font-size: 0.9em;
   font-weight: normal;
   color: #58595b;
+}
+
+#main h1 {
+  margin: 0;
 }
 
 div.no-menu {
@@ -99,8 +112,35 @@ div.no-menu {
   float: none;
   top: 2em;
 }
-
 #main p {
+  font-size: 0.9em;
+}
+
+#main p.side {
+  color: orange;
+  width: 9em;
+  float:left;
+  text-align: right;
+}
+
+#main p.content {
+  margin-left: 1em;
+  color: #58595b;
+  float:left;
+  width: 20em;
+  text-align: justify;
+}
+
+#main p.contact {
+  width: 16em;
+  float: right;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  padding: 0.3em 0 0.5em 0;
+}
+
+#main.index {
+  background: white url("../images/kakasana_dwayne.jpg") bottom 0.5em no-repeat;
 }
 
 .no-menu a img{
@@ -121,8 +161,8 @@ span#badge.sede {
   width: 10em;
   height: 10em;
   position: absolute;
-  top: 1.5em;
-  right: 0.2em;
+  top: 0.5em;
+  right: -1.5em;
   text-indent: -9999px;
 }
 
@@ -130,7 +170,7 @@ span#logo {
   background: transparent url(../images/logo_metodo.png) no-repeat;
   position: absolute;
   left: 2em;
-  top: 23.5em;
+  top: 27.5em;
   width: 15em;
   height: 12em;
   text-indent: -9999px;
