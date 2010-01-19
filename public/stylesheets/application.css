@@ -48,7 +48,7 @@ div#container {
 }
 
 div#menu {
-  width: 20.5em;
+  width: 23em;
   height: 36em;
   float: left;
   display: inline;
@@ -64,24 +64,80 @@ div#menu ul li {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 2em;
-  text-indent: -9999px;
+  font-size: 1.2em;
+  display:block;
+  float:left;
+  list-style-type:none;
 }
 
-div#menu ul li.contact.selected {
+div#menu ul li a {
+  display:block;
+  text-indent: -9999px;
+  width: 331px;
+  height: 1.2em;
+}
+
+div#menu ul li.contact.selected a{
   background: transparent url(../images/comunicate.png) no-repeat right;
   height: 3.5em;
 }
 
-div#menu ul li.index {
+div#menu ul li.index a{
   background: transparent url(../images/index.png) no-repeat right;
-  height: 2em;
+  height: 2.2em;
 }
-div#menu ul li.index.selected {
+div#menu ul li.index.selected a{
   background: transparent url(../images/index_selected.png) no-repeat right;
-  height: 2em;
+  height: 2.2em;
 }
-
+div#menu ul li.metodo a{
+  background: transparent url(../images/metodo.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.metodo.selected a{
+  background: transparent url(../images/metodo_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.horarios a{
+  background: transparent url(../images/horarios.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.horarios.selected a{
+  background: transparent url(../images/horarios_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.formacion a{
+  background: transparent url(../images/formacion.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.formacion.selected a{
+  background: transparent url(../images/formacion_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.empresas a{
+  background: transparent url(../images/empresas.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.empresas.selected a{
+  background: transparent url(../images/empresas_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.material a{
+  background: transparent url(../images/material.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.material.selected a{
+  background: transparent url(../images/material_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.contacto a{
+  background: transparent url(../images/contacto.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.contacto.selected a{
+  background: transparent url(../images/contacto_selected.png) no-repeat right;
+  height: 2.2em;
+}
 div#main {
   width: 28em;
   height: 31em;
@@ -143,6 +199,10 @@ div.no-menu {
   background: white url("../images/kakasana_dwayne.jpg") bottom 0.5em no-repeat;
 }
 
+#main.metodo {
+  background: white url("../images/sol_tripadasana.jpg") bottom left no-repeat;
+}
+
 .no-menu a img{
   margin-left: 2em;
   margin-top: 9em;
@@ -150,7 +210,7 @@ div.no-menu {
 }
 
 div#sidebar {
-  width: 9.5em;
+  width: 9.2em;
   height: 36em;
   float: right;
   display: inline;
