@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d645e6fa-082f-4e84-b66d-ccd0b50befd7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/empresas.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/empresas.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/formacion.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/formacion.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/material.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/material.html.erb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="derose_nunez.iws" />
@@ -59,7 +60,7 @@
       <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="58" selection-start="4006" selection-end="4006" vertical-scroll-proportion="0.67320263">
+            <state line="222" column="22" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.4117647">
               <folding />
             </state>
           </provider>
@@ -86,7 +87,7 @@
       <file leaf-file-name="formacion.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/formacion.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="15" column="10" selection-start="787" selection-end="790" vertical-scroll-proportion="-3.8163266">
               <folding />
             </state>
           </provider>
@@ -95,7 +96,7 @@
       <file leaf-file-name="material.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/material.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="6" column="85" selection-start="226" selection-end="226" vertical-scroll-proportion="-1.7755102">
               <folding />
             </state>
           </provider>
@@ -135,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/models/contact_form.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.future.html.erb" />
         <option value="$PROJECT_DIR$/public/sitemap.xml" />
         <option value="$PROJECT_DIR$/app/controllers/contact_forms_controller.rb" />
@@ -150,6 +149,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/metodo.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/empresas.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/formacion.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/material.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
       </list>
     </option>
@@ -864,7 +865,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo" />
+    <option name="LAST_COMMIT_MESSAGE" value="empresas" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -895,6 +896,7 @@
     <MESSAGE value="changes by kmi" />
     <MESSAGE value="index" />
     <MESSAGE value="metodo" />
+    <MESSAGE value="empresas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -952,20 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/formacion.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/material.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/contacto.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1001,9 +989,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/formacion.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="10" selection-start="787" selection-end="790" vertical-scroll-proportion="-3.8163266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/material.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="85" selection-start="226" selection-end="226" vertical-scroll-proportion="-1.7755102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="58" selection-start="4006" selection-end="4006" vertical-scroll-proportion="0.67320263">
+        <state line="222" column="22" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.4117647">
           <folding />
         </state>
       </provider>

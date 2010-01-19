@@ -207,6 +207,25 @@ div.no-menu {
   background: white url("../images/pablo_janurdhwasana.jpg") bottom left no-repeat;
 }
 
+#main.formacion p.sub {
+  color: #58595b;
+  font-size: 0.7em;
+  width: 330px;
+  margin-left: 4em;
+}
+
+#main.material p.text {
+  color: #58595b;
+}
+
+#main.material span.link {
+  text-indent: -9999px;
+  display:inline-block;
+  width: 15px;
+  height: 17px;
+  background: transparent url("../images/link.jpg") no-repeat;
+}
+
 .no-menu a img{
   margin-left: 2em;
   margin-top: 9em;
