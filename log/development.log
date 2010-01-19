@@ -15714,3 +15714,71 @@ ActionController::RoutingError (No route matches "/images/horarios_selected.png"
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-19 13:57:42) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-19 13:57:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/horarios.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-19 13:57:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/horarios_selected.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-19 13:57:47) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-19 13:57:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/horarios.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-19 14:06:23) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-19 14:06:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/horarios.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-19 14:07:01) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-19 14:07:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/horarios.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
