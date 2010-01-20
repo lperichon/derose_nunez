@@ -169,21 +169,21 @@ div.no-menu {
   top: 2em;
 }
 #main p {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 #main p.side {
   color: orange;
-  width: 9em;
+  width: 10em;
   float:left;
   text-align: right;
 }
 
 #main p.content {
-  margin-left: 1em;
+  margin-left: 2em;
   color: #58595b;
   float:left;
-  width: 20em;
+  width: 21em;
   text-align: justify;
 }
 

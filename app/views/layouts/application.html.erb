@@ -17,7 +17,7 @@
         <ul>
           <%= content_tag( :li, link_to('Sede Núñez', '/'), :class => "index #{'selected' if controller_name == 'pages' && current_page == 'pages/index'}")%>
           <%= content_tag( :li, link_to('Método DeRose', '/pages/metodo'), :class => "metodo #{'selected' if controller_name == 'pages' && current_page == 'pages/metodo'}")%>
-          <%= content_tag( :li, link_to('Horarios', '/pages/horarios'), :class => "horarios #{'selected' if controller_name == 'pages' && current_page == 'pages/horarios'}")%>
+          <% content_tag( :li, link_to('Horarios', '/pages/horarios'), :class => "horarios #{'selected' if controller_name == 'pages' && current_page == 'pages/horarios'}")%>
           <%= content_tag( :li, link_to('Empresas', '/pages/empresas'), :class => "empresas #{'selected' if controller_name == 'pages' && current_page == 'pages/empresas'}")%>
           <%= content_tag( :li, link_to('Formación Profesional', '/pages/formacion'), :class => "formacion #{'selected' if controller_name == 'pages' && current_page == 'pages/formacion'}")%>
           <%= content_tag( :li, link_to('Material Didáctico', '/pages/material'), :class => "material #{'selected' if controller_name == 'pages' && current_page == 'pages/material'}")%>
