@@ -208,6 +208,7 @@ div.no-menu {
 }
 
 #main.formacion p.sub {
+  float: left;
   color: #58595b;
   font-size: 0.7em;
   width: 330px;
@@ -224,6 +225,14 @@ div.no-menu {
   width: 15px;
   height: 17px;
   background: transparent url("../images/link.jpg") no-repeat;
+}
+#main.material a {
+  color: #58595b;
+  text-decoration: none;
+}
+#main.material a:hover {
+  color: #58595b;
+  text-decoration: underline;
 }
 
 .no-menu a img{
