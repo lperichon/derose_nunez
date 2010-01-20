@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/formacion.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/formacion.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/material.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/material.html.erb" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -57,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="28" selection-start="4503" selection-end="4503" vertical-scroll-proportion="-9.84">
+            <state line="270" column="46" selection-start="5374" selection-end="5374" vertical-scroll-proportion="0.60784316">
               <folding />
             </state>
           </provider>
@@ -93,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="material.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="material.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/material.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="107" selection-start="490" selection-end="490" vertical-scroll-proportion="0.5505618">
+            <state line="2" column="20" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.81632656">
               <folding />
             </state>
           </provider>
@@ -150,8 +149,8 @@
         <option value="$PROJECT_DIR$/app/views/pages/empresas.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/formacion.html.erb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/pages/material.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -865,7 +864,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="material" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -897,8 +896,8 @@
     <MESSAGE value="index" />
     <MESSAGE value="metodo" />
     <MESSAGE value="empresas" />
-    <MESSAGE value="material" />
     <MESSAGE value="menu" />
+    <MESSAGE value="material" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -986,16 +985,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/material.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="28" selection-start="4503" selection-end="4503" vertical-scroll-proportion="-9.84">
+        <state line="2" column="20" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.81632656">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/material.html.erb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="107" selection-start="490" selection-end="490" vertical-scroll-proportion="0.5505618">
+        <state line="270" column="46" selection-start="5374" selection-end="5374" vertical-scroll-proportion="0.60784316">
           <folding />
         </state>
       </provider>

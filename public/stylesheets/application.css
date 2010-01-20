@@ -234,6 +234,45 @@ div.no-menu {
   color: #58595b;
   text-decoration: underline;
 }
+#main.material h1.descargas {
+  background: transparent url("../images/descargas_title.png") no-repeat;
+  text-indent: -9999px;
+  margin-top: 0.5em;
+  height: 2.6em;
+}
+#main.material h1.compras {
+  background: transparent url("../images/compras_title.png") no-repeat;
+  text-indent: -9999px;
+  margin-top: 0.7em;
+  height: 1.5em;
+}
+#main.formacion h1 {
+  background: transparent url("../images/formacion_title.png") no-repeat;
+  text-indent: -9999px;
+  margin-top: 0.5em;
+  height: 1.3em;
+}
+
+#main.empresas h1 {
+  background: transparent url("../images/empresas_title.png") no-repeat;
+  text-indent: -9999px;
+  margin-top: 0.5em;
+  height: 2.5em;
+}
+
+#main.metodo h1 {
+  background: transparent url("../images/metodo_title.png") no-repeat;
+  text-indent: -9999px;
+  margin-top: 0.5em;
+  height: 2.5em;
+}
+
+#main.index h1 {
+  background: transparent url("../images/index_title.png") no-repeat;
+  text-indent: -9999px;
+  margin-top: 0.5em;
+  height: 2.5em;
+}
 
 .no-menu a img{
   margin-left: 2em;
