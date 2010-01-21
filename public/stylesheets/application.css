@@ -82,6 +82,7 @@ div#menu ul li.contact.selected a{
   height: 3.5em;
 }
 
+/* Index menu item */
 div#menu ul li.index a{
   background: transparent url(../images/index.png) no-repeat right;
   height: 2.2em;
@@ -90,6 +91,16 @@ div#menu ul li.index.selected a{
   background: transparent url(../images/index_selected.png) no-repeat right;
   height: 2.2em;
 }
+div#menu ul li.index.selected a:hover{
+  background: transparent url(../images/index_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.index a:hover{
+  background: transparent url(../images/index_hover.png) no-repeat right;
+  height: 2.2em;
+}
+
+/* Metodo menu item */
 div#menu ul li.metodo a{
   background: transparent url(../images/metodo.png) no-repeat right;
   height: 2.2em;
@@ -98,6 +109,16 @@ div#menu ul li.metodo.selected a{
   background: transparent url(../images/metodo_selected.png) no-repeat right;
   height: 2.2em;
 }
+div#menu ul li.metodo.selected a:hover{
+  background: transparent url(../images/metodo_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.metodo a:hover{
+  background: transparent url(../images/metodo_hover.png) no-repeat right;
+  height: 2.2em;
+}
+
+/* Horarios menu item */
 div#menu ul li.horarios a{
   background: transparent url(../images/horarios.png) no-repeat right;
   height: 2.2em;
@@ -106,6 +127,8 @@ div#menu ul li.horarios.selected a{
   background: transparent url(../images/horarios_selected.png) no-repeat right;
   height: 2.2em;
 }
+
+/* Formacion menu item */
 div#menu ul li.formacion a{
   background: transparent url(../images/formacion.png) no-repeat right;
   height: 2.2em;
@@ -114,6 +137,16 @@ div#menu ul li.formacion.selected a{
   background: transparent url(../images/formacion_selected.png) no-repeat right;
   height: 2.2em;
 }
+div#menu ul li.formacion.selected a:hover{
+  background: transparent url(../images/formacion_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.formacion a:hover{
+  background: transparent url(../images/formacion_hover.png) no-repeat right;
+  height: 2.2em;
+}
+
+/* Empresas menu item */
 div#menu ul li.empresas a{
   background: transparent url(../images/empresas.png) no-repeat right;
   height: 2.2em;
@@ -122,6 +155,16 @@ div#menu ul li.empresas.selected a{
   background: transparent url(../images/empresas_selected.png) no-repeat right;
   height: 2.2em;
 }
+div#menu ul li.empresas.selected a:hover{
+  background: transparent url(../images/empresas_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.empresas a:hover{
+  background: transparent url(../images/empresas_hover.png) no-repeat right;
+  height: 2.2em;
+}
+
+/* Material menu item */
 div#menu ul li.material a{
   background: transparent url(../images/material.png) no-repeat right;
   height: 2.2em;
@@ -130,6 +173,16 @@ div#menu ul li.material.selected a{
   background: transparent url(../images/material_selected.png) no-repeat right;
   height: 2.2em;
 }
+div#menu ul li.material.selected a:hover{
+  background: transparent url(../images/material_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.material a:hover{
+  background: transparent url(../images/material_hover.png) no-repeat right;
+  height: 2.2em;
+}
+
+/* Contacto menu item */
 div#menu ul li.contacto a{
   background: transparent url(../images/contacto.png) no-repeat right;
   height: 2.2em;
@@ -138,6 +191,15 @@ div#menu ul li.contacto.selected a{
   background: transparent url(../images/contacto_selected.png) no-repeat right;
   height: 2.2em;
 }
+div#menu ul li.contacto.selected a:hover{
+  background: transparent url(../images/contacto_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.contacto a:hover{
+  background: transparent url(../images/contacto_hover.png) no-repeat right;
+  height: 2.2em;
+}
+
 div#main {
   width: 28em;
   height: 31em;
@@ -183,7 +245,7 @@ div.no-menu {
   margin-left: 2em;
   color: #58595b;
   float:left;
-  width: 21em;
+  width: 22em;
   text-align: justify;
 }
 
@@ -193,6 +255,15 @@ div.no-menu {
   border-top: 1px dashed;
   border-bottom: 1px dashed;
   padding: 0.3em 0 0.5em 0;
+  margin-right: 2em;
+}
+
+#main p.contact a span.gmaps {
+  background: transparent url("../images/googlemaps.jpg") no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 7em;
+  height: 1.5em;
 }
 
 #main.index {
@@ -287,8 +358,8 @@ div#sidebar {
   display: inline;
 }
 
-span#badge.sede {
-  background: transparent url(../images/badge_nueva_sede.png) no-repeat;
+span#badge.novedades {
+  background: transparent url(../images/badge_novedades.png) no-repeat;
   width: 10em;
   height: 10em;
   position: absolute;
@@ -325,9 +396,9 @@ div#credits {
   color: red;
 }
 
-.required_field_note {
+#main p.required_field_note {
   font-size: 1em;
   float: left;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
