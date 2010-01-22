@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+  <title>Método DeRose | Sede Núñez</title>
+
+  <%= stylesheet_link_tag "formtastic" %>
+  <%= stylesheet_link_tag "formtastic_changes" %>
+  <%= stylesheet_link_tag 'application' %>
+<!--[if IE]>
+  <%= stylesheet_link_tag 'application-ie' %>
+<![endif]-->
+  <script type="text/javascript" src="/javascripts/tinymce/jscripts/tiny_mce/tiny_mce.js"></script>
+  <script type="text/javascript">
+    tinyMCE.init({
+      // General options
+      mode : "textareas",
+      theme : "advanced",
+      plugins : "safari,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
+
+      // Theme options
+      theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,iespell,media,image",
+      theme_advanced_buttons2 : "bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,cleanup,code,|,preview,|,forecolor,backcolor",
+      theme_advanced_buttons3 : "tablecontrols,|,removeformat,|,charmap,|,fullscreen",
+      theme_advanced_buttons4 : "spellchecker,|,sub,sup,|,formatselect,fontselect,fontsizeselect",
+      theme_advanced_toolbar_location : "top",
+      theme_advanced_toolbar_align : "left",
+      theme_advanced_statusbar_location : "bottom",
+      theme_advanced_resizing : true
+    });
+    </script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="container">
+      <div id="menu">
+        <ul>
+          <%= content_tag( :li, link_to('Sede Núñez', '/'), :class => "index #{'selected' if controller_name == 'pages' && current_page == 'pages/index'}")%>
+          <%= content_tag( :li, link_to('Método DeRose', '/pages/metodo'), :class => "metodo #{'selected' if controller_name == 'pages' && current_page == 'pages/metodo'}")%>
+          <% content_tag( :li, link_to('Horarios', '/pages/horarios'), :class => "horarios #{'selected' if controller_name == 'pages' && current_page == 'pages/horarios'}")%>
+          <%= content_tag( :li, link_to('Empresas', '/pages/empresas'), :class => "empresas #{'selected' if controller_name == 'pages' && current_page == 'pages/empresas'}")%>
+          <%= content_tag( :li, link_to('Formación Profesional', '/pages/formacion'), :class => "formacion #{'selected' if controller_name == 'pages' && current_page == 'pages/formacion'}")%>
+          <%= content_tag( :li, link_to('Material Didáctico', '/pages/material'), :class => "material #{'selected' if controller_name == 'pages' && current_page == 'pages/material'}")%>
+          <%= content_tag( :li, link_to('Contacto', '/contact_form/new'), :class => "contacto #{'selected' if controller_name == 'contact_forms'}")%>
+        </ul>
+        <span id="logo">Método DeRose</span>
+      </div>
+      <div id="main" class='<%= controller.controller_name == 'pages' ? current_page.gsub!('pages/', '') : 'contact'%>'>
+        <%= yield %>
+      </div>
+      <div id="sidebar">
+        <%= link_to 'Novedades', blog_path, :id => 'badge', :class => 'novedades' %>
+      </div>
+    </div>
+    <div id='credits'>
+      <p>Camila Carbone | Luis Perichon</p>
+    </div>
+  </div>
+  <div id='footer'>
+    <b>D.</b> <a href="http://maps.google.com.ar/maps?f=q&source=s_q&hl=es&geocode=&q=Av.+Cris%C3%B3logo+Larralde+1721&sll=-34.536258,-58.452072&sspn=0.034857,0.053816&gl=ar&ie=UTF8&hq=&hnear=Av+Cris%C3%B3logo+Larralde+1721,+N%C3%BA%C3%B1ez,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&z=16">Crisólogo Larralde 1721 (C1429BSH) Argentina</a> · <b>T.</b> (54 11) 4703 3215 · <b>M.</b> <%= mail_to 'nunez@metododerose.com.ar', 'nunez@metododerose.com.ar', :encode => "javascript" %> ·
+  </div>
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-12578767-1");
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+</body>
+</html>

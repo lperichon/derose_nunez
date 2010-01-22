@@ -222,6 +222,7 @@ div#main {
 
 #main h1 {
   margin: 0;
+  padding-top:0;
 }
 
 div.no-menu {
@@ -358,7 +359,7 @@ div#sidebar {
   display: inline;
 }
 
-span#badge.novedades {
+#badge.novedades {
   background: transparent url(../images/badge_novedades.png) no-repeat;
   width: 10em;
   height: 10em;
@@ -401,4 +402,41 @@ div#credits {
   float: left;
   margin-top: 5px;
 }
+ul.navigation {
+  list-style: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
 
+ul.navigation li{
+  display:inline;
+}
+
+ul.navigation li.previous {
+  float: left;
+}
+
+ul.navigation li.next {
+  float: right;
+}
+
+ul.actions {
+  position: absolute;
+  width: 17em;
+  top: 2em;
+  text-align: center;
+  list-style: none;
+  overflow: auto;
+  margin: 0 0 0 5em;
+  padding: 0;
+}
+
+ul.actions li {
+  display: inline;
+  padding-left: 0.3em;
+}
+ul.actions li.first {
+  border-left: 0;
+  padding-left: 0;
+}

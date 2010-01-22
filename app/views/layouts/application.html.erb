@@ -30,7 +30,7 @@
         <%= yield %>
       </div>
       <div id="sidebar">
-        <span id="badge" class="novedades">Novedades</span>
+        <%= link_to 'Novedades', blog_path, :id => 'badge', :class => 'novedades' %>
       </div>
     </div>
     <div id='credits'>

@@ -1,3 +1,13 @@
 class PostsController < SimpleBlog::PostsController
-  before_filter :redirect_to_root, :unless => :signed_in?, :except => [:index, :show]
+  layout 'blog'
+  before_filter :redirect_to_root, :unless => :signed_in?, :except => [:index, :show, :edit]
+  before_filter :deny_access, :unless => :signed_in?, :only => :edit
+  before_filter :navigation
+
+  def navigation
+    @posts ||= Post.all
+    @post ||= params[:id] ? Post.find(params[:id]) : @posts.last
+    @previous_post = Post.previous(@post).first
+    @next_post = Post.next(@post).first
+  end
 end

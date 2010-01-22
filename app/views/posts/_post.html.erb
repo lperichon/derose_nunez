@@ -1,7 +1,17 @@
-<h2><%= h post.subject %> <span class="actions">(<%= link_to 'show', post_path(post) %> | <%= link_to 'edit', edit_post_path(post)%> | <%= link_to 'delete', post_path(post), :method => :delete, :confirm => 'Are you sure?' %>)</span></h2>
-<%= h post.body %>
-<h3>Comments</h3>
-<% post.comments.each do |comment| %>
-  <%= h comment.body %><br/>
-  <br/>
+<ul class='navigation'>
+  <li class='previous'><%= link_to_unless @previous_post.blank?, 'Anterior', (post_path(@previous_post) unless @previous_post.blank?) %></li>
+  <li class='next'><%= link_to_unless @next_post.blank?, 'Siguiente', (post_path(@next_post) unless @next_post.blank?) %></li>
+</ul>
+<ul class="actions">
+<% if signed_in? %>
+  <li class='first'><%= link_to 'nuevo', new_post_path %></li>
+  <li><%= link_to 'ver', post_path(post) %></li>
+  <li><%= link_to 'editar', edit_post_path(post)%></li>
+  <li><%= link_to 'eliminar', post_path(post), :method => :delete, :confirm => 'Esta seguro?' %></li>
+  <li><%= link_to 'salir', sign_out_path, :confirm => 'Esta seguro?' %></li>
+<% else %>
+  <li><%= link_to 'editar', edit_post_path(post)%></li>
 <% end %>
+</ul>
+<h1><%= h post.subject %></h1>
+<%= post.body %>
