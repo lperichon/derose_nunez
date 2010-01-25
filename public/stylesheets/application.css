@@ -57,7 +57,8 @@ div#menu {
 
 div#menu ul {
   padding: 0;
-  margin: 1em 0 0 0 ;
+  margin: 1em 0 0 0;
+  overflow: auto;
 }
 
 div#menu ul li {
@@ -101,6 +102,9 @@ div#menu ul li.index a:hover{
 }
 
 /* Metodo menu item */
+div#menu ul li.metodo {
+  margin-top: -4px;
+}
 div#menu ul li.metodo a{
   background: transparent url(../images/metodo.png) no-repeat right;
   height: 2.2em;
@@ -165,6 +169,9 @@ div#menu ul li.empresas a:hover{
 }
 
 /* Material menu item */
+div#menu ul li.material {
+  margin-top: -7px;
+}
 div#menu ul li.material a{
   background: transparent url(../images/material.png) no-repeat right;
   height: 2.2em;
@@ -183,6 +190,9 @@ div#menu ul li.material a:hover{
 }
 
 /* Contacto menu item */
+div#menu ul li.contacto {
+  margin-top: -7px;
+}
 div#menu ul li.contacto a{
   background: transparent url(../images/contacto.png) no-repeat right;
   height: 2.2em;
@@ -198,6 +208,30 @@ div#menu ul li.contacto.selected a:hover{
 div#menu ul li.contacto a:hover{
   background: transparent url(../images/contacto_hover.png) no-repeat right;
   height: 2.2em;
+}
+
+div#menu ul#connect {
+  overflow: hidden;
+  width: auto;
+  padding-left: 1em;
+}
+
+div#menu ul#connect li {
+  display: inline;
+  margin-left: 5px;
+  width: 2em;
+}
+div#menu ul#connect li.facebook a {
+  background: transparent url("../images/facebook.png") no-repeat;
+  height: 1.55em;
+}
+div#menu ul#connect li.linkedin a {
+  background: transparent url("../images/linkedin.png") no-repeat;
+  height: 1.55em;
+}
+div#menu ul#connect li.twitter a {
+  background: transparent url("../images/twitter.png") no-repeat;
+  height: 1.55em;
 }
 
 div#main {
@@ -236,7 +270,7 @@ div.no-menu {
 }
 
 #main p.side {
-  color: orange;
+  color: #f78f1e;
   width: 10em;
   float:left;
   text-align: right;
@@ -321,8 +355,8 @@ div.no-menu {
 #main.formacion h1 {
   background: transparent url("../images/formacion_title.png") no-repeat;
   text-indent: -9999px;
-  margin-top: 0.5em;
-  height: 1.3em;
+  margin-top: 0.3em;
+  height: 1.7em;
 }
 
 #main.empresas h1 {
@@ -336,7 +370,7 @@ div.no-menu {
   background: transparent url("../images/metodo_title.png") no-repeat;
   text-indent: -9999px;
   margin-top: 0.5em;
-  height: 2.5em;
+  height: 1.7em;
 }
 
 #main.index h1 {
@@ -361,6 +395,16 @@ div#sidebar {
 
 #badge.novedades {
   background: transparent url(../images/badge_novedades.png) no-repeat;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  top: 0.5em;
+  right: -1.5em;
+  text-indent: -9999px;
+}
+
+#badge.website {
+  background: transparent url(../images/badge_website.png) no-repeat;
   width: 10em;
   height: 10em;
   position: absolute;
@@ -397,6 +441,13 @@ div#credits {
   color: red;
 }
 
+.blog #main h1 {
+  font-family: helvetica;
+  font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 #main p.required_field_note {
   font-size: 1em;
   float: left;
@@ -404,7 +455,7 @@ div#credits {
 }
 ul.navigation {
   list-style: none;
-  overflow: auto;
+  overflow: hidden;
   margin: 0;
   padding: 0;
 }
@@ -414,16 +465,31 @@ ul.navigation li{
 }
 
 ul.navigation li.previous {
-  float: left;
+  width: 1.5em;
+  text-indent: -9999px;
+}
+
+ul.navigation li.previous a {
+  background: transparent url("../images/previous.png") no-repeat;
+  display: inline-block;
+  width: 1.5em;
 }
 
 ul.navigation li.next {
-  float: right;
+  width: 1.5em;
+  margin-left: 31.8em;
+  text-indent: -9999px;
+}
+
+ul.navigation li.next a {
+  background: transparent url("../images/next.png") no-repeat;
+  display: inline-block;
+  width: 1.5em;
 }
 
 ul.actions {
   position: absolute;
-  width: 17em;
+  width: 27em;
   top: 2em;
   text-align: center;
   list-style: none;
@@ -439,4 +505,40 @@ ul.actions li {
 ul.actions li.first {
   border-left: 0;
   padding-left: 0;
+}
+
+/* Novedades menu item */
+div#menu ul li.novedades {
+}
+div#menu ul li.novedades a{
+  background: transparent url(../images/novedades.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.novedades.selected a{
+  background: transparent url(../images/novedades_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.novedades.selected a:hover{
+  background: transparent url(../images/novedades_selected.png) no-repeat right;
+  height: 2.2em;
+}
+div#menu ul li.novedades a:hover{
+  background: transparent url(../images/novedades_hover.png) no-repeat right;
+  height: 2.2em;
+}
+
+.blog #menu {
+  width: 15em;
+}
+
+.blog #menu li {
+  width: 12.5em;
+}
+
+.blog #menu ul li a {
+  width: 12.5em;
+}
+
+.blog #main {
+  width: 35em;
 }

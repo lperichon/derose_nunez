@@ -32,16 +32,15 @@
 </head>
 <body>
   <div id="wrapper">
-    <div id="container">
+    <div id="container" class='blog'>
       <div id="menu">
         <ul>
-          <%= content_tag( :li, link_to('Sede Núñez', '/'), :class => "index #{'selected' if controller_name == 'pages' && current_page == 'pages/index'}")%>
-          <%= content_tag( :li, link_to('Método DeRose', '/pages/metodo'), :class => "metodo #{'selected' if controller_name == 'pages' && current_page == 'pages/metodo'}")%>
-          <% content_tag( :li, link_to('Horarios', '/pages/horarios'), :class => "horarios #{'selected' if controller_name == 'pages' && current_page == 'pages/horarios'}")%>
-          <%= content_tag( :li, link_to('Empresas', '/pages/empresas'), :class => "empresas #{'selected' if controller_name == 'pages' && current_page == 'pages/empresas'}")%>
-          <%= content_tag( :li, link_to('Formación Profesional', '/pages/formacion'), :class => "formacion #{'selected' if controller_name == 'pages' && current_page == 'pages/formacion'}")%>
-          <%= content_tag( :li, link_to('Material Didáctico', '/pages/material'), :class => "material #{'selected' if controller_name == 'pages' && current_page == 'pages/material'}")%>
-          <%= content_tag( :li, link_to('Contacto', '/contact_form/new'), :class => "contacto #{'selected' if controller_name == 'contact_forms'}")%>
+          <%= content_tag( :li, link_to('Novedades', blog_path), :class => "novedades #{'selected' if controller_name == 'posts'}")%>
+        </ul>
+        <ul id='connect'>
+          <li class='facebook'><%= link_to 'Facebook', 'http://www.facebook.com/profile.php?ref=profile&id=100000659349991' %></li>
+          <li class='twitter'><%= link_to 'Twitter', 'http://www.twitter.com/derosenunez' %></li>
+          <li class='linkedin'><%= link_to 'linkedIn', 'http://ar.linkedin.com/pub/método-derose-nuñez/19/536/743' %></li>
         </ul>
         <span id="logo">Método DeRose</span>
       </div>
@@ -49,7 +48,7 @@
         <%= yield %>
       </div>
       <div id="sidebar">
-        <%= link_to 'Novedades', blog_path, :id => 'badge', :class => 'novedades' %>
+        <%= link_to 'Sitio Web', root_path, :id => 'badge', :class => 'website' %>
       </div>
     </div>
     <div id='credits'>
