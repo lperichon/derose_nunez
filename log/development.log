@@ -33510,3 +33510,51 @@ ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 12:27:44) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 107ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 12:27:47) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+Rendered posts/_post (3.9ms)
+Completed in 38ms (View: 27, DB: 1) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 12:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 12:30:32) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 12:30:34) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+Rendered posts/_post (0.3ms)
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 12:30:35) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
