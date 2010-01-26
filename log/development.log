@@ -31257,3 +31257,1349 @@ ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 10:55:21) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.0ms)
+Completed in 92ms (View: 85, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:55:22) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 10:58:24) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.3ms)
+Completed in 34ms (View: 26, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:58:26) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:58:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:58:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 10:59:38) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.0ms)
+Completed in 27ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:59:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:59:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:59:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 10:59:51) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (39.5ms)
+Completed in 64ms (View: 43, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:59:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:59:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:59:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:00:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:03:01) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.1ms)
+Completed in 27ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:03:03) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:03:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:03:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:03:52) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.7ms)
+Completed in 27ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:03:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:03:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:03:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:04:22) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.1ms)
+Completed in 37ms (View: 27, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:04:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:04:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:04:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:05:08) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (13.3ms)
+Completed in 25ms (View: 17, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:05:09) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:05:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:05:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:05:44) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.4ms)
+Completed in 36ms (View: 25, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:05:45) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:05:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:05:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:06:31) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.1ms)
+Completed in 26ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:06:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:06:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:06:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:06:46) [GET]
+  [4;36;1mPost Load (1.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (69.2ms)
+Completed in 82ms (View: 74, DB: 3) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:06:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:06:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:06:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:07:04) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.4ms)
+Completed in 27ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:07:06) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:07:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:07:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:08:30) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.5ms)
+Completed in 27ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:08:32) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:08:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:08:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:08:40) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.6ms)
+Completed in 29ms (View: 20, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:08:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:08:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:08:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:09:33) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.1ms)
+Completed in 28ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:09:34) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:09:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:09:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:11:11) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.9ms)
+Completed in 30ms (View: 23, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:12) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:11:21) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.4ms)
+Completed in 28ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:22) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:11:30) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (13.9ms)
+Completed in 27ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:11:43) [GET]
+  [4;36;1mPost Load (3.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.0ms)
+Completed in 30ms (View: 20, DB: 5) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:11:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:12:24) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.8ms)
+Completed in 30ms (View: 20, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:12:24) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:12:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:12:55) [GET]
+  [4;36;1mPost Load (5.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.9ms)
+Completed in 33ms (View: 20, DB: 7) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:12:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:12:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:13:38) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.2ms)
+Completed in 37ms (View: 28, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:13:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:13:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:13:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:14:15) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (13.5ms)
+Completed in 25ms (View: 17, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:14:39) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.0ms)
+Completed in 27ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:14:48) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (16.3ms)
+Completed in 28ms (View: 20, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:49) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:14:56) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (96.4ms)
+Completed in 108ms (View: 101, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:14:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:15:50) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (16.0ms)
+Completed in 29ms (View: 22, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:15:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:15:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:15:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:17:24) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.5ms)
+Completed in 30ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:17:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:17:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:17:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:17:57) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.0ms)
+Completed in 27ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:17:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:17:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:17:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:18:37) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (23.0ms)
+Completed in 34ms (View: 27, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:18:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:18:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:18:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:19:05) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.2ms)
+Completed in 26ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:19:36) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (16.3ms)
+Completed in 28ms (View: 20, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:19:55) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (13.5ms)
+Completed in 32ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:19:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:20:03) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.4ms)
+Completed in 26ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:20:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:20:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:20:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:21:41) [GET]
+  [4;36;1mPost Load (2.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.2ms)
+Completed in 30ms (View: 18, DB: 3) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:21:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:21:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:21:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:21:55) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (13.8ms)
+Completed in 31ms (View: 21, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:21:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:21:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:21:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:22:02) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.8ms)
+Completed in 30ms (View: 20, DB: 2) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:22:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:22:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:22:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:22:47) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.6ms)
+Completed in 28ms (View: 19, DB: 2) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:22:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:23:15) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (71.3ms)
+Completed in 85ms (View: 76, DB: 2) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:23:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:23:47) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.6ms)
+Completed in 28ms (View: 20, DB: 2) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:23:49) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
