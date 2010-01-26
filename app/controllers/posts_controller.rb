@@ -7,7 +7,11 @@ class PostsController < SimpleBlog::PostsController
   def navigation
     @posts ||= Post.all
     @post ||= params[:id] ? Post.find(params[:id]) : @posts.last
-    @previous_post = Post.previous(@post).first
-    @next_post = Post.next(@post).first
+    unless @post.blank?
+      @previous_post = Post.previous(@post).first
+      @next_post = Post.next(@post).first
+    end
+
+    @post ||= Post.new
   end
 end

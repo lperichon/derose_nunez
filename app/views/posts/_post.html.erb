@@ -9,9 +9,11 @@
 <ul class="actions">
 <% if signed_in? %>
   <li class='first'><%= link_to 'nuevo', new_post_path %></li>
+  <% unless post.new_record? %>
   <li><%= link_to 'ver', post_path(post) %></li>
   <li><%= link_to 'editar', edit_post_path(post)%></li>
   <li><%= link_to 'eliminar', post_path(post), :method => :delete, :confirm => 'Esta seguro?' %></li>
+  <% end %>
   <li><%= link_to 'salir', sign_out_path, :confirm => 'Esta seguro?' %></li>
 <% end %>
 </ul>
