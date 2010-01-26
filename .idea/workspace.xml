@@ -3,8 +3,7 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d645e6fa-082f-4e84-b66d-ccd0b50befd7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="derose_nunez.iws" />
@@ -28,10 +27,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="blog.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="44" selection-start="2936" selection-end="2936" vertical-scroll-proportion="-7.0833335">
+            <state line="44" column="25" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.8780488">
               <folding />
             </state>
           </provider>
@@ -82,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.32697546">
+            <state line="6" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,13 +143,13 @@
         <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/formtastic_changes.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/jquery.twitter.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/imagenes.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
       </list>
     </option>
   </component>
@@ -986,30 +985,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="44" selection-start="2936" selection-end="2936" vertical-scroll-proportion="-7.0833335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/imagenes.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="62" selection-start="1544" selection-end="1544" vertical-scroll-proportion="-8.333333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="0" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1044,7 +1022,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.32697546">
+        <state line="6" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="0" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.8780488">
           <folding />
         </state>
       </provider>
