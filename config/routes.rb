@@ -3,8 +3,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :users
   map.resource :contact_form
-  map.resources :posts, :has_many => :comments
-  map.blog '/blog', :controller => :posts, :action => :index
+  map.resources :posts
+  map.blog '/blog', :controller => 'posts', :action => :index
 
   map.root :controller => 'high_voltage/pages', :action => 'show', :id => 'index'
 end
