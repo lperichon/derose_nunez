@@ -33558,3 +33558,10 @@ ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 13:59:07) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 264ms (View: 129, DB: 0) | 200 OK [http://localhost/]

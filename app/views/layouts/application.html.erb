@@ -30,9 +30,9 @@
           <%= content_tag( :li, link_to('Contacto', '/contact_form/new'), :class => "contacto #{'selected' if controller_name == 'contact_forms'}")%>
         </ul>
         <ul id='connect'>
-          <li class='facebook'><%= link_to 'Facebook', 'http://www.facebook.com/profile.php?ref=profile&id=100000659349991' %></li>
-          <li class='twitter'><%= link_to 'Twitter', 'http://www.twitter.com/derosenunez' %></li>
-          <li class='linkedin'><%= link_to 'linkedIn', 'http://ar.linkedin.com/pub/método-derose-nuñez/19/536/743' %></li>
+          <li class='facebook'><%= link_to 'Facebook', 'http://www.facebook.com/profile.php?ref=profile&id=100000659349991', :popup => true %></li>
+          <li class='twitter'><%= link_to 'Twitter', 'http://www.twitter.com/derosenunez', :popup => true %></li>
+          <li class='linkedin'><%= link_to 'linkedIn', 'http://ar.linkedin.com/pub/método-derose-nuñez/19/536/743', :popup => true %></li>
         </ul>
         <span id="logo">Método DeRose</span>
       </div>
