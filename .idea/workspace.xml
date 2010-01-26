@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d645e6fa-082f-4e84-b66d-ccd0b50befd7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery.twitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/jquery.twitter.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/jquery.twitter.css" afterPath="$PROJECT_DIR$/public/stylesheets/jquery.twitter.css" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="derose_nunez.iws" />
@@ -58,19 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="blog.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="38" selection-start="2498" selection-end="2498" vertical-scroll-proportion="-11.25">
+            <state line="59" column="44" selection-start="2936" selection-end="2936" vertical-scroll-proportion="0.5483871">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.twitter.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jquery.twitter.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/jquery.twitter.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="80" selection-start="517" selection-end="517" vertical-scroll-proportion="0.33333334">
+            <state line="14" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="-11.2">
               <folding />
             </state>
           </provider>
@@ -152,8 +150,8 @@
         <option value="$PROJECT_DIR$/app/views/pages/imagenes.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/formtastic_changes.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/jquery.twitter.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
       </list>
     </option>
   </component>
@@ -883,7 +881,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="images" />
+    <option name="LAST_COMMIT_MESSAGE" value="twitter" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -896,7 +894,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="simple blog plugin" />
     <MESSAGE value="remove old code" />
     <MESSAGE value="IE style fixes" />
     <MESSAGE value="configure mailer" />
@@ -921,6 +918,7 @@
     <MESSAGE value="google maps image" />
     <MESSAGE value="blog" />
     <MESSAGE value="images" />
+    <MESSAGE value="twitter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1013,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="38" selection-start="2498" selection-end="2498" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="296" column="16" selection-start="6561" selection-end="6567" vertical-scroll-proportion="-8.16">
@@ -1029,7 +1020,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/jquery.twitter.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="80" selection-start="517" selection-end="517" vertical-scroll-proportion="0.33333334">
+        <state line="14" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="-11.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="44" selection-start="2936" selection-end="2936" vertical-scroll-proportion="0.5483871">
           <folding />
         </state>
       </provider>

@@ -32603,3 +32603,301 @@ ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:24:53) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (16.4ms)
+Completed in 37ms (View: 28, DB: 3) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:24:54) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:25:24) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (20.8ms)
+Completed in 34ms (View: 26, DB: 2) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:25:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:25:39) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.3ms)
+Completed in 35ms (View: 27, DB: 2) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:25:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:26:19) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (2.9ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.7ms)
+Completed in 31ms (View: 19, DB: 5) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:26:20) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:26:28) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (73.5ms)
+Completed in 93ms (View: 85, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:26:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:29:42) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (21.1ms)
+Completed in 45ms (View: 35, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:29:50) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (19.7ms)
+Completed in 35ms (View: 25, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:29:51) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 11:30:03) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:30:10) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.1ms)
+Completed in 27ms (View: 19, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:30:11) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing Clearance::SessionsController#destroy (for 127.0.0.1 at 2010-01-26 11:30:22) [GET]
+  Parameters: {"method"=>:delete, "action"=>"destroy", "controller"=>"clearance/sessions"}
+Redirected to http://localhost:3000/session/new
+Completed in 66ms (DB: 0) | 302 Found [http://localhost/sign_out]
+
+
+Processing Clearance::SessionsController#new (for 127.0.0.1 at 2010-01-26 11:30:22) [GET]
+  Parameters: {"action"=>"new", "controller"=>"clearance/sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+Completed in 54ms (View: 50, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 11:30:25) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+Rendered posts/_post (0.7ms)
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:30:26) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:30:30) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+Rendered posts/_post (1.2ms)
+Completed in 14ms (View: 6, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:30:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:30:34) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+Rendered posts/_post (0.7ms)
+Completed in 14ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:30:34) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:30:37) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+Rendered posts/_post (1.1ms)
+Completed in 14ms (View: 5, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:30:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 11:30:41) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+Rendered posts/_post (0.9ms)
+Completed in 77ms (View: 6, DB: 2) | 200 OK [http://localhost/posts/5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 11:30:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
