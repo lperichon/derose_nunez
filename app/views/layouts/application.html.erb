@@ -4,6 +4,11 @@
   <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
   <title>Método DeRose | Sede Núñez</title>
 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+  <script type="text/javascript" src="/javascripts/jquery.lightbox-0.5.js"></script>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/jquery.lightbox-0.5.css" media="screen" />
+
   <%= stylesheet_link_tag "formtastic" %>
   <%= stylesheet_link_tag "formtastic_changes" %>
   <%= stylesheet_link_tag 'application' %>
@@ -18,9 +23,9 @@
         <ul>
           <%= content_tag( :li, link_to('Sede Núñez', '/'), :class => "index #{'selected' if controller_name == 'pages' && current_page == 'pages/index'}")%>
           <%= content_tag( :li, link_to('Método DeRose', '/pages/metodo'), :class => "metodo #{'selected' if controller_name == 'pages' && current_page == 'pages/metodo'}")%>
-          <% content_tag( :li, link_to('Horarios', '/pages/horarios'), :class => "horarios #{'selected' if controller_name == 'pages' && current_page == 'pages/horarios'}")%>
           <%= content_tag( :li, link_to('Formación Profesional', '/pages/formacion'), :class => "formacion #{'selected' if controller_name == 'pages' && current_page == 'pages/formacion'}")%>
           <%= content_tag( :li, link_to('Material Didáctico', '/pages/material'), :class => "material #{'selected' if controller_name == 'pages' && current_page == 'pages/material'}")%>
+          <%= content_tag( :li, link_to('Imagenes', '/pages/imagenes'), :class => "imagenes #{'selected' if controller_name == 'pages' && current_page == 'pages/imagenes'}")%>
           <%= content_tag( :li, link_to('Empresas', '/pages/empresas'), :class => "empresas #{'selected' if controller_name == 'pages' && current_page == 'pages/empresas'}")%>
           <%= content_tag( :li, link_to('Contacto', '/contact_form/new'), :class => "contacto #{'selected' if controller_name == 'contact_forms'}")%>
         </ul>

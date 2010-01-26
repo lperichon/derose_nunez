@@ -1,0 +1,21 @@
+<h2>Imágenes</h2>
+<h1>Galería de imágenes</h1>
+<div id='gallery'>
+  <a href="/images/image1.jpg"><img src="/images/thumb_image1.png" width="100" height="72" alt="" /></a>
+  <a href="/images/image2.jpg"><img src="/images/thumb_image2.png" width="100" height="72" alt="" /></a>
+  <a href="/images/image3.jpg"><img src="/images/thumb_image3.png" width="100" height="72" alt="" /></a>
+  <a href="/images/image4.jpg"><img src="/images/thumb_image4.png" width="100" height="72" alt="" /></a>
+  <a href="/images/image5.jpg"><img src="/images/thumb_image5.png" width="100" height="72" alt="" /></a>
+  <a href="/images/image6.jpg"><img src="/images/thumb_image6.png" width="100" height="72" alt="" /></a>
+  <a href="/images/image7.jpg"><img src="/images/thumb_image7.png" width="100" height="72" alt="" /></a>
+  <a href="/images/image8.jpg"><img src="/images/thumb_image8.png" width="100" height="72" alt="" /></a>
+</div>
+<% javascript_tag do %>
+  $('#gallery a').lightBox({fixedNavigation:true,
+    imageLoading: '/images/lightbox-ico-loading.gif',
+    imageBtnClose: '/images/lightbox-btn-close.gif',
+    imageBtnPrev: '/images/lightbox-btn-prev.gif',
+    imageBtnNext: '/images/lightbox-btn-next.gif',
+    imageBlank: '/images/lightbox-blank.gif'
+   });
+<% end %>

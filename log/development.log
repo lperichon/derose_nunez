@@ -27567,3 +27567,3693 @@ Rendering posts/index
   [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
 Rendered posts/_post (21.5ms)
 Completed in 33ms (View: 26, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:35:16) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:35:20) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-25 19:35:23) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (19.4ms)
+Completed in 32ms (View: 24, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-25 19:35:42) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (23.5ms)
+Completed in 36ms (View: 28, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-25 19:35:52) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.9ms)
+Completed in 30ms (View: 14, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:36:22) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 19:36:25) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:36:28) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:36:30) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:36:32) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:36:35) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:36:44) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:36:46) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:05) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:10) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:13) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:18) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:29) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:34) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:47) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:37:56) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:38:09) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 19:38:17) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 67ms (View: 62, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:38:29) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-25 19:38:32) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (22.1ms)
+Completed in 33ms (View: 26, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-25 19:38:37) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (3.8ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.4ms)
+Completed in 32ms (View: 19, DB: 6) | 200 OK [http://localhost/posts/4]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 19:59:32) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 24ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:00:16) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:02:17) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:09:38) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 23ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:09:47) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:09:55) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:14:00) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 19ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:22:55) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:25:46) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:27:21) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:27:33) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:27:43) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:27:46) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:28:00) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:28:06) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 47ms (View: 41, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:29:12) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:30:18) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:30:27) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:30:45) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:31:26) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:37:02) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 23ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:46:25) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:27) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.fancybox/jquery.fancybox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:46:29) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:31) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.fancybox/jquery.fancybox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:46:33) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:35) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.fancybox/jquery.fancybox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:46:35) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:36) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.fancybox/jquery.fancybox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:46:39) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:40) [GET]
+
+ActionController::RoutingError (No route matches "/pages/javascripts/jquery.pwi.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:40) [GET]
+
+ActionController::RoutingError (No route matches "/pages/javascripts/jquery.fancybox/jquery.fancybox-1.2.1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:40) [GET]
+
+ActionController::RoutingError (No route matches "/pages/js/jquery.fancybox/jquery.fancybox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:46:40) [GET]
+
+ActionController::RoutingError (No route matches "/pages/stylesheets/pwi.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:47:30) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:32) [GET]
+
+ActionController::RoutingError (No route matches "/pages/javascripts/jquery.pwi.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:32) [GET]
+
+ActionController::RoutingError (No route matches "/pages/javascripts/jquery.fancybox/jquery.fancybox-1.2.1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:32) [GET]
+
+ActionController::RoutingError (No route matches "/pages/js/jquery.fancybox/jquery.fancybox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:32) [GET]
+
+ActionController::RoutingError (No route matches "/pages/stylesheets/pwi.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:47:56) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:57) [GET]
+
+ActionController::RoutingError (No route matches "/pages/javascripts/jquery.pwi.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:57) [GET]
+
+ActionController::RoutingError (No route matches "/pages/javascripts/jquery.fancybox/jquery.fancybox-1.2.1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:57) [GET]
+
+ActionController::RoutingError (No route matches "/pages/js/jquery.fancybox/jquery.fancybox.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:47:58) [GET]
+
+ActionController::RoutingError (No route matches "/pages/stylesheets/pwi.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:48:40) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 102ms (View: 97, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:48:42) [GET]
+
+ActionController::RoutingError (No route matches "/pages/stylesheets/pwi.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:52:03) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:52:05) [GET]
+
+ActionController::RoutingError (No route matches "/pages/stylesheets/pwi.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:53:11) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 20:53:12) [GET]
+
+ActionController::RoutingError (No route matches "/pages/stylesheets/pwi.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:53:51) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:54:27) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:58:20) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:58:53) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 80ms (View: 75, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:59:40) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 19ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 20:59:58) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:04:35) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:08:38) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:11:33) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:12:11) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:12:19) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 41ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:12:27) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:13:18) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 21ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:13:31) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:13:40) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:41:34) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:41:35) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.lightbox-0.4.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:41:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:41:35) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/thumb_image1.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:41:41) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/image1.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:42:19) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:42:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:42:19) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.lightbox-0.4.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:42:59) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:43:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.lightbox-0.4.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:43:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:45:51) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 23ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:45:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.lightbox-0.4.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:45:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:46:26) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:46:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.lightbox-0.4.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:46:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:47:09) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:16) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:16) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:16) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:16) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:17) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:17) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:23) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:23) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:24) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:47:36) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:38) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:39) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:47:39) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:48:21) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 27ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:48:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:48:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:48:24) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:48:24) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:48:26) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:49:36) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:49:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:49:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:49:39) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:49:39) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:49:40) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:49:40) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:51:28) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:51:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:51:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:51:48) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:51:48) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:52:13) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:52:19) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gi/f" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:52:20) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:52:21) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gi" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:52:22) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gi/f" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:52:23) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:53:53) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:53:53) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:53:54) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:53:54) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:55:53) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:55:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:55:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.lightbox-0.4.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:56:47) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 23ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:56:53) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:56:55) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:56:55) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:56:56) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:56:56) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:04) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:04) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:05) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:05) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:27) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:57) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:57) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:58) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:57:58) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 21:59:31) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 99ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:59:33) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:59:34) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:59:34) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 21:59:34) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:00:23) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 26ms (View: 22, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:00:25) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:00:25) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:00:26) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:00:26) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:01:16) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:01:16) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:01:17) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:01:17) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:05:50) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:05:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:05:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:05:53) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:06:05) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:08) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:06:11) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:06:13) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:06:14) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:06:15) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:19) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:06:23) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 19ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:06:28) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:32) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:06:32) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:08:03) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:08:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/lightbox-btn-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:08:08) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:08:08) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:08:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/lightbox-btn-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:08:26) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:08:26) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:09:10) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:09:13) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:09:13) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:09:44) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 21ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:09:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/thumb_image2.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:10:44) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:11:33) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:11:38) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:12:32) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:12:36) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:12:41) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:12:44) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:16:30) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+ERROR: compiling _run_erb_app47views47pages47imagenes46html46erb RAISED compile error
+/home/luigi/Workspaces/derose_nunez/app/views/pages/imagenes.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting kEND
+;  (1..8) each do |idx| ; @output_buffer.con...
+              ^
+Function body:           def _run_erb_app47views47pages47imagenes46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h2>Im\303\241genes</h2>\n<div id='gallery'>\n  "
+
+;  (1..8) each do |idx| ; @output_buffer.concat "\n  <a href=\"/images/image"
+; @output_buffer.concat(( idx ).to_s); @output_buffer.concat ".jpg\"><img src=\"/images/thumb_image"; @output_buffer.concat(( idx ).to_s); @output_buffer.concat ".png\" width=\"100\" height=\"72\" alt=\"\" /></a>\n  "
+;  end ; @output_buffer.concat "\n</div>\n"
+
+;  javascript_tag do ; @output_buffer.concat "\n  $('#gallery a').lightBox({fixedNavigation:true,\n    imageLoading: '/images/lightbox-ico-loading.gif',\n    imageBtnClose: '/images/lightbox-btn-close.gif',\n    imageBtnPrev: '/images/lightbox-btn-prev.gif',\n    imageBtnNext: '/images/lightbox-btn-next.gif'\n   });\n"
+
+
+
+
+
+
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/luigi/Workspaces/derose_nunez/app/views/pages/imagenes.html.erb:17:in `compile!'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/home/luigi/Workspaces/derose_nunez/vendor/plugins/high_voltage/app/controllers/high_voltage/pages_controller.rb:6:in `show'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1331:in `send'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/var/lib/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/var/lib/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/var/lib/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/var/lib/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/var/lib/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/luigi/Workspaces/derose_nunez/app/views/pages/imagenes.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting kEND
+;  (1..8) each do |idx| ; @output_buffer.con...
+              ^) on line #3 of app/views/pages/imagenes.html.erb:
+1: <h2>Imágenes</h2>
+2: <div id='gallery'>
+3:   <% (1..8) each do |idx| %>
+4:   <a href="/images/image<%= idx %>.jpg"><img src="/images/thumb_image<%= idx %>.png" width="100" height="72" alt="" /></a>
+5:   <% end %>
+6: </div>
+
+    app/views/pages/imagenes.html.erb:17:in `compile!'
+    vendor/plugins/high_voltage/app/controllers/high_voltage/pages_controller.rb:6:in `show'
+
+Rendered rescues/_trace (48.9ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:17:55) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:18:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/image4.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:20:10) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:20:15) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:22:32) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:23:24) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:23:57) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:24:43) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:25:56) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:26:35) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:27:04) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:29:47) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 19ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:29:51) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:30:31) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:32:39) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-25 22:33:52) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '4a5ccd84a06faa4d32bbe34e6f1405bb056346b0') LIMIT 1[0m
+Rendered posts/_post (7.6ms)
+Completed in 84ms (View: 68, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-25 22:33:56) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '4a5ccd84a06faa4d32bbe34e6f1405bb056346b0') LIMIT 1[0m
+Rendered posts/_post (9.6ms)
+Completed in 31ms (View: 14, DB: 3) | 200 OK [http://localhost/posts/4]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-25 22:34:01) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (1.4ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '4a5ccd84a06faa4d32bbe34e6f1405bb056346b0') LIMIT 1[0m
+Rendered posts/_post (7.9ms)
+Completed in 29ms (View: 19, DB: 3) | 200 OK [http://localhost/posts/3]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-25 22:34:05) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '4a5ccd84a06faa4d32bbe34e6f1405bb056346b0') LIMIT 1[0m
+Rendered posts/_post (9.8ms)
+Completed in 23ms (View: 14, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-25 22:34:44) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '4a5ccd84a06faa4d32bbe34e6f1405bb056346b0') LIMIT 1[0m
+Rendered posts/_post (8.3ms)
+Completed in 25ms (View: 13, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:34:58) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:35:04) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:35:19) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:35:52) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:35:54) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:35:56) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:35:58) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:36:00) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 69ms (View: 65, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:36:02) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:36:06) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 146ms (View: 134, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:36:08) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:36:11) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 73ms (View: 69, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:37:29) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 84ms (View: 80, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:37:36) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 65ms (View: 60, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:37:38) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 138ms (View: 134, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:06) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 76ms (View: 65, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:07) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 80ms (View: 75, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 71ms (View: 66, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 71ms (View: 66, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:08) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 88ms (View: 83, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 67ms (View: 62, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 66ms (View: 61, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:41:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 133ms (View: 129, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:41:23) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:00) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:23) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:25) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:25) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:26) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:26) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:26) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:26) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:26) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:26) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 20ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:43:30) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:45:28) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:45:33) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:45:51) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:45:53) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:47:08) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:47:13) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:49:16) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:49:20) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:49:22) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:49:24) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:49:37) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:52:13) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:52:23) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 23ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:53:29) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:53:41) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:54:32) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 22:55:03) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:55:21) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:55:23) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:55:26) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:55:30) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:55:33) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:57:59) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:58:01) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:58:39) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:58:41) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:58:45) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:00) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 22:59:03) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 77ms (View: 72, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:10) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:25) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 16ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:27) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:31) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:34) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:47) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 19ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 22:59:51) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:00:02) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:00:07) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:00:11) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-25 23:00:14) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 80ms (View: 76, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:00:17) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 23:00:33) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 23:00:39) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:01:51) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 23:01:54) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:01:56) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:01:58) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-25 23:01:59) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-25 23:02:02) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:45:49) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:45:53) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 09:46:03) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:36) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 148ms (View: 84, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:39) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 37ms (View: 29, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:41) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 09:48:45) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:51) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:51) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:51) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:53) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:48:54) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 09:48:56) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-blank.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:50:03) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 09:50:44) [GET]
+  [4;36;1mPost Load (2.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (118.5ms)
+Completed in 234ms (View: 201, DB: 4) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 09:50:53) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (12.4ms)
+Completed in 136ms (View: 112, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 09:52:59) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (12.7ms)
+Completed in 36ms (View: 17, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 09:53:02) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-01-26 09:53:05) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 137ms (View: 133, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 09:53:24) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (21.0ms)
+Completed in 32ms (View: 25, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 09:53:28) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.9ms)
+Completed in 30ms (View: 14, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 09:54:25) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.5ms)
+Completed in 29ms (View: 14, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 09:54:39) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (100.6ms)
+Completed in 163ms (View: 109, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 09:59:01) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.5ms)
+Completed in 39ms (View: 22, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 09:59:02) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 09:59:02) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 09:59:02) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:02:10) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.4ms)
+Completed in 40ms (View: 23, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:02:11) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:02:11) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:02:11) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:02:38) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (11.6ms)
+Completed in 90ms (View: 76, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:02:38) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:02:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:02:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:03:29) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.1ms)
+Completed in 37ms (View: 21, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:03:30) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:03:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:03:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:04:07) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.8ms)
+Completed in 39ms (View: 22, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:04:07) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:04:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:04:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:04:28) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.4ms)
+Completed in 37ms (View: 21, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:04:28) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:04:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:04:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:05:17) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (11.7ms)
+Completed in 103ms (View: 87, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:05:18) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:05:18) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:05:18) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:05:58) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.1ms)
+Completed in 37ms (View: 20, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:05:59) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:05:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:05:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:06:21) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.0ms)
+Completed in 37ms (View: 21, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:06:21) [GET]
+
+ActionController::RoutingError (No route matches "/posts/5/%3Cyour%20installation%20path%3E/tiny_mce/tiny_mce.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:06:22) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:06:22) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:07:00) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.7ms)
+Completed in 37ms (View: 21, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:07:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:07:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:07:52) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.7ms)
+Completed in 99ms (View: 23, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:07:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:07:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:08:37) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.9ms)
+Completed in 53ms (View: 22, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:08:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:08:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 10:09:15) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;35;1mUser Load (1.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (26.1ms)
+Completed in 61ms (View: 51, DB: 3) | 200 OK [http://localhost/posts/5/]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:09:32) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.0ms)
+Completed in 35ms (View: 20, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:09:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:09:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:10:41) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.6ms)
+Completed in 38ms (View: 22, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:10:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:10:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/filemanager/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:38:18) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.7ms)
+Completed in 74ms (View: 34, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:38:19) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:38:36) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (9.4ms)
+Completed in 34ms (View: 14, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:38:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:42:41) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (10.0ms)
+Completed in 36ms (View: 21, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:42:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-26 10:43:17) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/edit
+Rendered posts/_form (118.8ms)
+Completed in 166ms (View: 131, DB: 2) | 200 OK [http://localhost/posts/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:43:17) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#update (for 127.0.0.1 at 2010-01-26 10:43:52) [PUT]
+  Parameters: {"commit"=>"Update Post", "post"=>{"body"=>"<p>lalalalalalal <a style=\"text-decoration: none; border-bottom-style: dotted; border-bottom-color: #57a1ca; color: #57a1ca; border: 0px initial initial;\" href=\"http://sourceforge.net\"><img style=\"border: 1px solid white;\" src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=237491&amp;type=6\" border=\"1\" alt=\"SourceForge.net Logo\" width=\"210\" height=\"62\" /></a></p>", "subject"=>"123 probando"}, "authenticity_token"=>"NPaSqA3/go64A/EUVUY8J0GMRKpll9xSNaWi63RniN4=", "id"=>"5"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Update (29.1ms)[0m   [0;1mUPDATE "posts" SET "updated_at" = '2010-01-26 13:43:52', "body" = '<p>lalalalalalal <a style="text-decoration: none; border-bottom-style: dotted; border-bottom-color: #57a1ca; color: #57a1ca; border: 0px initial initial;" href="http://sourceforge.net"><img style="border: 1px solid white;" src="http://sflogo.sourceforge.net/sflogo.php?group_id=237491&amp;type=6" border="1" alt="SourceForge.net Logo" width="210" height="62" /></a></p>' WHERE "id" = 5[0m
+Redirected to http://localhost:3000/blog
+Completed in 58ms (DB: 31) | 302 Found [http://localhost/posts/5]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 10:43:52) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (15.1ms)
+Completed in 35ms (View: 27, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:43:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 10:44:01) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 4) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 4) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.4ms)
+Completed in 32ms (View: 23, DB: 2) | 200 OK [http://localhost/posts/4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:44:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 10:44:04) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.7ms)
+Completed in 27ms (View: 18, DB: 2) | 200 OK [http://localhost/posts/5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:44:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-26 10:44:09) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/blog
+Rendering posts/show
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (13.8ms)
+Completed in 26ms (View: 18, DB: 2) | 200 OK [http://localhost/posts/5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:44:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 10:47:46) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (14.2ms)
+Completed in 26ms (View: 18, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:47:46) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-01-26 10:47:50) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 25ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-26 10:47:55) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5) ORDER BY id DESC LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5) ORDER BY id LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/blog
+Rendering posts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'f1846ef753739d1f4d50a5a6d095bc6156e0d83d') LIMIT 1[0m
+Rendered posts/_post (13.8ms)
+Completed in 25ms (View: 17, DB: 2) | 200 OK [http://localhost/blog]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 10:47:55) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/tinymce/jscripts/tiny_mce/plugins/Archiv/editor_plugin.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

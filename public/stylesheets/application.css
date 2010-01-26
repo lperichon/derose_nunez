@@ -122,6 +122,27 @@ div#menu ul li.metodo a:hover{
   height: 2.2em;
 }
 
+/* imagenes menu item */
+div#menu ul li.imagenes {
+  margin-top: -2px;
+}
+div#menu ul li.imagenes a{
+  background: transparent url(../images/imagenes.png) no-repeat right;
+  height: 2.5em;
+}
+div#menu ul li.imagenes.selected a{
+  background: transparent url(../images/imagenes_selected.png) no-repeat right;
+  height: 2.5em;
+}
+div#menu ul li.imagenes.selected a:hover{
+  background: transparent url(../images/imagenes_selected.png) no-repeat right;
+  height: 2.5em;
+}
+div#menu ul li.imagenes a:hover{
+  background: transparent url(../images/imagenes_hover.png) no-repeat right;
+  height: 2.5em;
+}
+
 /* Horarios menu item */
 div#menu ul li.horarios a{
   background: transparent url(../images/horarios.png) no-repeat right;
@@ -151,6 +172,9 @@ div#menu ul li.formacion a:hover{
 }
 
 /* Empresas menu item */
+div#menu ul li.empresas {
+  margin-top: -6px;
+}
 div#menu ul li.empresas a{
   background: transparent url(../images/empresas.png) no-repeat right;
   height: 2.2em;
@@ -373,6 +397,17 @@ div.no-menu {
   height: 1.7em;
 }
 
+#main.imagenes h1 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+#main.imagenes #gallery {
+  margin-left: 0.7em;
+}
+#main.imagenes #gallery img {
+  margin: 0.7em;
+}
+
 #main.index h1 {
   background: transparent url("../images/index_title.png") no-repeat;
   text-indent: -9999px;
@@ -477,7 +512,7 @@ ul.navigation li.previous a {
 
 ul.navigation li.next {
   width: 1.5em;
-  margin-left: 31.8em;
+  margin-left: 31.5em;
   text-indent: -9999px;
 }
 

@@ -24,7 +24,7 @@ form.formtastic fieldset ol li {
 }
 
 form.formtastic fieldset ol fieldset {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 form.formtastic fieldset ol fieldset ol li {
@@ -132,4 +132,12 @@ form.formtastic fieldset.buttons li a {
 form.formtastic fieldset ol li.boolean label input {
   margin:0;
   vertical-align: middle;
+}
+
+.blog form.formtastic fieldset ol li.string input {
+  width: 50em;
+}
+
+.blog form.formtastic fieldset ol li.text textarea {
+  width: 50em;
 }
