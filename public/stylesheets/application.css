@@ -337,6 +337,10 @@ div.no-menu {
   background: white url("../images/pablo_janurdhwasana.jpg") bottom left no-repeat;
 }
 
+#main.material {
+  background: white url("../images/kakasana_david.jpg") bottom left no-repeat;
+}
+
 #main.formacion p.sub {
   float: left;
   color: #58595b;
