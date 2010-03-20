@@ -141,3 +141,7 @@ form.formtastic fieldset ol li.boolean label input {
 .blog form.formtastic fieldset ol li.text textarea {
   width: 50em;
 }
+
+form.formtastic fieldset ol li.text .cke_editor_post_body {
+  display: inline-block;
+}
