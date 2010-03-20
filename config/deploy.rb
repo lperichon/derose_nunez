@@ -44,5 +44,6 @@ namespace :deploy do
   task :copy_files do
     run "cp -pf #{deploy_to}/to_copy/environment.rb #{current_path}/config/environment.rb"
     run "cp -pf #{deploy_to}/to_copy/database.yml #{current_path}/config/database.yml"
+    run "ln -s #{deploy_to}/userfiles #{current_path}/userfiles"
   end
 end
