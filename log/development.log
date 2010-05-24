@@ -34874,3 +34874,17 @@ Rendering template within layouts/blog
 Rendering posts/edit
 Rendered posts/_form (13.5ms)
 Completed in 45ms (View: 23, DB: 2) | 200 OK [http://localhost/posts/1/edit]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-05-24 13:52:31) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 67ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-05-24 13:54:00) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/]

@@ -2,6 +2,10 @@ div.no-menu {
 	left: -15px;
 }
 
+#menu {
+  width: 22em;
+}
+
 #menu ul {
 	margin-top: 1em;
 }
@@ -27,7 +31,7 @@ form.formtastic fieldset.interests {
 }
 
 div#main {
-	height: 35em;
+	height: 33em;
 	width: 31em;
 	padding:1.5em;
 	overflow: hidden;
