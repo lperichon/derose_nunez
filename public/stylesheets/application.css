@@ -326,7 +326,7 @@ div.no-menu {
 }
 
 #main.index {
-  background: white url("../images/kakasana_dwayne.jpg") bottom 0.5em no-repeat;
+  background: white url(../images/kakasana_dwayne.jpg) no-repeat scroll 0.5em bottom;
 }
 
 #main.metodo {
