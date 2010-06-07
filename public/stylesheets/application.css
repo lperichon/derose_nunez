@@ -456,6 +456,16 @@ div#sidebar {
   text-indent: -9999px;
 }
 
+#badge.horarios {
+  background: transparent url(../images/badge_horarios.png) no-repeat;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  top: 0.5em;
+  right: -1.5em;
+  text-indent: -9999px;
+}
+
 span#logo {
   background: transparent url(../images/logo_metodo.png) no-repeat;
   position: absolute;

@@ -35037,3 +35037,238 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-05-24 18:42:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 13:55:09) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 62ms (View: 52, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 13:58:10) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 13:58:24) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:00:13) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:00:23) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:01:29) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:09:13) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:09:17) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:09:17) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:09:17) [GET]
+  Parameters: {"1275930417\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/pages/%3Cimg%20alt=%22Horarios%22%20src=%22/images/horarios.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:09:43) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:09:45) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:09:45) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:09:45) [GET]
+  Parameters: {"1275930417\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/pages/%3Cimg%20alt=%22Horarios%22%20src=%22/images/horarios.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:10:18) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:10:31) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:10:31) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:10:31) [GET]
+  Parameters: {"1275930417\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/pages/%3Cimg%20alt=%22Horarios%22%20src=%22/images/horarios.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:12:18) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:12:22) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:12:22) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:12:22) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:13:44) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:13:47) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-ico-loading.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:13:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/horarios.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:13:47) [GET]
+
+ActionController::RoutingError (No route matches "/pages/images/lightbox-btn-close.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:16:19) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 14:16:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/horarios.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:16:37) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:17:04) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 14:17:41) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/pages/imagenes]
