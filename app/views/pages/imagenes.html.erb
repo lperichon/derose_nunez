@@ -1,6 +1,19 @@
 <h2>Imágenes</h2>
 <h1>Galería de imágenes</h1>
-<div id='gallery'>
+<div id="gallery_select">
+  <%= link_to_function 'Escuela', "$('#school_gallery').show(); $('#asana_gallery').hide(); $('#show_school_link').addClass('selected');$('#show_asana_link').removeClass('selected');", :id => 'show_school_link', :class => 'selected' %>
+  <span id="separator"></span>
+  <%= link_to_function 'Posiciones corporales', "$('#school_gallery').hide(); $('#asana_gallery').show(); $('#show_asana_link').addClass('selected');$('#show_school_link').removeClass('selected');", :id => 'show_asana_link' %>
+</div>
+<div id='school_gallery' class="gallery">
+  <a href="/images/school1.jpg"><img src="/images/thumb_school1.png" width="100" height="72"/></a>
+  <a href="/images/school2.jpg"><img src="/images/thumb_school2.png" width="100" height="72"/></a>
+  <a href="/images/school3.jpg"><img src="/images/thumb_school3.png" width="100" height="72"/></a>
+  <a href="/images/school4.jpg"><img src="/images/thumb_school4.png" width="100" height="72"/></a>
+  <a href="/images/school5.jpg"><img src="/images/thumb_school5.png" width="100" height="72"/></a>
+  <a href="/images/school6.jpg"><img src="/images/thumb_school6.png" width="100" height="72"/></a>
+</div>
+<div id='asana_gallery' class="gallery" style="display:none">
   <a href="/images/image1.jpg" title="Grupo SwáSthya · Fotógrafa Natalia Sanmartín Gil"><img src="/images/thumb_image1.png" width="100" height="72" title="Grupo SwáSthya · Fotógrafa Natalia Sanmartín Gil" /></a>
   <a href="/images/image2.jpg" title="Grupo SwáSthya · Fotógrafa Natalia Sanmartín Gil"><img src="/images/thumb_image2.png" width="100" height="72" title="Grupo SwáSthya · Fotógrafa Natalia Sanmartín Gil" /></a>
   <a href="/images/image3.jpg" title="Instructor Daniel Fersztand · Fotógrafo Andrés Martellini"><img src="/images/thumb_image3.png" width="100" height="72" title="Instructor Daniel Fersztand · Fotógrafo Andrés Martellini" /></a>
@@ -11,7 +24,16 @@
   <a href="/images/image8.jpg" title="Instructor Joaquim Roxo"><img src="/images/thumb_image8.png" width="100" height="72" title="Instructor Joaquim Roxo" /></a>
 </div>
 <% javascript_tag do %>
-  $('#gallery a').lightBox({fixedNavigation:true,
+  $('#asana_gallery a').lightBox({fixedNavigation:true,
+    imageLoading: '/images/lightbox-ico-loading.gif',
+    imageBtnClose: '/images/lightbox-btn-close.gif',
+    imageBtnPrev: '/images/lightbox-btn-prev.png',
+    imageBtnNext: '/images/lightbox-btn-next.png',
+    imageBlank: '/images/lightbox-blank.gif',
+    txtImage: 'Imagen',
+    txtOf: 'de'
+   });
+  $('#school_gallery a').lightBox({fixedNavigation:true,
     imageLoading: '/images/lightbox-ico-loading.gif',
     imageBtnClose: '/images/lightbox-btn-close.gif',
     imageBtnPrev: '/images/lightbox-btn-prev.png',

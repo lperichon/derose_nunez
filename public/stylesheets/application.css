@@ -143,16 +143,6 @@ div#menu ul li.imagenes a:hover{
   height: 2.5em;
 }
 
-/* Horarios menu item */
-div#menu ul li.horarios a{
-  background: transparent url(../images/horarios.png) no-repeat right;
-  height: 2.2em;
-}
-div#menu ul li.horarios.selected a{
-  background: transparent url(../images/horarios_selected.png) no-repeat right;
-  height: 2.2em;
-}
-
 /* Formacion menu item */
 div#menu ul li.formacion a{
   background: transparent url(../images/formacion.png) no-repeat right;
@@ -434,9 +424,51 @@ div.no-menu {
 }
 
 #main.imagenes h1 {
+  background: transparent url("../images/imagenes_title.png") no-repeat;
+  text-indent: -9999px;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
+  height: 1.7em;
 }
+#main.imagenes #separator {
+  background: transparent url("../images/separator.png") no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 1.5em;
+  height: 4em;
+  vertical-align: bottom;
+}
+
+#main.imagenes #show_school_link {
+  background: transparent url("../images/escuela.png") no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 5em;
+  height: 4em;
+}
+#main.imagenes #show_asana_link {
+  background: transparent url("../images/asanas.png") no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 14em;
+  height: 4em;
+}
+
+#main.imagenes #show_school_link.selected {
+  background: transparent url("../images/escuela_selected.png") no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 5em;
+  height: 4em;
+}
+#main.imagenes #show_asana_link.selected {
+  background: transparent url("../images/asanas_selected.png") no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 14em;
+  height: 4em;
+}
+
 #main.imagenes #gallery {
   margin-left: 0.7em;
 }
