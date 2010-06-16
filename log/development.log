@@ -38088,3 +38088,24 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-07 16:54:
 Rendering template within layouts/application
 Rendering pages/imagenes
 Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-16 11:18:05) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 235ms (View: 142, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-16 11:18:09) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 32ms (View: 22, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-06-16 11:19:43) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/imagenes]
