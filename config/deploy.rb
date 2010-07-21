@@ -5,8 +5,8 @@ set :scm, "git"
 
 set :branch, "master"
 
-set :domain, "66.84.0.147"
-set :user, "variete"
+set :domain, "64.6.232.237"
+set :user, "nunez"
 set :rails_env, :production
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :checkout

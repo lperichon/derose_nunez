@@ -1,0 +1,6 @@
+rails -v 2.3.4
+
+will_paginate --version '2.3.11'
+formtastic --version '0.9.7'
+simple_form --version '0.4'
+inherited_resources --version '1.0'
