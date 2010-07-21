@@ -38158,3 +38158,57 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-07-21 16:19:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-07-21 16:49:28) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 28ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-07-21 16:49:30) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 109ms (View: 99, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-07-21 16:49:42) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"sasa", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"1234", "message"=>"", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>"sasa@ssasa.com"}, "authenticity_token"=>"giZhJvN1FkfXNxuiq7sxQ5FVzRuwEPrHOS+VIgLPOx8="}
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 52ms (View: 45, DB: 0) | 200 OK [http://localhost/contact_form]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2010-07-21 16:49:52) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"stress"=>"0", "group"=>"0", "hour_15"=>"0", "hour_8"=>"0", "name"=>"sasa", "hour_9"=>"0", "breathing"=>"0", "personal"=>"0", "hour_16"=>"0", "hour_17"=>"0", "hour_18"=>"0", "strength_flex"=>"0", "alimentation"=>"0", "companies"=>"0", "hour_20"=>"0", "hour_19"=>"0", "birth_date"=>"", "hour_21"=>"0", "hour_10"=>"0", "proffessional"=>"0", "hour_11"=>"0", "hour_12"=>"0", "telephone"=>"1234", "message"=>"dsfdsfds", "material"=>"0", "hour_13"=>"0", "meditation"=>"0", "hour_14"=>"0", "email"=>"sasa@ssasa.com"}, "authenticity_token"=>"giZhJvN1FkfXNxuiq7sxQ5FVzRuwEPrHOS+VIgLPOx8="}
+Sent mail to info@xn--derosenuez-09a.com.ar
+
+Date: Wed, 21 Jul 2010 19:49:52 -0300
+From: sasa <sasa@ssasa.com>
+To: info@xn--derosenuez-09a.com.ar
+Subject: Contacto Web
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<h4 style="text-decoration:underline">Contacto Web</h4>
+
+<p><b>Nombre:</b>sasa</p>
+<p><b>Telefono:</b>1234</p>
+<p><b>Email:</b>sasa@ssasa.com</p>
+<p><b>Cumpleaños:</b></p>
+                            
+<p><b>Horarios:</b></p>
+<p><b>Interesado en:</b></p>
+<ul>
+                    </ul>
+<p><b>Mensaje:</b>dsfdsfds</p>
+Redirected to http://localhost:3000/
+Completed in 74ms (DB: 0) | 302 Found [http://localhost/contact_form]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-07-21 16:49:52) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
