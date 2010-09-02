@@ -38293,3 +38293,23 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:04:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2010-09-02 16:05:47) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 84ms (View: 82, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:06:16) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:07:24) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/empresas]
