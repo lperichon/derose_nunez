@@ -38279,3 +38279,17 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 15:59:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:04:43) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:04:59) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
