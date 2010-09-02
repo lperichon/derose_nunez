@@ -38313,3 +38313,38 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:07:
 Rendering template within layouts/application
 Rendering pages/empresas
 Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:17:54) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:18:24) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:18:54) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:19:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2010-09-02 16:19:39) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
