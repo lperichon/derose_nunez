@@ -369,7 +369,7 @@ div.no-menu {
 
 #main.blog p {
   color: #58595b;
-}
+}                                                erflow
 
 #main.formacion p.sub {
   float: left;
@@ -477,11 +477,10 @@ div.no-menu {
   height: 4em;
 }
 
-#main.imagenes #gallery {
-  margin-left: 0.7em;
+#main.imagenes .gallery {
 }
-#main.imagenes #gallery img {
-  margin: 0.7em;
+#main.imagenes .gallery img {
+  border: 1px solid #55A09E;
 }
 
 #main.index h1 {
