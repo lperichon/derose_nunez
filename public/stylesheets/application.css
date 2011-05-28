@@ -369,9 +369,10 @@ div.no-menu {
 
 #main.blog p {
   color: #58595b;
-}                                                erflow
+}
 
 #main.formacion p.sub {
+  text-align: center;
   float: left;
   color: #58595b;
   font-size: 0.7em;

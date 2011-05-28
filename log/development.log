@@ -42905,3 +42905,45 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:18:
 Rendering template within layouts/application
 Rendering pages/imagenes
 Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:21:23) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:21:34) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:22:39) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:22:39) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:24:54) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:24:54) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/formacion]
