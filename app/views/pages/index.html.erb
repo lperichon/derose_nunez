@@ -1,25 +1,15 @@
 <h2>Sede Núñez</h2>
 
 <h1>Bienvenido a nuestra escuela!</h1>
+<div id="info">
 <p class='side'>
 Visitanos<br/>de lunes a viernes<br/>de 10 a 20 hs.<br/>y los sábados<br/>de 10 a 14 hs.<br/>¡Te esperamos!
 </p>
-<div id="photo">
-  <%= image_tag 'entrada.jpg' %>
-</div>
-<div id="info" style="display:none">
+
 <p class='content'>
 Abrimos esta sede en Núñez para que puedas disfrutar del Método DeRose cerca de tu casa, en un clima distendido y cómodo, de fácil acceso y con todo el confort  y calidad que te merecés. Nuestra casa es un espacio de cultura y bienestar.
-<img src="/images/equipo.jpg"/>  
 </p>
 </div>
-<p class='contact'>
-Av. Crisólogo Larralde 1721<br/>
-Tel (54 11) 4703 3215<br/>
-nunez.ar@metododerose.org<br/>
-Buscanos: <%= link_to 'Google Maps', 'http://maps.google.com.ar/maps?f=q&source=s_q&hl=es&geocode=&q=Av.+Cris%C3%B3logo+Larralde+1721&sll=-34.536258,-58.452072&sspn=0.034857,0.053816&gl=ar&ie=UTF8&hq=&hnear=Av+Cris%C3%B3logo+Larralde+1721,+N%C3%BA%C3%B1ez,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&z=16', :class=>'gmaps' %>
-</p>
-<div id="controls">
-<%= link_to_function 'Ver más', "$('#open_link').hide();$('#photo').hide();$('#info').show();$('#close_link').show();$('.contact').hide();", :id => 'open_link'%>
-<%= link_to_function 'Volver', "$('#open_link').show();$('#photo').show();$('#info').hide();$('#close_link').hide();$('.contact').show();", :id => 'close_link', :style => 'display:none'%>
+<div id="slideshow">
+  <img src="/images/equipo.jpg"/>
 </div>

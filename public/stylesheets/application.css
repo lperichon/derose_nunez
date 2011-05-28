@@ -540,6 +540,7 @@ div#sidebar {
   background: transparent url(../images/badge_horarios.png) no-repeat;
   width: 109px;
   height: 107px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -658,38 +659,10 @@ ul.actions li.first {
   padding-left: 0;
 }
 
-/* Novedades menu item */
-div#menu ul li.novedades {
-}
-div#menu ul li.novedades a{
-  background: transparent url(../images/novedades.png) no-repeat right;
-  height: 2.2em;
-}
-div#menu ul li.novedades.selected a{
-  background: transparent url(../images/novedades_selected.png) no-repeat right;
-  height: 2.2em;
-}
-div#menu ul li.novedades.selected a:hover{
-  background: transparent url(../images/novedades_selected.png) no-repeat right;
-  height: 2.2em;
-}
-div#menu ul li.novedades a:hover{
-  background: transparent url(../images/novedades_hover.png) no-repeat right;
-  height: 2.2em;
+#info {
+    overflow: auto;
 }
 
-.blog #menu {
-  width: 15em;
-}
-
-.blog #menu li {
-  width: 12.5em;
-}
-
-.blog #menu ul li a {
-  width: 12.5em;
-}
-
-.blog #main {
-  width: 35em;
+#slideshow {
+    margin-top: 20px;
 }
