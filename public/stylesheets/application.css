@@ -504,6 +504,12 @@ div#sidebar {
   display: inline;
 }
 
+#sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 #badge.novedades {
   background: transparent url(../images/badge_novedades.png) no-repeat;
   width: 10em;
@@ -524,14 +530,38 @@ div#sidebar {
   text-indent: -9999px;
 }
 
-#badge.horarios {
-  background: transparent url(../images/badge_horarios.png) no-repeat;
-  width: 10em;
-  height: 10em;
-  position: absolute;
-  top: 0.5em;
-  right: -1.5em;
+.badge {
+  margin: 0 auto;
   text-indent: -9999px;
+  display: block;
+}
+
+.badge.horarios {
+  background: transparent url(../images/badge_horarios.png) no-repeat;
+  width: 109px;
+  height: 107px;
+  margin-bottom: 15px;
+}
+
+.badge.social {
+  width: 64px;
+  height: 64px;
+}
+
+.badge.facebook {
+    background: url('/images/badge_facebook.png') no-repeat;
+}
+
+.badge.foursquare {
+    background: url('/images/badge_foursquare.png') no-repeat;
+}
+
+.badge.blogger {
+    background: url('/images/badge_blogger.png') no-repeat;
+}
+
+.badge.places {
+    background: url('/images/badge_places.png') no-repeat;
 }
 
 span#logo {

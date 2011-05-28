@@ -30,9 +30,7 @@
           <%= content_tag( :li, link_to('Contacto', '/contact_form/new'), :class => "contacto #{'selected' if controller_name == 'contact_forms'}")%>
         </ul>
         <ul id='connect'>
-          <li class='facebook'><%= link_to 'Facebook', 'http://www.facebook.com/profile.php?ref=profile&id=100000659349991', :popup => true %></li>
-          <li class='twitter'><%= link_to 'Twitter', 'http://www.twitter.com/derosenunez', :popup => true %></li>
-          <li class='linkedin'><%= link_to 'linkedIn', 'http://ar.linkedin.com/pub/método-derose-nuñez/19/536/743', :popup => true %></li>
+
         </ul>
         <span id="logo">Método DeRose</span>
       </div>
@@ -40,7 +38,13 @@
         <%= yield %>
       </div>
       <div id="sidebar">
-        <a href="/images/horarios.png" id="badge" class="horarios"><img src="/images/horarios.png" /></a>
+        <ul>
+        <li><a href="/images/horarios.png" class="badge horarios">Horarios</a></li>
+        <li><a target='_blank' href="#" class="badge social blogger">Blogger</a></li>
+        <li><a target='_blank' href="https://www.facebook.com/pages/M%C3%A9todo-DeRose-N%C3%BA%C3%B1ez/129312450459221" class="badge social facebook">Facebook</a></li>
+        <li><a target='_blank' href="https://es.foursquare.com/venue/12468679" class="badge social foursquare">Foursquare</a></li>
+        <li><a target='_blank' href="http://maps.google.com.ar/maps/place?cid=7409230463625517964&q=M%C3%A9todo+DeRose+Sede+Nu%C3%B1ez&hl=es-419&sll=-34.58286,-58.462549&sspn=0.074409,0.006295&ie=UTF8&ll=-34.52155,-58.594723&spn=0,0&z=13" class="badge social places">Google Places</a></li>
+        </ul>
       </div>
     </div>
     <div id='credits'>
