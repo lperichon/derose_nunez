@@ -42891,3 +42891,17 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:14:
 Rendering template within layouts/application
 Rendering pages/imagenes
 Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:18:27) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-05-28 11:18:28) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
