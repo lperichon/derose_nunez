@@ -19,7 +19,6 @@ Rails::Initializer.run do |config|
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"=
-  config.gem "clearance", :version => '0.8.3', :lib     => 'clearance', :source  => 'http://gemcutter.org'
   config.gem 'will_paginate', :version => '2.3.11', :source => 'http://gemcutter.org'
   config.gem 'formtastic', :version => '0.9.7', :source => 'http://gemcutter.org'
   config.gem 'simple_form', :version => '0.4', :source => 'http://gemcutter.org'
