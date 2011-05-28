@@ -1,4 +1,4 @@
-rails -v 2.3.8
+rails -v 2.3.11
 
 clearance --version '0.8.3'
 will_paginate --version '2.3.11'

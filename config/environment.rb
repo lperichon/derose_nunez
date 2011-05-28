@@ -1,7 +1,7 @@
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.11' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -19,11 +19,13 @@ Rails::Initializer.run do |config|
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"=
-  config.gem "clearance", :lib     => 'clearance', :source  => 'http://gemcutter.org'
-  config.gem 'will_paginate', :source => 'http://gemcutter.org'
-  config.gem 'formtastic', :source => 'http://gemcutter.org'
-  config.gem 'simple_form', :source => 'http://gemcutter.org'
-  config.gem 'inherited_resources', :source => 'http://gemcutter.org'
+  config.gem "clearance", :version => '0.8.3', :lib     => 'clearance', :source  => 'http://gemcutter.org'
+  config.gem 'will_paginate', :version => '2.3.11', :source => 'http://gemcutter.org'
+  config.gem 'formtastic', :version => '0.9.7', :source => 'http://gemcutter.org'
+  config.gem 'simple_form', :version => '0.4', :source => 'http://gemcutter.org'
+  config.gem 'responders', :version => '0.4.1', :source => 'http://gemcutter.org'
+  config.gem 'has_scope', :version => '0.4', :source => 'http://gemcutter.org'
+  config.gem 'inherited_resources', :version => '1.0', :source => 'http://gemcutter.org'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
