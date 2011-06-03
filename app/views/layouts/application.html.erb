@@ -17,6 +17,7 @@
 <![endif]-->
 </head>
 <body>
+  <div id="fb-root"></div><script src="http://connect.facebook.net/es_LA/all.js#appId=206073862763085&amp;xfbml=1"></script>
   <div id="wrapper">
     <div id="container">
       <div id="menu">
@@ -39,13 +40,18 @@
         <%= yield %>
       </div>
       <div id="sidebar">
-        <ul>
+        <ul id="badges">
         <li><a href="/images/horarios.png" class="badge horarios">Horarios</a></li>
-        <li><a target='_blank' href="#" class="badge social blogger">Blogger</a></li>
-        <li><a target='_blank' href="https://www.facebook.com/pages/M%C3%A9todo-DeRose-N%C3%BA%C3%B1ez/129312450459221" class="badge social facebook">Facebook</a></li>
-        <li><a target='_blank' href="https://es.foursquare.com/venue/12468679" class="badge social foursquare">Foursquare</a></li>
-        <li><a target='_blank' href="http://maps.google.com.ar/maps/place?cid=7409230463625517964&q=M%C3%A9todo+DeRose+Sede+Nu%C3%B1ez&hl=es-419&sll=-34.58286,-58.462549&sspn=0.074409,0.006295&ie=UTF8&ll=-34.52155,-58.594723&spn=0,0&z=13" class="badge social places">Google Places</a></li>
         </ul>
+        <div id="social">
+        <ul>
+          <li><a target='_blank' href="http://metododerosenunez.blogspot.com/" class="social blogger">Blogger</a></li>
+          <li><a target='_blank' href="https://www.facebook.com/pages/M%C3%A9todo-DeRose-N%C3%BA%C3%B1ez/129312450459221" class="social facebook">Facebook</a></li>
+          <li><a target='_blank' href="https://es.foursquare.com/venue/12468679" class="social foursquare">Foursquare</a></li>
+          <li><a target='_blank' href="http://maps.google.com.ar/maps/place?cid=7409230463625517964&q=M%C3%A9todo+DeRose+Sede+Nu%C3%B1ez&hl=es-419&sll=-34.58286,-58.462549&sspn=0.074409,0.006295&ie=UTF8&ll=-34.52155,-58.594723&spn=0,0&z=13" class="social places">Google Places</a></li>
+        </ul>
+        <div id="facebook_like"><fb:like href="https://www.facebook.com/pages/M%C3%A9todo-DeRose-N%C3%BA%C3%B1ez/129312450459221" send="false" layout="button_count" width="130" show_faces="false" font=""></fb:like></div>
+        </div>
       </div>
     </div>
     <div id='credits'>

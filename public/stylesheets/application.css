@@ -544,25 +544,47 @@ div#sidebar {
   margin-bottom: 15px;
 }
 
-.badge.social {
-  width: 64px;
-  height: 64px;
+#sidebar #social {
+    bottom: 0;
+    position: absolute;
 }
 
-.badge.facebook {
-    background: url('/images/badge_facebook.png') no-repeat;
+#social ul {
+    margin: 25px 25px 0 25px;
+    width: 80px;
 }
 
-.badge.foursquare {
-    background: url('/images/badge_foursquare.png') no-repeat;
+#social li {
+  display: inline-block;
+  margin: 4px;
 }
 
-.badge.blogger {
-    background: url('/images/badge_blogger.png') no-repeat;
+#social #facebook_like {
+    margin: 10px 20px 20px 20px;
+    width: 80px;
 }
 
-.badge.places {
-    background: url('/images/badge_places.png') no-repeat;
+.social {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 30px;
+  height: 30px;
+}
+
+.social.facebook {
+    background: url('/images/facebook.png') no-repeat;
+}
+
+.social.foursquare {
+    background: url('/images/foursquare.png') no-repeat;
+}
+
+.social.blogger {
+    background: url('/images/blogspot.png') no-repeat;
+}
+
+.social.places {
+    background: url('/images/maps.png') no-repeat;
 }
 
 span#logo {
