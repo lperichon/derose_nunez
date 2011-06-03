@@ -29,9 +29,10 @@
           <%= content_tag( :li, link_to('Empresas', '/pages/empresas'), :class => "empresas #{'selected' if controller_name == 'pages' && current_page == 'pages/empresas'}")%>
           <%= content_tag( :li, link_to('Contacto', '/contact_form/new'), :class => "contacto #{'selected' if controller_name == 'contact_forms'}")%>
         </ul>
-        <ul id='connect'>
-
-        </ul>
+        <div id='school_info'>
+          <p>¡Llamanos!</p>
+          <div>4703-3215</div>
+        </div>
         <span id="logo">Método DeRose</span>
       </div>
       <div id="main" class='<%= controller.controller_name == 'pages' ? current_page.gsub!('pages/', '') : 'contact'%>'>

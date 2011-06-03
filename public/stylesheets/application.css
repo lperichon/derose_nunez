@@ -666,3 +666,26 @@ ul.actions li.first {
 #slideshow {
     margin-top: 20px;
 }
+
+#school_info {
+    margin: 30px;
+    color: #666;
+}
+
+#school_info p {
+    font-weight: bold;
+}
+
+#school_info div {
+    text-align: center;
+    font-size: 200%;
+}
+
+#school_info a {
+  color: #666;
+  text-decoration: none;
+}
+
+#school_info a:hover {
+  text-decoration: underline;
+}
