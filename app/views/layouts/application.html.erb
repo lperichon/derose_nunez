@@ -40,7 +40,18 @@
       </div>
       <div id="sidebar">
         <ul id="badges">
-        <li><a href="/images/horarios.png" class="badge horarios">Horarios</a></li>
+        <li><a href="/images/horarios.png" id="horarios_link" class="badge horarios">Horarios</a></li>
+        <% javascript_tag do %>
+          $('#horarios_link').lightBox({fixedNavigation:false,
+            imageLoading: '/images/lightbox-ico-loading.gif',
+            imageBtnClose: '/images/lightbox-btn-close.gif',
+            imageBtnPrev: '/images/lightbox-btn-prev.png',
+            imageBtnNext: '/images/lightbox-btn-next.png',
+            imageBlank: '/images/lightbox-blank.gif',
+            txtImage: 'Imagen',
+            txtOf: 'de'
+           });
+        <% end %>
         </ul>
         <div id="social">
         <ul>
