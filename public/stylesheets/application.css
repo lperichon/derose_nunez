@@ -715,3 +715,10 @@ ul.actions li.first {
 #school_info a:hover {
   text-decoration: underline;
 }
+
+#main.horarios h1.horarios {
+  background: transparent url("../images/horarios_title.png") no-repeat;
+  text-indent: -9999px;
+  margin-top: 0;
+  height: 2em;
+}
