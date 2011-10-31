@@ -45520,3 +45520,18 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-10-28 19:37:
 Rendering template within layouts/application
 Rendering pages/imagenes
 Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p352@derose_nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-10-31 15:38:44) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 69ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-10-31 15:38:47) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/horarios]
