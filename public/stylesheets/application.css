@@ -283,6 +283,7 @@ div.no-menu {
   font-size: 0.78em;
 }
 
+/*
 #main p.side {
   color: #f78f1e;
   width: 10em;
@@ -297,7 +298,17 @@ div.no-menu {
   width: 22.5em;
   text-align: justify;
 }
+*/
 
+#main p.content {
+  color: #58595b;
+  text-align: justify;
+}
+
+#main p.secondary {
+  color: #58595b;
+  font-weight: bold;s
+}
 
 #main p.content img {
   margin-top: 20px;
@@ -358,11 +369,11 @@ div.no-menu {
 #main.metodo {
   background: white url("../images/sol_tripadasana.jpg") bottom left no-repeat;
 }
-
+/*
 #main.empresas {
   background: white url("../images/pablo_janurdhwasana.jpg") bottom left no-repeat;
 }
-
+*/
 #main.material {
   background: white url("../images/kakasana_david.jpg") bottom left no-repeat;
 }

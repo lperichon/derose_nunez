@@ -9,7 +9,7 @@
     <% end %>
 
     <% f.inputs :name => 'En qué horarios te gustaría practicar?', :class => 'hours' do %>
-        <% (8..21).each do |hour| %>
+        <% %w(9 11 13 17 18 19 20 21).each do |hour| %>
            <%= f.input "hour_#{hour}", :label => hour_label(hour), :as => :boolean, :required => false %>
         <% end %>
     <% end %>
@@ -17,10 +17,7 @@
     <% f.inputs :name => 'Elegí los temas de mayor interés para vos:', :class => 'interests' do %>
         <%= f.input :proffessional, :label => 'Formación Profesional', :as => :boolean, :required => false %>
         <%= f.input :companies, :label => 'Programas para empresas', :as => :boolean, :required => false %>
-        <%= f.input :group, :label => 'Clases grupales', :as => :boolean, :required => false %>
         <%= f.input :personal, :label => 'Clases particulares', :as => :boolean, :required => false %>
-        <%= f.input :material, :label => 'Material didáctico', :as => :boolean, :required => false %>
-        <%= f.input :alimentation, :label => 'Alimentación biológica', :as => :boolean, :required => false %>
         <%= f.input :strength_flex, :label => 'Desarrollo de fuerza y flexibilidad', :as => :boolean, :required => false %>
         <%= f.input :stress, :label => 'Administración del estrés', :as => :boolean, :required => false %>
         <%= f.input :breathing, :label => 'Respiración', :as => :boolean, :required => false %>
