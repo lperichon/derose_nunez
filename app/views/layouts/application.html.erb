@@ -24,8 +24,8 @@
         <ul>
           <%= content_tag( :li, link_to('Sede Núñez', '/'), :class => "index #{'selected' if controller_name == 'pages' && current_page == 'pages/index'}")%>
           <%= content_tag( :li, link_to('Método DeRose', '/pages/metodo'), :class => "metodo #{'selected' if controller_name == 'pages' && current_page == 'pages/metodo'}")%>
-          <%= content_tag( :li, link_to('Formación Profesional', '/pages/formacion'), :class => "formacion #{'selected' if controller_name == 'pages' && current_page == 'pages/formacion'}")%>
-          <%= content_tag( :li, link_to('Material Didáctico', '/pages/material'), :class => "material #{'selected' if controller_name == 'pages' && current_page == 'pages/material'}")%>
+          <%= content_tag( :li, link_to('Formación profesional', '/pages/formacion'), :class => "formacion #{'selected' if controller_name == 'pages' && current_page == 'pages/formacion'}")%>
+          <%= content_tag( :li, link_to('Material didáctico', '/pages/material'), :class => "material #{'selected' if controller_name == 'pages' && current_page == 'pages/material'}")%>
           <%= content_tag( :li, link_to('Imagenes', '/pages/imagenes'), :class => "imagenes #{'selected' if controller_name == 'pages' && current_page == 'pages/imagenes'}")%>
           <%= content_tag( :li, link_to('Empresas', '/pages/empresas'), :class => "empresas #{'selected' if controller_name == 'pages' && current_page == 'pages/empresas'}")%>
           <%= content_tag( :li, link_to('Contacto', '/contact_form/new'), :class => "contacto #{'selected' if controller_name == 'contact_forms'}")%>

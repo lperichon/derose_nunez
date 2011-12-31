@@ -45757,3 +45757,735 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 19:47:
 Rendering template within layouts/application
 Rendering pages/empresas
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:05:10) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:06:42) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:07:11) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:27:21) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:28:00) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:28:21) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:28:50) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:29:30) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:30:18) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:30:39) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:31:07) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:31:49) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:31:59) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:35:07) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:48:56) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-30 21:49:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/HelveticaNeueLTCom-Th.woff" with {:method=>:get}):
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-30 21:49:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/HelveticaNeueLTCom-Th.ttf" with {:method=>:get}):
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-30 21:49:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/HelveticaNeueLTCom-Th.svg" with {:method=>:get}):
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p352@derose_nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:49:46) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-30 21:49:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/HelveticaNeueLTCom-Th.woff" with {:method=>:get}):
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-30 21:49:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/HelveticaNeueLTCom-Th.ttf" with {:method=>:get}):
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-12-30 21:49:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/HelveticaNeueLTCom-Th.svg" with {:method=>:get}):
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/luis/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:50:51) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:51:48) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:52:20) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:52:53) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:53:05) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:54:12) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 21:59:45) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:00:20) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:00:46) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:01:09) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:01:22) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:02:33) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:03:13) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:03:22) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:04:10) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:05:35) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:05:49) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:05:59) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:04) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 42ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2011-12-30 22:06:30) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:33) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:34) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:36) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:39) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:40) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:45) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:47) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:57) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:06:59) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:07:00) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:07:02) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-30 22:07:04) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p352@derose_nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:04:15) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 92ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:06:41) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 67ms (View: 64, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:07:05) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:08:21) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:08:40) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:09:01) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:11:38) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:12:07) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:15:38) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:15:55) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:15:59) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:16:01) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:18:34) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:18:52) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:21:09) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:23:05) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:24:35) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:24:53) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:27:47) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:28:08) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:29:07) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:32:47) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:34:31) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:44:41) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:45:05) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:51:39) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:52:41) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:33) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:46) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:48) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:50) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:52) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:54) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:55) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 41ms (View: 37, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:53:56) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2011-12-31 12:53:58) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 42ms (View: 41, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:54:00) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:54:01) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:54:03) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:54:04) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:54:06) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:54:07) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
