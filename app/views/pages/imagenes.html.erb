@@ -1,9 +1,9 @@
 <h2>Imágenes</h2>
-<h1>Galería de imágenes</h1>
+<h1>Visitá nuestra galería</h1>
 <div id="gallery_select">
   <%= link_to_function 'Escuela', "$('#school_gallery').show(); $('#asana_gallery').hide(); $('#show_school_link').addClass('selected');$('#show_asana_link').removeClass('selected');", :id => 'show_school_link', :class => 'selected' %>
   <span id="separator"></span>
-  <%= link_to_function 'Posiciones corporales', "$('#school_gallery').hide(); $('#asana_gallery').show(); $('#show_asana_link').addClass('selected');$('#show_school_link').removeClass('selected');", :id => 'show_asana_link' %>
+  <%= link_to_function 'Técnicas corporales', "$('#school_gallery').hide(); $('#asana_gallery').show(); $('#show_asana_link').addClass('selected');$('#show_school_link').removeClass('selected');", :id => 'show_asana_link' %>
 </div>
 <div id='school_gallery' class="gallery">
   <a href="/images/escuela1.jpg"><img src="/images/escuela1thumb.jpg" width="95" height="72"/></a>

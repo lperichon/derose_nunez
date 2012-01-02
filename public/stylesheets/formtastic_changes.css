@@ -92,7 +92,7 @@ form.formtastic fieldset.hours ol li {
 }
 
 form.formtastic fieldset.hours ol li.boolean label {
-    width: 5.5em;
+    width: 5.1em;
 }
 
 form.formtastic fieldset ol fieldset legend {

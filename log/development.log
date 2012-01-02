@@ -46489,3 +46489,875 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2011-12-31 12:54:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p352@derose_nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:20:22) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 108ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:20:33) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 39ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:20:39) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:20:48) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:20:52) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:21:25) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:21:29) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 15:21:32) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 119ms (View: 116, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:21:36) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 15:24:46) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:24:52) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:25:02) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:25:04) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:28:54) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:30:33) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:31:05) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:31:19) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:31:26) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:32:38) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:36:34) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:41:05) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:42:43) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:42:57) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:43:39) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:46:23) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:48:01) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:49:27) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:49:39) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 46ms (View: 45, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:50:19) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:51:22) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:51:26) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:51:39) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:51:43) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:51:51) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:52:05) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:52:25) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 15:52:30) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:53:05) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:53:07) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:53:50) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 15:53:52) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:53:53) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 15:56:02) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 51ms (View: 49, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:05) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:06) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:10) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:11) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:13) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:18) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:20) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:28) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 15:56:31) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:56:33) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:57:05) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:57:07) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 15:57:25) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:14:46) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:23:10) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:28:11) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:28:22) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:32:04) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:32:43) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:00) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:07) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:08) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:14) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:14) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:15) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:21) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:33:31) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:37:07) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:37:09) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:37:57) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:38:20) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:38:35) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 39ms (View: 38, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:08) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:14) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 16:39:15) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:17) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:18) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:19) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:21) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:32) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:33) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:38) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 16:39:47) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 51ms (View: 50, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:48) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:39:49) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:40:15) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:40:17) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:40:18) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:40:20) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:40:21) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:40:22) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:41:57) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 40ms (View: 39, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:41:58) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:41:59) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:42:00) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:42:02) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:42:07) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 16:42:09) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:42:14) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:42:17) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:43:57) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:44:04) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:45:11) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:45:54) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:46:10) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:46:11) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:46:13) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:47:35) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:47:36) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:47:55) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:50:00) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:54:31) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:54:37) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:54:39) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:54:41) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 16:54:48) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-01-02 16:56:12) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:57:02) [GET]
+  Parameters: {"id"=>"empresas"}
+Rendering template within layouts/application
+Rendering pages/empresas
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/empresas]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:57:03) [GET]
+  Parameters: {"id"=>"imagenes"}
+Rendering template within layouts/application
+Rendering pages/imagenes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/imagenes]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:57:05) [GET]
+  Parameters: {"id"=>"material"}
+Rendering template within layouts/application
+Rendering pages/material
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/material]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:57:07) [GET]
+  Parameters: {"id"=>"formacion"}
+Rendering template within layouts/application
+Rendering pages/formacion
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/formacion]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:57:10) [GET]
+  Parameters: {"id"=>"metodo"}
+Rendering template within layouts/application
+Rendering pages/metodo
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/metodo]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-02 16:57:12) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
