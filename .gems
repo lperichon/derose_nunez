@@ -1,9 +1,9 @@
 rails -v 2.3.11
 
-clearance --version '0.8.3'
-will_paginate --version '2.3.11'
-formtastic --version '0.9.7'
-simple_form --version '0.4'
-responders --version '0.4.1'
-has_scope --version '0.4'
-inherited_resources --version '1.0'
+clearance --version '0.8.3' --source http://gemcutter.org
+will_paginate --version '2.3.11' --source http://gemcutter.org
+formtastic --version '0.9.7' --source http://gemcutter.org
+simple_form --version '0.4' --source http://gemcutter.org
+responders --version '0.4.1' --source http://gemcutter.org
+has_scope --version '0.4' --source http://gemcutter.org
+inherited_resources --version '1.0' --source http://gemcutter.org
