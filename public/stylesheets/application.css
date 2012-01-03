@@ -550,10 +550,11 @@ div.no-menu {
 #main.imagenes .gallery {
   margin-top: 10px;
 }
+/*
 #main.imagenes .gallery img {
   border: 1px solid #c61000;
 }
-
+*/
 #main.index h1 {
   /*
   background: transparent url("../images/index_title.png") no-repeat;
@@ -667,7 +668,7 @@ div#sidebar {
 }
 
 span#logo {
-  background: transparent url(../images/logo_metodo.png) no-repeat;
+  background: transparent url(../images/logo.png) no-repeat;
   position: absolute;
   left: 2em;
   top: 27.5em;
