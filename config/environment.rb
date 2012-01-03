@@ -46,5 +46,5 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 
   # Clearance
-  DO_NOT_REPLY = "donotreply@derosenuñez.com.ar"
+  DO_NOT_REPLY = "donotreply@derosenunez.com.ar"
 end
