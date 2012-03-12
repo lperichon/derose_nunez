@@ -47582,3 +47582,32 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-01-20 11:57:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p352@derose_nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-03-12 12:54:40) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-03-12 12:54:42) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-03-12 12:55:11) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-03-12 12:55:16) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
