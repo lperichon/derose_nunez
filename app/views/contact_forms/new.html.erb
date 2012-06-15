@@ -1,7 +1,7 @@
 <h2 style='text-align: right;'>Contacto</h2>
 <% semantic_form_for @contact_form, :url => contact_form_path do |f| %>
   <% f.inputs do %>
-    <%= f.input :name, :label => 'Nombre y apellido' %>
+    <%= f.input :full_name, :label => 'Nombre y apellido' %>
     <%= f.input :email, :label => 'Email' %>
     <% f.inputs :class => 'field-group' do %>
       <%= f.input :telephone, :label => 'Teléfono' %>

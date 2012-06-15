@@ -3,7 +3,7 @@ class ContactForm < SimpleForm
   recipients "luisperichon@gmail.com"
   sender{|c| %{"#{c.name}" <#{c.email}>} }
 
-  attribute :name,      :validate => true
+  attribute :full_name,      :validate => true
   attribute :telephone, :validate => true
   attribute :email,     :validate => /[^@]+@[^\.]+\.[\w\.\-]+/
   attribute :birth_date
