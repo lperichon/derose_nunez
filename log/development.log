@@ -47703,3 +47703,66 @@ Rendering template within layouts/application
 Rendering pages/horarios
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/horarios]
 DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-06-15 12:01:09) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 33ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-06-15 12:01:12) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2012-06-15 12:01:36) [POST]
+  Parameters: {"commit"=>"Enviar", "contact_form"=>{"message"=>"dsadsa", "meditation"=>"0", "proffessional"=>"0", "hour_9"=>"1", "email"=>"dsa@dsad.com", "hour_21"=>"0", "hour_20"=>"0", "breathing"=>"0", "full_name"=>"dsadsa", "birth_date"=>"2/2/2", "stress"=>"0", "companies"=>"1", "hour_19"=>"0", "hour_18"=>"0", "hour_17"=>"0", "hour_13"=>"0", "hour_11"=>"0", "telephone"=>"123", "strength_flex"=>"0", "personal"=>"0"}, "authenticity_token"=>"BMWn1ib1Vo6CO35X7QWSMLOvfnnBTC8kZUmKSkvYY98="}
+Sent mail to luisperichon@gmail.com
+
+Date: Fri, 15 Jun 2012 15:01:36 -0300
+From: dsadsa <dsa@dsad.com>
+To: luisperichon@gmail.com
+Subject: Contacto Web
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<h4 style="text-decoration:underline">Contacto Web</h4>
+
+<p><b>Nombre:</b>dsadsa</p>
+<p><b>Telefono:</b>123</p>
+<p><b>Email:</b>dsa@dsad.com</p>
+<p><b>Cumpleaños:</b>2/2/2</p>
+                            
+<p><b>Horarios:</b>09:00</p>
+<p><b>Interesado en:</b></p>
+<ul>
+      <li>Programas para empresas</li>
+                  </ul>
+<p><b>Mensaje:</b>dsadsa</p>
+Redirected to http://localhost:3000/
+Completed in 73ms (DB: 0) | 302 Found [http://localhost/contact_form]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-06-15 12:01:36) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-06-15 12:13:47) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/horarios]
