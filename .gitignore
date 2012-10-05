@@ -6,3 +6,4 @@ log/*.log
 *~
 public/system/**/*
 .rvmrc
+.bundle

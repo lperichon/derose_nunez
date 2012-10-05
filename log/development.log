@@ -47840,3 +47840,52 @@ Rendering template within layouts/application
 Rendering pages/index
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
 DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 01:47:54) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-10-05 01:47:56) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2012-10-05 01:48:13) [POST]
+  Parameters: {"contact_form"=>{"stress"=>"0", "personal"=>"1", "proffessional"=>"0", "telephone"=>"21", "breathing"=>"0", "companies"=>"0", "message"=>"dsad", "hour_19"=>"0", "hour_18"=>"0", "hour_17"=>"0", "hour_13"=>"0", "hour_11"=>"1", "birth_date"=>"", "email"=>"sad@dsa.com", "full_name"=>"wq", "hour_21"=>"0", "hour_20"=>"0", "meditation"=>"0", "hour_9"=>"0", "strength_flex"=>"0"}, "commit"=>"Enviar", "authenticity_token"=>"WDyCVXp8nIRHpIIxFQ9TQJYbLCzDW+WhsDYKMmXS6Ss="}
+Sent mail to luisperichon@gmail.com
+
+Date: Fri, 5 Oct 2012 04:48:13 -0300
+From: wq <sad@dsa.com>
+To: luisperichon@gmail.com
+Subject: Contacto Web
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<h4 style="text-decoration:underline">Contacto Web</h4>
+
+<p><b>Nombre:</b>wq</p>
+<p><b>Telefono:</b>21</p>
+<p><b>Email:</b>sad@dsa.com</p>
+<p><b>Cumpleaños:</b></p>
+                            
+<p><b>Horarios:</b>11:00</p>
+<p><b>Interesado en:</b></p>
+<ul>
+          <li>Clases particulares</li>
+              </ul>
+<p><b>Mensaje:</b>dsad</p>
+Redirected to http://localhost:3000/
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/contact_form]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 01:48:13) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
