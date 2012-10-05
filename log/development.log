@@ -47889,3 +47889,45 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 01:48:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-10-05 01:59:54) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2012-10-05 02:00:08) [POST]
+  Parameters: {"authenticity_token"=>"WDyCVXp8nIRHpIIxFQ9TQJYbLCzDW+WhsDYKMmXS6Ss=", "contact_form"=>{"message"=>"dsa", "breathing"=>"0", "proffessional"=>"1", "hour_21"=>"0", "hour_20"=>"0", "telephone"=>"2", "stress"=>"0", "personal"=>"0", "full_name"=>"s", "meditation"=>"0", "companies"=>"0", "email"=>"sad@dsa.com", "birth_date"=>"", "strength_flex"=>"0", "hour_19"=>"0", "hour_18"=>"0", "hour_17"=>"0", "hour_13"=>"0", "hour_11"=>"0", "hour_9"=>"1"}, "commit"=>"Enviar"}
+Sent mail to luisperichon@gmail.com
+
+Date: Fri, 5 Oct 2012 05:00:08 -0300
+From: s <sad@dsa.com>
+To: luisperichon@gmail.com
+Subject: Contacto Web
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<h4 style="text-decoration:underline">Contacto Web</h4>
+
+<p><b>Nombre:</b>s</p>
+<p><b>Telefono:</b>2</p>
+<p><b>Email:</b>sad@dsa.com</p>
+<p><b>Cumpleaños:</b></p>
+                            
+<p><b>Horarios:</b>09:00</p>
+<p><b>Interesado en:</b></p>
+<ul>
+    <li>Formacion Profesional</li>
+                    </ul>
+<p><b>Mensaje:</b>dsa</p>
+Redirected to http://localhost:3000/
+Completed in 53ms (DB: 0) | 302 Found [http://localhost/contact_form]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 02:00:08) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/]
