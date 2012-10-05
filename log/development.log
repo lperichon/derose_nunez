@@ -47766,3 +47766,76 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-06-15 12:13:
 Rendering template within layouts/application
 Rendering pages/horarios
 Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/horarios]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ClearanceCreateUsers (20091119200439)
+Migrating to CreateSimpleBlog (20091120124817)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("posts")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_users_on_remember_token')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_users_on_email')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_id_and_confirmation_token')[0m
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 01:18:48) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactFormsController#new (for 127.0.0.1 at 2012-10-05 01:18:50) [GET]
+Rendering template within layouts/application
+Rendering contact_forms/new
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://localhost/contact_form/new]
+
+
+Processing ContactFormsController#create (for 127.0.0.1 at 2012-10-05 01:19:07) [POST]
+  Parameters: {"authenticity_token"=>"WDyCVXp8nIRHpIIxFQ9TQJYbLCzDW+WhsDYKMmXS6Ss=", "contact_form"=>{"hour_21"=>"0", "hour_20"=>"0", "companies"=>"0", "message"=>"dsadsa", "personal"=>"0", "hour_9"=>"1", "birth_date"=>"", "telephone"=>"2", "email"=>"s@s.com", "hour_19"=>"0", "hour_18"=>"0", "hour_17"=>"0", "hour_13"=>"0", "hour_11"=>"0", "proffessional"=>"1", "full_name"=>"s", "meditation"=>"0", "stress"=>"0", "breathing"=>"0", "strength_flex"=>"0"}, "commit"=>"Enviar"}
+Sent mail to luisperichon@gmail.com
+
+Date: Fri, 5 Oct 2012 04:19:07 -0300
+From: s <s@s.com>
+To: luisperichon@gmail.com
+Subject: Contacto Web
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<h4 style="text-decoration:underline">Contacto Web</h4>
+
+<p><b>Nombre:</b>s</p>
+<p><b>Telefono:</b>2</p>
+<p><b>Email:</b>s@s.com</p>
+<p><b>Cumpleaños:</b></p>
+                            
+<p><b>Horarios:</b>09:00</p>
+<p><b>Interesado en:</b></p>
+<ul>
+    <li>Formacion Profesional</li>
+                    </ul>
+<p><b>Mensaje:</b>dsadsa</p>
+Redirected to http://localhost:3000/
+Completed in 17ms (DB: 0) | 302 Found [http://localhost/contact_form]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 01:19:07) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
