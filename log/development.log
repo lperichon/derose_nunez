@@ -47839,3 +47839,4 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 01:19:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
