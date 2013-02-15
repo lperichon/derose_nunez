@@ -47931,3 +47931,145 @@ Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2012-10-05 02:00:
 Rendering template within layouts/application
 Rendering pages/index
 Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:41:51) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 49ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at /home/luis/.rvm/gems/ruby-1.8.7-p358@derose-nunez/gems/will_paginate-2.3.11/lib/will_paginate.rb:39)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:52:27) [GET]
+  Parameters: {"id"=>"index"}
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 57ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:52:35) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:54:48) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:54:52) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:54:59) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:55:37) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:55:39) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:55:42) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:55:53) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:55:55) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:55:55) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:55:55) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:56:00) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:57:19) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:57:40) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:58:09) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:58:17) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 47ms (View: 44, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:58:40) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2013-02-15 09:59:01) [GET]
+  Parameters: {"id"=>"horarios"}
+Rendering template within layouts/application
+Rendering pages/horarios
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/horarios]
