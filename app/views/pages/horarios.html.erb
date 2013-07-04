@@ -1,2 +1,13 @@
 <h1 class='horarios'>Horarios <span class="tel">Tel. (+54 11) 4703-3215</span></h1>
-<%= image_tag 'horarios.png', :width => "413" %>
+<%= link_to image_tag('horarios.png', :width => "413"), "/images/horarios.png", :id => "horarios_image_link" %>
+<% javascript_tag do %>
+  $('#horarios_image_link').lightBox({fixedNavigation:false,
+    imageLoading: '/images/lightbox-ico-loading.gif',
+    imageBtnClose: '/images/lightbox-btn-close.gif',
+    imageBtnPrev: '/images/lightbox-btn-prev.png',
+    imageBtnNext: '/images/lightbox-btn-next.png',
+    imageBlank: '/images/lightbox-blank.gif',
+    txtImage: 'Imagen',
+    txtOf: 'de'
+   });
+<% end %>
